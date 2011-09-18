@@ -1,0 +1,105 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Geza Kovacs
+
+\documentclass[margin,line]{resume}
+
+\paperwidth 8.5in
+\paperheight 11in
+
+\usepackage{times}
+\usepackage{hyperref}
+\hypersetup{backref,
+  pdftitle=Geza Kovacs Resume,
+  pdfauthor=Geza Kovacs,
+  pdfkeywords=Geza Kovacs Resume,
+  pdfsubject=Geza Kovacs Resume,
+  colorlinks=true,
+  urlcolor=blue} 
+
+
+\usepackage{url}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+\@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{
+\small\rmfamily
+}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+
+\begin{document}
+
+\name{\LARGE{\textsf{Geza Kovacs}} \hspace{37.5mm} \large{\textsf{gkovacs@mit.edu}} \hspace{37.5mm} \large{\textsf{(714) 251-6045}}}
+\begin{resume}
+
+\section{\mysidestyle Education}
+
+\textbf{Massachusetts Institute of Technology}, Cambridge, MA \vspace{0mm}\\\vspace{1mm}%
+Bachelor's Degree in Computer Science and Engineering\hfill \textsl{September 2008 -- June 2012}\vspace{-0.8mm}
+\begin{itemize}
+\item Overall GPA: 5.0/5.0 \\
+\end{itemize}
+
+\vspace{-6.5mm}
+
+\section{\mysidestyle Work\\Experience}
+
+\textbf{Google -- Software Engineering Intern} \hfill \textsl{June -- August 2011}\\
+Developed a comment quality scoring model for use on Android Marketplace application reviews.
+In user tests I conducted in several languages, the review ordering produced by this algorithm
+was preferred over the existing one, and is thus currently being used in production.
+
+\textbf{Microsoft Corporation -- Software Development Engineer Intern} \hfill \textsl{June -- August 2010}\\
+Designed and implemented the Intellisense API, refactoring options, and Visual Studio code completion plugin for a new programming language which is still under development.
+
+\textbf{Google Summer of Code 2009 -- FFmpeg} \hfill \textsl{May -- August 2009}\\
+Designed and implemented a playlist and concatenation API, parsers for several playlist formats, and a transitional interface for existing applications, for the FFmpeg audio and video transcoder and library. This work was done as part of Google's Summer of Code program.
+
+\textbf{New York University School of Medicine -- Comprehensive Epilepsy Center} \hfill \textsl{June -- July 2008}\\
+Implemented an experimental drug pump controller application for Dr. Nandor Ludvig as a contract developer. The program controlled a 4-drug pump setup that administered control solution and drugs, and collected samples for an animal experiment.
+
+\section{\mysidestyle Research}
+
+\textbf{MIT Media Lab -- Affective Computing Group} \hfill \textsl{February -- December 2009}\\
+Trained a Bayesian network classifier to determine mental states from a still image or from a video stream based on displacements of facial features, and used it in a demo application which performed mental state classification in real-time from a webcam source.
+Also created a library to allow scripts for the Praat acoustic analysis application to be programatically used with real-time, continuous streams of speech.
+
+\textbf{MIT Computer Science and Artificial Intelligence Lab -- T-Party Project} \hfill \textsl{September -- December 2008}\\
+Implemented applications and user interfaces which seamlessly accumulate and present various forms of remotely-stored data on mobile Linux devices. The applications auto-configure and transparently utilize nearby networked peripherals such as external displays and audio devices.
+
+\section{\mysidestyle Open-source\\Projects}
+
+\textbf{Creator, Lead Developer, and Maintainer of UNetbootin utility} \hfill \textsl{January 2007 -- present}\\
+Created UNetbootin, a cross-platform utility to create bootable USB flash drives or perform network installations for a wide variety (50+) of Linux distributions. This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
+\emph{10 million downloads,} \url{http://unetbootin.sourceforge.net/}
+
+\textbf{Original Developer of Wubi, the Windows-based Ubuntu Installer} \hfill \textsl{November 2006 -- August 2007}\\
+Designed and implemented the early versions of the Windows-based Ubuntu Installer, which allows Windows users to safely install Ubuntu Linux without repartitioning their hard drives. Formerly an independent project, this work is now part of Ubuntu. \\
+\emph{Ships on the official Ubuntu CD,} \url{http://wubi.sourceforge.net/}
+
+\section{\mysidestyle Teaching}
+
+\textbf{Co-Instructor for Introduction to C++ IAP Course at MIT} \hfill \textsl{January 2011}\\
+Taught an introductory C++ programming course for MIT students, giving lectures, reviewing assignments, and assisting students with software labs. Also helped archive the course on MIT's OpenCourseWare site:\\
+\url{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011}
+
+%\section{\mysidestyle Programming}
+
+%Used C\#, C++ and C on large-scale production codebases (listed above). Experienced with Java and Python from independent projects and coursework.
+
+\section{\mysidestyle Distinctions}
+
+1$^{\textrm{st}}$ place, Maslab 2010 (an autonomous robotics competition at MIT). \\
+Tau Beta Pi (Engineering Honor Society) member
+
+\vspace{10mm}
+
+\begin{small}
+\begin{center}
+Updated on \today. Latest version is at \url{http://gkovacs.github.com/resume.pdf}
+\end{center}
+\end{small}
+
+\end{resume}
+\end{document}
