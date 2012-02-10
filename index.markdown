@@ -30,5 +30,5 @@ A: Because I cranked it out in 10 minutes using Markdown. Remember that bit abou
 
 Q: What are your pseudonyms / other names?
 
-A: Used to use tuxcantfly for free-software/open-source related stuff ([Ubuntu forums](http://ubuntuforums.org/member.php?u=79823) and [Wikipedia](http://en.wikipedia.org/wiki/User:Tuxcantfly) for example). My Vietnamese name is Minh Trung, for which the corresponding kanji are 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first; also note how my official name is missing the accents). The "cs" in Kovacs is pronounced "ch", not "ks".
+A: Used to use tuxcantfly for free-software/open-source related stuff ([Ubuntu forums](http://ubuntuforums.org/member.php?u=79823) and [Wikipedia](http://en.wikipedia.org/wiki/User:Tuxcantfly) for example). My Vietnamese name is Minh Trung, for which the corresponding kanji are 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first). The "cs" in Kovacs is pronounced "ch", not "ks".
 
