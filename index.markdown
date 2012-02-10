@@ -30,7 +30,11 @@ Q: Why does this website look so plain?
 
 A: Because I cranked it out in 10 minutes using Markdown.
 
+Q: How do I pronounce your name?
+
+A: The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks".
+
 Q: What are your pseudonyms / other names?
 
-A: I go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites. My Vietnamese name is Minh Trung, for which the corresponding kanji are 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first). The "cs" in Kovacs is pronounced "ch", not "ks".
+A: I go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites. My Vietnamese name is Minh Trung, for which the corresponding kanji are 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first).
 
