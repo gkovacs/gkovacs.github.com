@@ -2,11 +2,21 @@
 title: Geza Kovacs
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Geza Kovacs</title>
+<meta name="DESCRIPTION" content="Homepage of Geza Kovacs, Computer Science student at MIT" />
+<meta name="KEYWORDS" content="Geza Kovacs,MIT,Computer Science,HCI" />
+</head>
+<body>
+
+
 ## Geza Kovacs
 
 ### About Me
 
-I'm Geza Kovacs. I'm currently a senior at MIT, majoring in Computer Science. Like all CS majors (I hope), I can instantly cook up code in basically any major langauge (as for those I don't know, I've learned quite a few programming languages overnight). My research interests are primarily in HCI (Human-Computer Interaction), and languages - I'm currently mostly interested in building interfaces to assist in translation and language acquisition. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating this year, I'll be working on my Master's, and I hope to continue on to a PhD after that.
+I'm Geza Kovacs, a senior at MIT, majoring in Computer Science. Like all CS majors (I hope), I can instantly cook up code in basically any major langauge (as for those I don't know, I've learned quite a few programming languages overnight). My research interests are primarily in HCI (Human-Computer Interaction), and languages - I'm currently mostly interested in building interfaces to assist in translation and language acquisition. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating this year, I'll be working on my Master's, and I hope to continue on to a PhD after that.
 
 ### Work
 
@@ -38,3 +48,6 @@ Q: What are your pseudonyms / other names?
 
 A: I go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites. My Vietnamese name is Minh Trung, which is written in Chinese characters as 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first).
 
+
+</body>
+</html>
