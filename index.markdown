@@ -2,7 +2,7 @@
 
 ### About Me
 
-I'm Geza Kovacs, a senior at MIT, majoring in Computer Science. Like all CS majors (I hope), I can instantly cook up code in basically any major langauge (as for those I don't know, I've learned quite a few programming languages overnight). My research interests are primarily in HCI (Human-Computer Interaction), and languages - I'm currently mostly interested in building interfaces to assist in translation and language acquisition. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating this year, I'll be working on my Master's, and I hope to continue on to a PhD after that.
+I'm a senior at MIT, majoring in Computer Science. My research interests are primarily in HCI (Human-Computer Interaction), and languages - I'm currently mostly interested in building interfaces to assist in translation and language acquisition. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating this year, I'll be working on my Master's, and I hope to continue on to a PhD after that.
 
 ### Work
 
