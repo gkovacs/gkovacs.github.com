@@ -1,5 +1,5 @@
 ---
-Geza Kovacs
+title: Geza Kovacs
 ---
 
 ### About Me
