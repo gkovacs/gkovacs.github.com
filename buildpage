@@ -1,0 +1,4 @@
+#!/bin/bash
+
+markdown index.markdown > content.html
+cat header.html content.html footer.html > index.html

@@ -1,15 +1,3 @@
----
-title: Geza Kovacs
----
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Geza Kovacs</title>
-</head>
-<body>
-
-
 ## Geza Kovacs
 
 ### About Me
@@ -45,7 +33,3 @@ A: The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounc
 Q: What are your pseudonyms / other names?
 
 A: I go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites. My Vietnamese name is Minh Trung, which is written in Chinese characters as 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first).
-
-
-</body>
-</html>
