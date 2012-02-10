@@ -2,7 +2,7 @@
 title: Geza Kovacs
 ---
 
-# Geza Kovacs
+## Geza Kovacs
 
 ### About Me
 
