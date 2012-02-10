@@ -24,9 +24,9 @@ And if you're one of those people really into social networking and your Pokemon
 
 ### FAQ
 
-Q: Why does this webpage look so ghetto?
+Q: Why does this website look so plain?
 
-A: Because I cranked it out in 10 minutes using Markdown. Remember that bit about learning new programming languages overnight? Yeah, it's my first time using Markdown.
+A: Because I cranked it out in 10 minutes using Markdown.
 
 Q: What are your pseudonyms / other names?
 
