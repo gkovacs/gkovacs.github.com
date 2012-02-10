@@ -6,8 +6,6 @@ title: Geza Kovacs
 <html>
 <head>
 <title>Geza Kovacs</title>
-<meta name="DESCRIPTION" content="Homepage of Geza Kovacs, Computer Science student at MIT" />
-<meta name="KEYWORDS" content="Geza Kovacs,MIT,Computer Science,HCI" />
 </head>
 <body>
 
