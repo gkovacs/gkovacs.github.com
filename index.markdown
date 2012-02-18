@@ -16,6 +16,10 @@ If you want the details of what I've been working on academia and industry, take
 
 Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*.
 
+### Teaching
+
+[Introduction to C++ (January 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
+
 ### Contact
 
 I prefer being contacted by email. Addresses are:
