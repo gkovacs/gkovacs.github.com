@@ -18,9 +18,9 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 ### Teaching
 
-[Introduction to C++ (January IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
+[Introduction to C++ (IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
 
-[Introduction to C# and the .NET Framework (January IAP 2011)](http://iap-csharp.github.com/).
+[Introduction to C# and the .NET Framework (IAP 2011)](http://iap-csharp.github.com/).
 
 ### Contact
 
