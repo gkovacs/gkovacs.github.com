@@ -2,3 +2,4 @@
 
 markdown index.markdown > content.html
 cat header.html content.html footer.html > index.html
+git commit -a -m "updated main page"

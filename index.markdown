@@ -18,11 +18,11 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 ### Contact
 
-I prefer being contacted by email. Addresses are as follows:
+I prefer being contacted by email. Addresses are:
 
 ![mail](mail.png)
 
-And if you're one of those people really into social networking and your Pokemon gotta-catch-em-all mentality requires you to add someone new to your gargantuan collection of friends, I have a [Google Plus](https://plus.google.com/115256740026582893742), [Facebook](http://www.facebook.com/gkovacs), and [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1).
+And if you're really into social networking and need to add someone new to your gargantuan collection of friends, I have a [Google Plus](https://plus.google.com/115256740026582893742), [Facebook](http://www.facebook.com/gkovacs), and [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1).
 
 ### FAQ
 
