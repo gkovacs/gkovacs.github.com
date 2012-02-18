@@ -14,7 +14,7 @@ If you want the details of what I've been up to in academia and industry, take a
 
 ### Research
 
-Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots.](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf) *CHI 2012 Student Research Competition*.
+Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*.
 
 ### Contact
 
@@ -25,10 +25,6 @@ I prefer being contacted by email. Addresses are as follows:
 And if you're one of those people really into social networking and your Pokemon gotta-catch-em-all mentality requires you to add someone new to your gargantuan collection of friends, I have a [Google Plus](https://plus.google.com/115256740026582893742), [Facebook](http://www.facebook.com/gkovacs), and [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1).
 
 ### FAQ
-
-Q: Why does this website look so plain?
-
-A: Because I cranked it out in 10 minutes using Markdown.
 
 Q: How do I pronounce your name?
 
