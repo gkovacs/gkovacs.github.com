@@ -14,7 +14,7 @@ If you want the details of what I've been up to in academia and industry, take a
 
 ### Research
 
-Geza Kovacs. ["ScreenMatch: Providing Context to Software Translators by Displaying Screenshots."](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf) *CHI 2012 Student Research Competition*.
+Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots.](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf) *CHI 2012 Student Research Competition*.
 
 ### Contact
 
