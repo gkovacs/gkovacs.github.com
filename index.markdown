@@ -6,9 +6,9 @@ I'm a senior at MIT, majoring in Computer Science. My research interests are in 
 
 ### Work
 
-I've done some hacking on open-source projects. If you've ever heard of [Ubuntu](http://www.ubuntu.com/), I built the first versions of the Ubuntu installer for Windows, [Wubi](http://wubi.sourceforge.net/). I also built [UNetbootin](http://unetbootin.sourceforge.net/), which is a tool that allows you to make USB drives to install Ubuntu, from Windows.
+I've worked on some open-source projects. If you've ever heard of [Ubuntu](http://www.ubuntu.com/), I built the first versions of the Ubuntu installer for Windows, [Wubi](http://wubi.sourceforge.net/). I also built [UNetbootin](http://unetbootin.sourceforge.net/), which is a tool that allows you to make USB drives to install Ubuntu, from Windows.
 
-Being the prolific coder I am, I've also built quite a few random tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
+Being the prolific coder I am, I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
 If you want the details of what I've been working on academia and industry, take a look at my [resume/CV](resume.pdf).
 
