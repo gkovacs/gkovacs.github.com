@@ -12,7 +12,7 @@
                                    Experience
 
    Google - Software Engineering Intern June - August 2012
-   Developing a system to detect specialized vocabulary used in books, and
+   Developed a system to detect specialized vocabulary used in books, and
    provide definitions for them by extracting them from the book text.
 
    Google - Software Engineering Intern June - August 2011
