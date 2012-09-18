@@ -36,7 +36,7 @@
    Developed a software internationalization tool which associates the
    translatable strings in an application with screenshots in which they
    appear (using OCR). By presenting a screenshot highlighting how the
-   string is being used, this additional context will allow translators to
+   string is being used, this additional context allows translators to
    make more accurate translations.
    http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
    slation-context.pdf
