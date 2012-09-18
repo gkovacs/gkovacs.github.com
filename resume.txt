@@ -1,0 +1,94 @@
+   Geza Kovacs gkovacs@mit.edu (714) 251-6045
+
+                                   Education
+
+   Massachusetts Institute of Technology, Cambridge, MA
+   Master of Engineering in Computer ScienceSeptember 2012 - June 2013
+   Bachelor's Degree in Computer Science and Engineering September 2008 -
+   June 2012
+     * Overall GPA: 5.0/5.0
+
+                                      Work
+                                   Experience
+
+   Google - Software Engineering Intern June - August 2012
+   Developing a system to detect specialized vocabulary used in books, and
+   provide definitions for them by extracting them from the book text.
+
+   Google - Software Engineering Intern June - August 2011
+   Developed a model which would predict how helpful a given user review
+   on the Android Marketplace is. In user tests I conducted in several
+   languages, the review ordering produced by this algorithm was preferred
+   over the existing one, and is thus currently being used on the site.
+
+   Microsoft Corporation - Software Development Engineer Intern June -
+   August 2010
+   Designed and implemented the Intellisense API, refactoring options, and
+   Visual Studio code completion plugin for a new programming language
+   which is under development by the Technical Computing group.
+
+                                    Research
+
+   MIT CSAIL - User Interface Design Group September 2011 - present
+   Developing a crowd-sourcing system to assist foreign language students
+   in vocabulary acquisition while simultaneously generating annotated
+   subtitles for videos. (MEng thesis)
+   Developed a software internationalization tool which associates the
+   translatable strings in an application with screenshots in which they
+   appear (using OCR). By presenting a screenshot highlighting how the
+   string is being used, this additional context will allow translators to
+   make more accurate translations.
+   http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
+   slation-context.pdf
+
+   MIT Media Lab - Affective Computing Group February - December 2009
+   Trained a Bayesian network classifier to determine mental states from a
+   still image or from a video stream based on displacements of facial
+   features, and used it in a demo application which performed mental
+   state classification in real-time from a webcam source. Also created a
+   library to allow scripts for the Praat acoustic analysis application to
+   be programatically used with real-time, continuous streams of speech.
+
+                                  Open-source
+                                    Projects
+
+   UNetbootin (LiveUSB creator) January 2007 - present
+   Created UNetbootin, a cross-platform utility to create bootable USB
+   flash drives or perform network installations for a wide variety (50+)
+   of Linux distributions. This work has been accepted into the official
+   package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and
+   other major distributions.
+   20 million downloads, http://unetbootin.sourceforge.net/
+
+   FFmpeg (Video transcoding library) May - August 2009
+   Designed and implemented a playlist and concatenation API, parsers for
+   several playlist formats, and a transitional interface for existing
+   applications, for the FFmpeg audio and video transcoder and library.
+   This work was done as part of Google's Summer of Code program.
+
+   Wubi (Windows-based Ubuntu Installer) November 2006 - August 2007
+   Designed and implemented the early versions of the Windows-based Ubuntu
+   Installer, which allows Windows users to safely install Ubuntu Linux
+   without repartitioning their hard drives. Formerly an independent
+   project, this work is now part of Ubuntu.
+   Ships on the official Ubuntu CD, http://wubi.sourceforge.net/
+
+                                    Teaching
+
+   Co-Instructor for Introduction to C++ IAP Course at MIT January 2011
+   Taught an introductory C++ programming course for MIT students, giving
+   lectures, reviewing assignments, and assisting students with software
+   labs. Also helped archive the course on MIT's OpenCourseWare site:
+   http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
+   6-096-introduction-to-c-january-iap-2011
+
+                                  Distinctions
+
+   1 $^{\textrm{st}}$ place, CHI 2012 (ACM Conference on Human Factors in
+   Computing Systems) Student Research Competition
+   1 $^{\textrm{st}}$ place, Maslab 2010 (an autonomous robotics
+   competition at MIT)
+
+             Updated on September 18, 2012. Latest version is at
+                    http://gkovacs.github.com/resume.pdf
+     __________________________________________________________________
