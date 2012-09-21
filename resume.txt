@@ -89,6 +89,6 @@
    1 $^{\textrm{st}}$ place, Maslab 2010 (an autonomous robotics
    competition at MIT)
 
-             Updated on September 18, 2012. Latest version is at
+             Updated on September 20, 2012. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
