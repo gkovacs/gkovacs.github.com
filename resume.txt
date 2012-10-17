@@ -83,11 +83,13 @@
 
                                   Distinctions
 
-   1 $^{\textrm{st}}$ place, CHI 2012 (ACM Conference on Human Factors in
+   1 $^{\textrm{st}}$ place, Most Useful, ACM UIST 2012 (User Interface
+   Software and Technology) Student Innovation Contest
+   1 $^{\textrm{st}}$ place, ACM CHI 2012 (Conference on Human Factors in
    Computing Systems) Student Research Competition
-   1 $^{\textrm{st}}$ place, Maslab 2010 (an autonomous robotics
-   competition at MIT)
+   1 $^{\textrm{st}}$ place, Maslab 2010 (MIT's autonomous robotics
+   competition)
 
-             Updated on September 21, 2012. Latest version is at
+              Updated on October 16, 2012. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
