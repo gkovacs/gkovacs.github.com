@@ -2,52 +2,70 @@
 
                                    Education
 
-   Massachusetts Institute of Technology, Cambridge, MA
-   Master of Engineering in Computer ScienceSeptember 2012 - June 2013
+   Massachusetts Institute of Technology
+   Master of Engineering in Computer ScienceSeptember 2012 - expected June
+   2013
    Bachelor's Degree in Computer Science and Engineering September 2008 -
    June 2012
      * Overall GPA: 5.0/5.0
 
+                                    Research
+
+   MIT CSAIL - User Interface Design Group
+     * Smart Subtitles for Foreign Language Learning (MEng thesis project)
+       Spring 2012 - present
+       Developing a service that helps students learn vocabulary while
+       watching foreign-language videos. It does so with ``smart
+       subtitles'', which are transcripts annotated with information
+       personalized to learners' proficiency levels, to help them
+       understand new vocabulary in the dialog.
+     * Providing Context to Software Translators by Displaying Screenshots
+       Fall 2011
+       Developed a software internationalization tool which associates the
+       translatable strings in an application with screenshots in which
+       they appear (using OCR). By presenting a screenshot highlighting
+       how the string is being used, this additional context allows
+       translators to make more accurate translations. Presented at the
+       CHI 2012 Student Research Competition, where it won first place -
+       see Publications.
+
+   MIT Media Lab - Affective Computing Group Spring 2009 - Spring 2011
+     * Worked on a system to conduct mock interviews and highlight areas
+       for improvement. I developed the audio-related parts of the backend
+       code - for example, capturing the audio, detecting pauses,
+       segmenting responses, and transcribing the speech. I also
+       prototyped various ways to visualize the speech transcript.
+     * Created a library to allow scripts for the Praat acoustic analysis
+       application to be programatically used with real-time, continuous
+       streams of speech.
+     * Trained a classifier to determine mental states based on
+       displacements of facial features, and used it in a demo application
+       which performed real-time mental state classification.
+
                                       Work
                                    Experience
 
-   Google - Software Engineering Intern June - August 2012
-   Developed a system to detect specialized vocabulary used in books, and
-   provide definitions for them by extracting them from the book text.
+   Google - Software Engineering Intern Summer 2012
+   Designed and implemented a system to detect and provide definitions for
+   specialized vocabulary in books, by extracting them from the book text.
 
-   Google - Software Engineering Intern June - August 2011
-   Developed a model which would predict how helpful a given user review
-   on the Android Marketplace is. In user tests I conducted in several
-   languages, the review ordering produced by this algorithm was preferred
-   over the existing one, and is thus currently being used on the site.
+   Google - Software Engineering Intern Summer 2011
+   Developed a system which predicts a given user review on the Android
+   Marketplace is. In user tests I conducted in several languages, the
+   reviews selected by this algorithm were strongly preferred over the
+   existing ordering. It has been deployed, and is currently being used to
+   display reviews on Google Play.
 
-   Microsoft Corporation - Software Development Engineer Intern June -
-   August 2010
-   Designed and implemented the Intellisense API, refactoring options, and
-   Visual Studio code completion plugin for a new programming language
-   which is under development by the Technical Computing group.
+   Microsoft Corporation - Software Development Engineer Intern Summer
+   2010
+   Implemented the Intellisense API, refactoring options, and Visual
+   Studio code completion plugin for a programming language under
+   development by the Technical Computing group.
 
-                                    Research
-
-   MIT CSAIL - User Interface Design Group September 2011 - present
-   Developing a crowd-sourcing system to assist foreign language students
-   in vocabulary acquisition while simultaneously generating annotated
-   subtitles for videos. (MEng thesis)
-   Developed a software internationalization tool which associates the
-   translatable strings in an application with screenshots in which they
-   appear (using OCR). By presenting a screenshot highlighting how the
-   string is being used, this additional context allows translators to
-   make more accurate translations.
-   http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
-   slation-context.pdf
-
-   MIT Media Lab - Affective Computing Group February - December 2009
-   Trained a Bayesian network classifier to determine mental states from a
-   still image or from a video stream based on displacements of facial
-   features, and used it in a demo application which performed mental
-   state classification in real-time from a webcam source. Also created a
-   library to allow scripts for the Praat acoustic analysis application to
-   be programatically used with real-time, continuous streams of speech.
+   Google Summer of Code - FFmpeg (Video transcoding library) Summer 2009
+   Developed a playlist and concatenation API, parsers for several
+   playlist formats, and a transitional interface for existing
+   applications, for the FFmpeg video transcoding library.
 
                                   Open-source
                                     Projects
@@ -60,12 +78,6 @@
    other major distributions.
    20 million downloads, http://unetbootin.sourceforge.net/
 
-   FFmpeg (Video transcoding library) May - August 2009
-   Designed and implemented a playlist and concatenation API, parsers for
-   several playlist formats, and a transitional interface for existing
-   applications, for the FFmpeg audio and video transcoder and library.
-   This work was done as part of Google's Summer of Code program.
-
    Wubi (Windows-based Ubuntu Installer) November 2006 - August 2007
    Designed and implemented the early versions of the Windows-based Ubuntu
    Installer, which allows Windows users to safely install Ubuntu Linux
@@ -75,11 +87,34 @@
 
                                     Teaching
 
-   TA for Natural Language Processing (6.863) at MIT Fall 2012
+   Teaching Assistant - Natural Language Processing (6.863) at MIT Fall
+   2012
+   Helped write assignments, managed the course infrastructure, and graded
+   assignments. I developed new tools to make the assignment grading
+   process faster, semi-automatic, and paper-free.
 
-   Instructor for Introduction to C++ IAP (6.096) at MIT January 2011
+   Instructor - Introduction to C++ IAP (6.096) at MIT January 2011
+   Gave lectures, helped write and grade assignments, and helped students
+   in lab for a student-run, for-credit introductory C++ course. The
+   teaching materials I produced have been made available on
+   OpenCourseWare:
+
    http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
    6-096-introduction-to-c-january-iap-2011
+
+   Software Director - Maslab Autonomous Robotics Competition at MIT
+   January 2011
+   As the software director for the competition, I gave the
+   software-related lectures, managed the software for the competition,
+   and helped students in lab.
+
+                                  Publications
+
+   Kovacs, Geza. ``ScreenMatch: providing context to software translators
+   by displaying screenshots.'' Proceedings of the 2012 ACM annual
+   conference on Human Factors in Computing Systems, Extended Abstracts.
+   http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
+   slation-context.pdf
 
                                   Distinctions
 
@@ -90,6 +125,6 @@
    1 $^{\textrm{st}}$ place, Maslab 2010 (MIT's autonomous robotics
    competition)
 
-              Updated on October 16, 2012. Latest version is at
+              Updated on December 3, 2012. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
