@@ -52,9 +52,9 @@
    Google - Software Engineering Intern Summer 2011
    Developed a system that predicts how helpful a given user review on the
    Android Marketplace is. In user tests I conducted in several languages,
-   the reviews selected by this algorithm were strongly preferred over the
-   existing ordering. It has been deployed, and is currently being used to
-   display reviews on Google Play.
+   the reviews selected by this algorithm were strongly preferred over
+   chronological ordering. It has been deployed and is currently being
+   used to display reviews on Google Play.
 
    Microsoft Corporation - Software Development Engineer Intern Summer
    2010
