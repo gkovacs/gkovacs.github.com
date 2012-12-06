@@ -22,9 +22,9 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 [Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
 
-[Introduction to C++ (Instructor, IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
+[Introduction to C++ (Instructor, IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
 
-[Introduction to C# and the .NET Framework (Instructor, IAP 2011)](http://iap-csharp.github.com/).
+[Introduction to C# and the .NET Framework (Instructor, IAP 2011)](http://iap-csharp.github.com/)
 
 [Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
 
