@@ -1,5 +1,7 @@
 ## Geza Kovacs
 
+![Picture](geza.png)
+
 ### About Me
 
 I'm an MEng (Master's of Engineering) student at MIT, majoring in Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and languages - I'm currently focused on building interfaces to assist in translation and language acquisition, with focus on utilizing crowd-sourcing and social interactions between users to enhance the experience. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating, I hope to continue on to a PhD, or go into industrial research.
@@ -18,9 +20,13 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 ### Teaching
 
-[Introduction to C++ (IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
+[Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
 
-[Introduction to C# and the .NET Framework (IAP 2011)](http://iap-csharp.github.com/).
+[Introduction to C++ (Instructor, IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/).
+
+[Introduction to C# and the .NET Framework (Instructor, IAP 2011)](http://iap-csharp.github.com/).
+
+[Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
 
 ### Contact
 
