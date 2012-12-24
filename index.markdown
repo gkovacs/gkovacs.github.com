@@ -32,7 +32,7 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 I prefer being contacted by email. Addresses are:
 
-<a href="http://www.google.com/recaptcha/mailhide/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank"><img src="mail.png" alt="mail" /></a>
+<a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
 And if you're really into social networking and need to add someone new to your gargantuan collection of friends, I have a [Google Plus](https://plus.google.com/115256740026582893742), [Facebook](http://www.facebook.com/gkovacs), and [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1).
 
