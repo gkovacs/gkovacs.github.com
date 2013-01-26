@@ -116,6 +116,10 @@
    http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
    slation-context.pdf
 
+   Kovacs, Geza. ``Smart Subtitles for Language Learning.'' Proceedings of
+   the 2013 ACM annual conference on Human Factors in Computing Systems,
+   Extended Abstracts. (submitted)
+
                                   Distinctions
 
    1 $^{\textrm{st}}$ place, Most Useful, ACM UIST 2012 (User Interface
@@ -125,6 +129,6 @@
    1 $^{\textrm{st}}$ place, Maslab 2010 (MIT's autonomous robotics
    competition)
 
-              Updated on December 3, 2012. Latest version is at
+              Updated on January 25, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
