@@ -123,7 +123,7 @@
 
                                   Distinctions
 
-   Tier 1 Honorable Mention, MIT 6.470 Web Programming Competition 2013
+   Honorable Mention Tier 1, MIT 6.470 Web Programming Competition 2013
    (PsetParty)
    1 $^{\textrm{st}}$ place awards from 7digital and TokBox, Boston Music
    Hack Day 2012 (InstantKaraoke)
