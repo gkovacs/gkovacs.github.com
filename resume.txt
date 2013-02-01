@@ -123,13 +123,17 @@
 
                                   Distinctions
 
-   1 $^{\textrm{st}}$ place, Most Useful, ACM UIST 2012 (User Interface
-   Software and Technology) Student Innovation Contest
-   1 $^{\textrm{st}}$ place, ACM CHI 2012 (Conference on Human Factors in
-   Computing Systems) Student Research Competition
-   1 $^{\textrm{st}}$ place, Maslab 2010 (MIT's autonomous robotics
-   competition)
+   Tier 1 Honorable Mention, MIT 6.470 Web Programming Competition 2013
+   (PsetParty)
+   1 $^{\textrm{st}}$ place awards from 7digital and TokBox, Boston Music
+   Hack Day 2012 (InstantKaraoke)
+   1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
+   Software and Technology) Student Innovation Contest 2012
+   1 $^{\textrm{st}}$ place, ACM CHI (Conference on Human Factors in
+   Computing Systems) Student Research Competition 2012
+   1 $^{\textrm{st}}$ place, MIT Maslab Autonomous Robotics Competition
+   2010
 
-              Updated on January 25, 2013. Latest version is at
+              Updated on January 31, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
