@@ -123,8 +123,8 @@
 
                                   Distinctions
 
-   Honorable Mention Tier 1, MIT 6.470 Web Programming Competition 2013
-   (PsetParty)
+   Finalist and Honorable Mention, MIT 6.470 Web Programming Competition
+   2013 (PsetParty)
    1 $^{\textrm{st}}$ place awards from 7digital and TokBox, Boston Music
    Hack Day 2012 (InstantKaraoke)
    1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
@@ -134,6 +134,6 @@
    1 $^{\textrm{st}}$ place, MIT Maslab Autonomous Robotics Competition
    2010
 
-              Updated on January 31, 2013. Latest version is at
+              Updated on February 2, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
