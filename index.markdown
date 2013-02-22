@@ -1,4 +1,4 @@
-<h1>Geza Kovacs</h1><h2><a href="resume.pdf"></a></h2>
+<h1>Geza Kovacs</h1><h2><a href="resume.pdf">Resume</a></h2>
 
 ![Picture](geza.png)
 
