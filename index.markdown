@@ -1,4 +1,4 @@
-<img src="geza.png" style="float: left; margin-right: 20px"></img>
+<img src="geza.png" style="float: right; margin-right: 20px"></img>
 
 <div>
 <span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
