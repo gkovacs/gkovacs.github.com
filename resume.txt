@@ -113,7 +113,7 @@
    Kovacs, Geza. ``Smart Subtitles for Language Learning.'' Proceedings of
    the 2013 ACM annual conference on Human Factors in Computing Systems,
    Extended Abstracts.
-   http://groups.csail.mit.edu/uid/other-pubs/chi2013-gkovacs-SRC.pdf
+   http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf
 
    Kovacs, Geza. ``ScreenMatch: providing context to software translators
    by displaying screenshots.'' Proceedings of the 2012 ACM annual
@@ -134,6 +134,6 @@
    1 $^{\textrm{st}}$ place, MIT Maslab Autonomous Robotics Competition
    2010
 
-              Updated on February 9, 2013. Latest version is at
+             Updated on February 22, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
