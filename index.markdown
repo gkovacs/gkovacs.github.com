@@ -29,7 +29,7 @@ I've worked on some popular open-source projects:
 
 You can find some of my code on [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
-See my [resume / CV](resume.pdf) for details.
+See my [resume](resume.pdf) for details on industry experience.
 
 <a name="publications"/>
 ### Publications
