@@ -13,10 +13,12 @@
 See my [Resume/CV](resume.pdf).
 
 I've worked on some popular open-source projects:
+
 * I built the first versions of [Wubi](http://wubi.sourceforge.net/), the [Ubuntu](http://www.ubuntu.com/) installer for Windows.
 * I also built [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install most Linux distributions, from Windows.
 
 I've also built a variety of tools, which you can find at:
+
 * [Github](http://github.com/gkovacs)
 * [Launchpad](http://launchpad.net/~gezakovacs)
 * [Google Code](http://code.google.com/u/115256740026582893742/).
@@ -44,11 +46,12 @@ I prefer being contacted by email. Addresses are:
 <a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
 As for the usual social networking sites:
+
 * [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1)
 * [Facebook](http://www.facebook.com/gkovacs)
 * [Google Plus](https://plus.google.com/115256740026582893742).
 
-### Misc FAQ
+### Misc / FAQ
 
 Q: How do I pronounce your name?
 
