@@ -9,13 +9,13 @@
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#contact">Contact</a></span>
 </div>
 
+<br/>
+
 Masters of Engineering student studying Computer Science at MIT
 
 Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
-
-<br/>
 
 <a name="work"/>
 ### Work
