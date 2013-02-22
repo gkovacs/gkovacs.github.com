@@ -1,5 +1,7 @@
+<img src="geza.png" style="float: left"></img>
+
 <div>
-<span style="font-size: 32px; vertical-align: middle; margin-right: 120px">Geza Kovacs</span>
+<span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="resume.pdf">Resume</a></span>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#work">Work</a></span>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#research">Research</a></span>
@@ -7,9 +9,8 @@
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#contact">Contact</a></span>
 </div>
 
-<img src="geza.png" style="float: left"></img>
-
-* MEng (Master's of Engineering) student at MIT, studying Computer Science, working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+MEng (Master's of Engineering) student at MIT
+* Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 * Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
 * Currently building tools to help with foreign language learning and translation.
 
