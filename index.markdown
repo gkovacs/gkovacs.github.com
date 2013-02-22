@@ -4,15 +4,15 @@
 
 ### About Me
 
-I'm an MEng (Master's of Engineering) student at MIT, majoring in Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and languages - I'm currently focused on building interfaces to assist in translation and language acquisition, with focus on utilizing crowd-sourcing and social interactions between users to enhance the experience. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL. After graduating, I hope to continue on to a PhD, or go into industrial research.
+I'm an MEng (Master's of Engineering) student at MIT, majoring in Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and natural language processing. I'm currently working on building interfaces to assist in translation and language acquisition. I've been doing my research with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 ### Work
+
+See my [resume/CV](resume.pdf).
 
 I've worked on some open-source projects. If you've ever heard of [Ubuntu](http://www.ubuntu.com/), I built the first versions of the Ubuntu installer for Windows, [Wubi](http://wubi.sourceforge.net/). I also built [UNetbootin](http://unetbootin.sourceforge.net/), which is a tool that allows you to make USB drives to install Ubuntu, from Windows.
 
 Being the prolific coder I am, I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
-
-If you want the details of what I've been working on academia and industry, take a look at my [resume/CV](resume.pdf).
 
 ### Research
 
@@ -36,7 +36,7 @@ I prefer being contacted by email. Addresses are:
 
 <a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
-And if you're really into social networking and need to add someone new to your gargantuan collection of friends, I have a [Google Plus](https://plus.google.com/115256740026582893742), [Facebook](http://www.facebook.com/gkovacs), and [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1).
+As for the usual social networking sites: [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), [Google Plus](https://plus.google.com/115256740026582893742).
 
 ### FAQ
 
