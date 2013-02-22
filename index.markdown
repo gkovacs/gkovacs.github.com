@@ -4,7 +4,7 @@
 
 ### About Me
 
-I'm an MEng (Master's of Engineering) student at MIT, studying Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and natural language processing. I'm currently building tools to help in translation and language acquisition. I work with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+I'm an MEng (Master's of Engineering) student at MIT, studying Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and natural language processing. I'm currently building tools to help in foreign language learning and translation. I work with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 ### Work
 
