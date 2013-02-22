@@ -13,9 +13,8 @@
 * Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
 * Currently building tools to help with foreign language learning and translation.
 
-### Work
-
 <a name="work"/>
+### Work
 
 See my [resume / CV](resume.pdf).
 
@@ -26,17 +25,15 @@ I've worked on some popular open-source projects:
 
 I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
-### Research
-
 <a name="research"/>
+### Research
 
 Geza Kovacs. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*.
 
 Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*.
 
-### Teaching
-
 <a name="teaching"/>
+### Teaching
 
 [Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
 
@@ -46,9 +43,8 @@ Geza Kovacs. [ScreenMatch: Providing Context to Software Translators by Displayi
 
 [Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
 
-### Contact
-
 <a name="contact"/>
+### Contact
 
 I prefer being contacted by email. Addresses are:
 
@@ -56,6 +52,7 @@ I prefer being contacted by email. Addresses are:
 
 As for the usual social networking sites: [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
 
+<a name="faq"/>
 ### FAQ / Misc
 
 Q: How do I pronounce your name?
