@@ -10,7 +10,7 @@
 
 ### Work
 
-See my [Resume/CV](resume.pdf).
+See my [resume / CV](resume.pdf).
 
 I've worked on some popular open-source projects:
 
