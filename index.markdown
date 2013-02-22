@@ -7,8 +7,6 @@
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#contact">Contact</a></span>
 </div>
 
-![Picture](geza.png)
-
 ### About Me
 
 * MEng (Master's of Engineering) student at MIT, studying Computer Science, working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
