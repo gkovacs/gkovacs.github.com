@@ -4,7 +4,7 @@
 <span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="resume.pdf">Resume</a></span>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#work">Work</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#research">Research</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#publications">Publications</a></span>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#teaching">Teaching</a></span>
 <span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#contact">Contact</a></span>
 </div>
@@ -15,22 +15,22 @@ Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) a
 
 Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
 
-Currently building tools to help with foreign language learning and translation.
-
 <a name="work"/>
 ### Work
 
 See my [resume / CV](resume.pdf).
+
+I'm currently building tools to help with foreign language learning and translation.
 
 I've worked on some popular open-source projects:
 
 * I built the first versions of [Wubi](http://wubi.sourceforge.net/), the [Ubuntu](http://www.ubuntu.com/) installer for Windows.
 * I also built and currently maintain [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install Linux.
 
-I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
+You can find some of my code on [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
-<a name="research"/>
-### Research
+<a name="publications"/>
+### Publications
 
 Geza Kovacs. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*.
 
