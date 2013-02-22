@@ -1,10 +1,10 @@
 <div>
-<span style="font-size: 32px; vertical-align: middle; margin-right: 50px">Geza Kovacs</span>
-<span style="font-size: 18px; vertical-align: middle"><a href="resume.pdf">Resume</a></span>
-<span style="font-size: 18px; vertical-align: middle"><a href="#work">Work</a></span>
-<span style="font-size: 18px; vertical-align: middle"><a href="#research">Research</a></span>
-<span style="font-size: 18px; vertical-align: middle"><a href="#teaching">Teaching</a></span>
-<span style="font-size: 18px; vertical-align: middle"><a href="#contact">Contact</a></span>
+<span style="font-size: 32px; vertical-align: middle; margin-right: 120px">Geza Kovacs</span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 20px"><a href="resume.pdf">Resume</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 20px"><a href="#work">Work</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 20px"><a href="#research">Research</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 20px"><a href="#teaching">Teaching</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 20px"><a href="#contact">Contact</a></span>
 </div>
 
 ![Picture](geza.png)
