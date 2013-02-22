@@ -4,15 +4,17 @@
 
 ### About Me
 
-I'm an MEng (Master's of Engineering) student at MIT, studying Computer Science. My research interests are in HCI (Human-Computer Interaction), social/crowd computing, and natural language processing. I'm currently building tools to help in foreign language learning and translation. I work with the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+* MEng (Master's of Engineering) student at MIT, studying Computer Science, working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+* Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
+* Currently building tools to help with foreign language learning and translation.
 
 ### Work
 
-See my [resume/CV](resume.pdf).
+See my [Resume/CV](resume.pdf).
 
-I've worked on some open-source projects. If you've ever heard of [Ubuntu](http://www.ubuntu.com/), I built the first versions of the Ubuntu installer for Windows, [Wubi](http://wubi.sourceforge.net/). I also built [UNetbootin](http://unetbootin.sourceforge.net/), which is a tool that allows you to make USB drives to install Ubuntu, from Windows.
+I've worked on some popular open-source projects. If you've ever heard of [Ubuntu](http://www.ubuntu.com/), I built the first versions of the Ubuntu installer for Windows, [Wubi](http://wubi.sourceforge.net/). I also built [UNetbootin](http://unetbootin.sourceforge.net/), which is a tool that allows you to make USB drives to install Ubuntu, from Windows.
 
-Being the prolific coder I am, I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
+I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
 ### Research
 
