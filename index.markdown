@@ -15,7 +15,7 @@ See my [resume / CV](resume.pdf).
 I've worked on some popular open-source projects:
 
 * I built the first versions of [Wubi](http://wubi.sourceforge.net/), the [Ubuntu](http://www.ubuntu.com/) installer for Windows.
-* I also built [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install most Linux distributions, from Windows.
+* I also built and currently maintain [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install most Linux distributions, from Windows.
 
 I've also built a variety of tools, which you can find at [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
 
