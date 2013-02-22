@@ -15,6 +15,9 @@ Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) a
 
 Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
 
+<br/>
+<br/>
+
 <a name="work"/>
 ### Work
 
