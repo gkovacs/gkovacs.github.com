@@ -43,7 +43,7 @@ I prefer being contacted by email. Addresses are:
 
 As for the usual social networking sites: [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
 
-### Misc / FAQ
+### FAQ / Misc
 
 Q: How do I pronounce your name?
 
