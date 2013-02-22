@@ -11,9 +11,11 @@
 
 Masters of Engineering student studying Computer Science at MIT
 
-* Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
-* Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
-* Currently building tools to help with foreign language learning and translation.
+Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+
+Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
+
+Currently building tools to help with foreign language learning and translation.
 
 <a name="work"/>
 ### Work
