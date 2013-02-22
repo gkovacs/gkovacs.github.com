@@ -20,8 +20,6 @@ Interested in HCI (Human-Computer Interaction), natural language processing, and
 <a name="work"/>
 ### Work
 
-See my [resume / CV](resume.pdf).
-
 I'm currently building tools to help with foreign language learning and translation.
 
 I've worked on some popular open-source projects:
@@ -30,6 +28,8 @@ I've worked on some popular open-source projects:
 * I also built and currently maintain [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install Linux.
 
 You can find some of my code on [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
+
+See my [resume / CV](resume.pdf) for details.
 
 <a name="publications"/>
 ### Publications
