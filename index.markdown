@@ -22,6 +22,7 @@ Interested in HCI (Human-Computer Interaction), natural language processing, and
 ### Work
 
 I'm currently building tools to help with foreign language learning and translation:
+
 * [Smart Subtitles](http://smartsubs.csail.mit.edu) helps you learn vocabulary while watching dramas.
 * [GrammarVis](http://grammarvis.csail.mit.edu) helps you learn grammar while reading manga.
 
