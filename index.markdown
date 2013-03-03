@@ -1,12 +1,23 @@
 <img src="geza.png" style="float: left; margin-right: 20px"></img>
 
+<style>
+.header {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #333333;
+  text-decoration: none;
+  border-bottom: 3px solid #FF3333;
+}
+</style>
+
 <div>
 <span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
-<a href="resume.pdf"    style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey">Resume</a>
-<a href="#work"         style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey">Work</a>
-<a href="#publications" style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey">Publications</a>
-<a href="#teaching"     style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey">Teaching</a>
-<a href="#contact"      style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey">Contact</a>
+<a href="resume.pdf"    class="header">Resume</a>
+<a href="#work"         class="header">Work</a>
+<a href="#publications" class="header">Publications</a>
+<a href="#teaching"     class="header">Teaching</a>
+<a href="#contact"      class="header">Contact</a>
 </div>
 
 Masters of Engineering student studying Computer Science at MIT
