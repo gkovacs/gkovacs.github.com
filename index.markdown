@@ -9,7 +9,7 @@
 }
 </style>
 
-<img src="geza.png" style="float: right; margin-left: 20px"></img>
+<img src="geza.png" style="float: right; margin-left: 10px; margin-right: 10px"></img>
 
 <div>
 <span style="font-size: 32px; vertical-align: middle; margin-right: 30px">Geza Kovacs</span>
