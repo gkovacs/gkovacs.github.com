@@ -7,7 +7,7 @@
   margin-right: 10px;
   color: #333333;
   text-decoration: none;
-  border-bottom: 3px solid #FF3333;
+  border-bottom: 3px solid #AA3333;
 }
 </style>
 
