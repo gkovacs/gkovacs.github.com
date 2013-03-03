@@ -1,5 +1,3 @@
-<img src="geza.png" style="float: left; margin-right: 20px"></img>
-
 <style>
 .header {
   font-size: 18px;
@@ -11,8 +9,10 @@
 }
 </style>
 
+<img src="geza.png" style="float: right; margin-left: 20px; margin-right: 20px"></img>
+
 <div>
-<span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
+<span style="font-size: 32px; vertical-align: middle; margin-right: 30px">Geza Kovacs</span>
 <a href="resume.pdf"    class="header">Resume</a>
 <a href="#work"         class="header">Work</a>
 <a href="#publications" class="header">Publications</a>
