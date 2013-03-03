@@ -2,12 +2,12 @@
 
 <div>
 <span style="font-size: 32px; vertical-align: middle;">Geza Kovacs</span><br/>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="resume.pdf">Resume</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="http://github.com/gkovacs">Code</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#work">Work</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#publications">Publications</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#teaching">Teaching</a></span>
-<span style="font-size: 18px; vertical-align: middle; margin-right: 10px"><a href="#contact">Contact</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="resume.pdf">Resume</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="http://github.com/gkovacs">Code</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="#work">Work</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="#publications">Publications</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="#teaching">Teaching</a></span>
+<span style="font-size: 18px; vertical-align: middle; margin-right: 10px; color: grey"><a href="#contact">Contact</a></span>
 </div>
 
 Masters of Engineering student studying Computer Science at MIT
