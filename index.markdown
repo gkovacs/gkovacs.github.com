@@ -13,13 +13,13 @@
 
 <div>
 <span style="font-size: 32px; vertical-align: middle; margin-right: 30px">Geza Kovacs</span>
-<span>
+<div style="float: left">
 <a href="resume.pdf"    class="header">Resume</a>
 <a href="#work"         class="header">Work</a>
 <a href="#publications" class="header">Publications</a>
 <a href="#teaching"     class="header">Teaching</a>
 <a href="#contact"      class="header">Contact</a>
-</span>
+</div>
 </div>
 
 Masters of Engineering student studying Computer Science at MIT
