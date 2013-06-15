@@ -68,13 +68,9 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="contact"/>
 ### Contact
 
-I prefer being contacted by email. Addresses are:
+I prefer being contacted by email (except if you want help with UNetbootin, in which case you should use [Launchpad](https://launchpad.net/unetbootin)). Addresses are:
 
 <a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
-
-If you want help with UNetbootin, see [Launchpad](https://launchpad.net/unetbootin).
-
-If you'd like to donate money to me, see [Venmo](https://venmo.com/gkovacs).
 
 If you're into social networking, see [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
 
