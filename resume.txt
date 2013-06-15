@@ -126,7 +126,7 @@
                                      Awards
 
    National Defense Science and Engineering Graduate Fellowship, 2013-2016
-   NSF Graduate Research Fellowship, 2013 (declined in favor of NDSEG)
+   NSF Graduate Research Fellowship (declined in favor of NDSEG), 2013
    1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
    Software and Technology) Student Innovation Contest 2012
    1 $^{\textrm{st}}$ place, ACM CHI (Conference on Human Factors in
