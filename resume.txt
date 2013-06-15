@@ -1,13 +1,14 @@
-   Geza Kovacs gkovacs@mit.edu (714) 251-6045
+   Geza Kovacs gkovacs@stanford.edu (714) 251-6045
 
                                    Education
 
+   Stanford University
+   PhD, Computer ScienceSeptember 2013 - June 2017 (expected)
+
    Massachusetts Institute of Technology
-   Master of Engineering in Computer ScienceSeptember 2012 - expected June
-   2013
-   Bachelors of Science in Computer Science and Engineering September 2008
-   - June 2012
-     * Overall GPA: 5.0/5.0
+   MEng, Computer Science. GPA: 4.9/5.0 September 2012 - June 2013
+   BS, Computer Science and Engineering. GPA: 5.0/5.0 September 2008 -
+   June 2012
 
                                     Research
 
@@ -119,10 +120,10 @@
    http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
    slation-context.pdf
 
-                                  Distinctions
+                                     Awards
 
-   Finalist and Honorable Mention, MIT 6.470 Web Programming Competition
-   2013 (PsetParty)
+   National Defense Science and Engineering Graduate Fellowship, 2013-2016
+   NSF Graduate Research Fellowship, 2013 (declined in favor of NDSEG)
    1 $^{\textrm{st}}$ place awards from 7digital and TokBox, Boston Music
    Hack Day 2012 (InstantKaraoke)
    1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
@@ -132,6 +133,6 @@
    1 $^{\textrm{st}}$ place, MIT Maslab Autonomous Robotics Competition
    2010
 
-             Updated on February 22, 2013. Latest version is at
+               Updated on June 15, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
