@@ -44,6 +44,9 @@
                                       Work
                                    Experience
 
+   Google Research - Software Engineering Intern Summer 2013
+   Working in the Input Methods Research team on mobile text entry.
+
    Google - Software Engineering Intern Summer 2012
    Designed and implemented a system to detect and provide definitions for
    specialized vocabulary in books, by extracting them from the book text.
@@ -124,8 +127,6 @@
 
    National Defense Science and Engineering Graduate Fellowship, 2013-2016
    NSF Graduate Research Fellowship, 2013 (declined in favor of NDSEG)
-   1 $^{\textrm{st}}$ place awards from 7digital and TokBox, Boston Music
-   Hack Day 2012 (InstantKaraoke)
    1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
    Software and Technology) Student Innovation Contest 2012
    1 $^{\textrm{st}}$ place, ACM CHI (Conference on Human Factors in
