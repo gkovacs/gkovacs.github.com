@@ -45,7 +45,8 @@
                                    Experience
 
    Google Research - Software Engineering Intern Summer 2013
-   Working with the Input Methods Research team on mobile text entry.
+   Working with the Input Methods Research team on improving mobile text
+   entry.
 
    Google - Software Engineering Intern Summer 2012
    Designed and implemented a system to detect and provide definitions for
