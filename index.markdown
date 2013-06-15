@@ -68,7 +68,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="contact"/>
 ### Contact
 
-I prefer being contacted by email (except if you want help with UNetbootin, in which case you should use [Launchpad](https://launchpad.net/unetbootin)). Addresses are:
+I prefer being contacted by email (except if you want help with UNetbootin, in which case you should use [Launchpad](https://launchpad.net/unetbootin)).
 
 <a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
