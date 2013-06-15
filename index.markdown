@@ -24,7 +24,7 @@ I'm a researcher interested in Human-Computer Interaction, natural languages, an
 
 I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-Starting Fall 2013, I will be a Computer Science PhD student at Stanford, supported by the NDSEG fellowship.
+Starting Fall 2013, I will be a PhD student in Computer Science at Stanford, supported by the NDSEG fellowship.
 
 <br/>
 
