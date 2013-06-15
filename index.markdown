@@ -20,7 +20,7 @@
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-Starting Fall 2013, I will be a Computer Science PhD student at Stanford and NDSEG fellow.
+Starting Fall 2013, I will be a Computer Science PhD student at Stanford, supported by the NDSEG fellowship.
 
 I completed my undergrad and masters in Computer Science at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
