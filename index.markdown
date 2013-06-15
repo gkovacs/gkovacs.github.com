@@ -20,11 +20,11 @@
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-Masters of Engineering student studying Computer Science at MIT
+Starting Fall 2013, I will be a Computer Science PhD student at Stanford and NDSEG fellow.
 
-Working in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+I did my undergrad and masters in Computer Science at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-Interested in HCI (Human-Computer Interaction), natural language processing, and language acquisition.
+I'm interested in HCI (Human-Computer Interaction), natural language processing, foreign language learning, and online education.
 
 <br/>
 
