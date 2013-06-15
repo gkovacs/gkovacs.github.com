@@ -24,7 +24,7 @@ Starting Fall 2013, I will be a Computer Science PhD student at Stanford and NDS
 
 I did my undergrad and masters in Computer Science at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-I'm interested in HCI (Human-Computer Interaction), natural language processing, foreign language learning, and online education.
+I'm interested in HCI (Human-Computer Interaction), NLP (natural language processing), foreign language learning, and educational technologies.
 
 <br/>
 
