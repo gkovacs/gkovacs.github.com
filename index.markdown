@@ -20,11 +20,11 @@
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-Starting Fall 2013, I will be a Computer Science PhD student at Stanford, supported by the NDSEG fellowship.
+I'm a researcher interested in Human-Computer Interaction, natural languages, and educational technologies.
 
 I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-I'm interested in Human-Computer Interaction, natural languages, and educational technologies.
+Starting Fall 2013, I will be a Computer Science PhD student at Stanford, supported by the NDSEG fellowship.
 
 <br/>
 
