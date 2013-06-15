@@ -13,8 +13,8 @@
                                     Research
 
    MIT CSAIL - User Interface Design Group
-     * Smart Subtitles for Foreign Language Learning (MEng thesis project)
-       Spring 2012 - present
+     * Smart Subtitles for Foreign Language Learning Spring 2012 - Spring
+       2013
        Developing a service that helps students learn vocabulary while
        watching foreign-language videos. It does so with ``smart
        subtitles'', which are transcripts annotated with information
