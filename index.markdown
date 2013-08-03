@@ -48,11 +48,13 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"/>
 ### Publications
 
+Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics. *UIST 2013 Demo (to appear)*. ([video](http://www.youtube.com/watch?v=uz76ryyKc0A))
+
 [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 
-[Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*.
+[Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499))
 
-[ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*.
+[ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458))
 
 <a name="teaching"/>
 ### Teaching
