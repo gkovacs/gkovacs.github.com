@@ -48,7 +48,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"/>
 ### Publications
 
-[Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. ([video](http://www.youtube.com/watch?v=uz76ryyKc0A))
+Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics. *UIST 2013 Demo (to appear)*. ([video](http://www.youtube.com/watch?v=uz76ryyKc0A))
 
 [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 
