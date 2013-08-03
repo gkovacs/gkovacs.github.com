@@ -52,9 +52,9 @@ Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics. *UIS
 
 [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 
-[Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499))
+[Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499), [Poster](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf))
 
-[ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458))
+[ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [Poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
 
 <a name="teaching"/>
 ### Teaching
