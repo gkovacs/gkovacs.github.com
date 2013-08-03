@@ -116,15 +116,14 @@
    and Pronunciation while Reading Comics.'' ACM Symposium on User
    Interface Software and Technology (UIST) 2013, Demo (to appear).
 
-   Geza Kovacs. ``Smart Subtitles for Language Learning.'' Proceedings of
-   the 2013 ACM annual conference on Human Factors in Computing Systems
-   (CHI), Extended Abstracts.
+   Geza Kovacs. ``Smart Subtitles for Language Learning.'' ACM annual
+   conference on Human Factors in Computing Systems (CHI) 2013, Extended
+   Abstracts.
    http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf
 
    Geza Kovacs. ``ScreenMatch: providing context to software translators
-   by displaying screenshots.'' Proceedings of the 2012 ACM annual
-   conference on Human Factors in Computing Systems (CHI), Extended
-   Abstracts.
+   by displaying screenshots.'' ACM annual conference on Human Factors in
+   Computing Systems (CHI) 2012, Extended Abstracts.
    http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-tran
    slation-context.pdf
 
