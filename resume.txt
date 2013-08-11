@@ -1,4 +1,4 @@
-   Geza Kovacs gkovacs@stanford.edu (714) 251-6045
+   Geza Kovacs gkovacs@stanford.edu http://git.io/geza
 
                                    Education
 
@@ -135,6 +135,6 @@
    1 $^{\textrm{st}}$ place, MIT Maslab Autonomous Robotics Competition
    2010
 
-               Updated on August 3, 2013. Latest version is at
+              Updated on August 11, 2013. Latest version is at
                     http://gkovacs.github.com/resume.pdf
      __________________________________________________________________
