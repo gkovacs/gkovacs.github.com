@@ -1,4 +1,5 @@
-   Geza Kovacs gkovacs@stanford.edu http://git.io/gezahttp://git.io/geza
+   Geza Kovacs gkovacs@stanford.edu
+   http://gkovacs.github.com/http://git.io/geza
 
                                    Education
 
