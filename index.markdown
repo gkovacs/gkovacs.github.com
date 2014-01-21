@@ -20,11 +20,7 @@
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-I'm a researcher interested in Human-Computer Interaction, natural languages, and educational technologies.
-
-I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
-
-Starting Fall 2013, I will be a PhD student in Computer Science at Stanford, supported by the NDSEG fellowship.
+I'm a PhD student in Computer Science at Stanford, supported by the NDSEG fellowship. My research interests include interested in Human-Computer Interaction, natural languages, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 <br/>
 
