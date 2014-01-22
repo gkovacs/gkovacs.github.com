@@ -44,7 +44,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"/>
 ### Publications
 
-[Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *To appear in CHI 2014.
+[Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *To appear in CHI 2014*.
 
 [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2514931), [video](http://www.youtube.com/watch?v=uz76ryyKc0A))
 
