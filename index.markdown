@@ -13,14 +13,14 @@
 
 <div>
 <span style="font-size: 32px; vertical-align: middle; margin-right: 30px">Geza Kovacs</span>
-<a href="resume.pdf"    class="header">Resume</a>
+<a href="resume.pdf"    class="header">Resume / CV</a>
 <a href="#work"         class="header">Work</a>
 <a href="#publications" class="header">Publications</a>
 <a href="#teaching"     class="header">Teaching</a>
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-I'm a PhD student in Computer Science at Stanford, supported by the NDSEG fellowship. My research interests include Human-Computer Interaction, natural languages, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+I'm a 1st year PhD student in Computer Science at Stanford, doing research related to Human-Computer Interaction, language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 <br/>
 
@@ -37,7 +37,7 @@ I've worked on some popular open-source projects:
 * I built the first versions of [Wubi](http://wubi.sourceforge.net/), the [Ubuntu](http://www.ubuntu.com/) installer for Windows.
 * I also built and currently maintain [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install Linux.
 
-You can find some of my code on [Github](http://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs), and [Google Code](http://code.google.com/u/115256740026582893742/).
+You can find my other projects on [Github](http://github.com/gkovacs) and [Launchpad](http://launchpad.net/~gezakovacs).
 
 See my [resume](resume.pdf) for details on industry experience.
 
