@@ -20,7 +20,7 @@
 <a href="#contact"      class="header">Contact</a>
 </div>
 
-I'm a 1st year PhD student in Computer Science at Stanford, doing research in Human-Computer Interaction, language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+I'm a 1st year PhD student in Computer Science at Stanford, doing research related to Human-Computer Interaction, language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 <br/>
 
