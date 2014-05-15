@@ -68,7 +68,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="contact"/>
 ### Contact
 
-If asking about [UNetbootin](http://unetbootin.sourceforge.net), please use [Launchpad](https://answers.launchpad.net/unetbootin), and consider making a donation:
+If asking about [UNetbootin](http://unetbootin.sourceforge.net), please ask a question on [Launchpad](https://answers.launchpad.net/unetbootin), and consider making a donation:
 
 <div style="font-family: verdana, arial , helvetica, sans-serif;"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AM2VHRGU9QF9A&lc=US&item_name=UNetbootin%20Development&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold"><img src="paypal.png" style="float: left; padding-right: 5px;"></img>Donate via Paypal</div></a><a href="https://venmo.com/?txn=pay&recipients=gkovacs&amount=5.00&note=for%20UNetbootin%20Development&audience=public" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold"><img src="venmo.png" style="float: left; padding-right: 5px"></img>Donate via Venmo</div></a><a href="https://coinbase.com/checkouts/b6c03143c5843875d41731764c1b89ad" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold"><img src="bitcoin.png" style="float: left; padding-right: 5px"></img>Donate via Bitcoin</div></a></div>
 
