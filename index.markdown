@@ -1,25 +1,3 @@
-<style>
-.header {
-  font-size: 18px;
-  vertical-align: middle;
-  margin-right: 10px;
-  color: #333333;
-  text-decoration: none;
-  border-bottom: 3px solid #AA3333;
-}
-</style>
-
-<img src="geza.png" style="float: right; margin-left: 10px; margin-right: 10px"></img>
-
-<div>
-<span style="font-size: 32px; vertical-align: middle; margin-right: 30px">Geza Kovacs</span>
-<a href="resume.pdf"    class="header">CV / Resume</a>
-<a href="#work"         class="header">Work</a>
-<a href="#publications" class="header">Publications</a>
-<a href="#teaching"     class="header">Teaching</a>
-<a href="#contact"      class="header">Contact</a>
-</div>
-
 I'm a 1st year PhD student in Computer Science at Stanford, doing research related to [Human-Computer Interaction](http://hci.stanford.edu/), language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
 <br/>
