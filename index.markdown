@@ -2,7 +2,7 @@ I'm a 1st year PhD student in Computer Science at Stanford, doing research relat
 
 <br/>
 
-<a name="work"/>
+<a name="work"></a>
 ### Work
 
 I'm currently building tools to help with foreign language learning and translation:
@@ -19,7 +19,7 @@ You can find my other projects on [Github](http://github.com/gkovacs) and [Launc
 
 See my [resume](resume.pdf) for details on industry experience.
 
-<a name="publications"/>
+<a name="publications"></a>
 ### Publications
 
 [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *To appear in CHI 2014*. ([video](http://www.youtube.com/watch?v=AkJeiAZP52g))
@@ -32,7 +32,7 @@ See my [resume](resume.pdf) for details on industry experience.
 
 [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
 
-<a name="teaching"/>
+<a name="teaching"></a>
 ### Teaching
 
 [Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
@@ -43,7 +43,7 @@ See my [resume](resume.pdf) for details on industry experience.
 
 [Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
 
-<a name="contact"/>
+<a name="contact"></a>
 ### Contact
 
 If asking about [UNetbootin](http://unetbootin.sourceforge.net), please ask a question on [Launchpad](https://answers.launchpad.net/unetbootin), and consider making a donation:
@@ -56,7 +56,7 @@ For personal correspondence, I prefer email:
 
 If you're into social networking, see [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
 
-<a name="faq"/>
+<a name="faq"></a>
 ### FAQ / Misc
 
 Q: How do I pronounce your name?
