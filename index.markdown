@@ -52,7 +52,7 @@ If asking about [UNetbootin](http://unetbootin.sourceforge.net), please ask a qu
 
 For personal correspondence, I prefer email:
 
-<a href="http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&amp;c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=" target="_blank" onclick="window.open('http://mailhide.recaptcha.net/d?k=01MD79eS6fZEZmWjK6-0Glug==&amp;c=2irEYBIiPVAay_dxdqlOocX4GmD7ssuBeGFr44MUN9I=', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
+<a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
 If you're into social networking, see [LinkedIn](http://www.linkedin.com/pub/geza-kovacs/10/189/1), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
 
