@@ -121,7 +121,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"></a>
 ## Publications
 
-**Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Reserach Competition (to appear)*.
+**Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition (to appear)*.
 
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 full paper*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
 
