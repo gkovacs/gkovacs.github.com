@@ -44,7 +44,7 @@ CHI 2015 SRC (to appear)
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
-Smart Subtitles lets you learn vocabulary while you watch foreign-language dramas.<br>
+Smart Subtitles helps you learn vocabulary while you watch foreign-language videos.<br>
 It features an interactive transcript with mouse-over definitions and dialog-based navigation.<br><br>
 CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a><br>
 <!-- <a href="http://smartsubs.csail.mit.edu">Homepage</a>-->
