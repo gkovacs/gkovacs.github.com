@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for x in `ls *-screenshot.png`; do
+newname="`echo $x | sed s/-screenshot.png/-screenshot-200px.png/`"
+cp "$x" "$newname"
+mogrify -resize 200 "$newname"
+#sips --resampleWidth 200 "$newname"
+done
+
