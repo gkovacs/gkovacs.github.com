@@ -3,7 +3,7 @@ I'm a 2nd year PhD student in Computer Science at Stanford advised by [Michael B
 <br>
 
 <a name="work"></a>
-### Research
+## Research
 
 [FeedLearn](https://feedlearn.herokuapp.com/study1) helps you learn vocabulary as you browse your Facebook feed.
 
@@ -18,13 +18,13 @@ ScreenMatch provides software translators with context by showing them screensho
 <br>
 
 <a name="publications"></a>
-### Publications
+## Publications
 
 **Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Reserach Competition (to appear)*.
 
-Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* ([ACM DL](http://dl.acm.org/citation.cfm?id=2581351))
-
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
+
+Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* ([ACM DL](http://dl.acm.org/citation.cfm?id=2581351))
 
 **Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2514931), [video](http://www.youtube.com/watch?v=uz76ryyKc0A))
 
@@ -36,7 +36,7 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 
 <br>
 
-### Open-Source Projects
+## Open-Source Projects
 
 I've worked on some popular open-source projects:
 
@@ -50,7 +50,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <br>
 
 <a name="teaching"></a>
-### Teaching
+## Teaching
 
 [Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
 
@@ -63,7 +63,7 @@ See my [resume](resume.pdf) for details on industry experience.
 <br>
 
 <a name="contact"></a>
-### Contact
+## Contact
 
 If asking about [UNetbootin](http://unetbootin.sourceforge.net), please ask a question on [Launchpad](https://answers.launchpad.net/unetbootin), and consider making a donation:
 
@@ -78,7 +78,7 @@ If you're into social networking, see [LinkedIn](http://www.linkedin.com/in/geza
 <br>
 
 <a name="faq"></a>
-### FAQ / Misc
+## FAQ / Misc
 
 Q: How do I pronounce your name?
 
