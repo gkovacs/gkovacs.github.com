@@ -1,14 +1,42 @@
-I'm a 1st year PhD student in Computer Science at Stanford, doing research related to [Human-Computer Interaction](http://hci.stanford.edu/), language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
+I'm a 2nd year PhD student in Computer Science at Stanford advised by [Michael Bernstein](http://hci.stanford.edu/msb/), doing work related to [Human-Computer Interaction](http://hci.stanford.edu/), language learning, and educational technologies. I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-<br/>
+<br>
 
 <a name="work"></a>
-### Work
+### Research
 
-I'm currently building tools to help with foreign language learning and translation:
+[FeedLearn](https://feedlearn.herokuapp.com/study1) helps you learn vocabulary as you browse your Facebook feed.
 
-* [Smart Subtitles](http://smartsubs.csail.mit.edu) helps you learn vocabulary while watching dramas.
-* [GrammarVis](http://grammarvis.csail.mit.edu) helps you learn grammar while reading manga.
+QuizCram is a viewer for MOOC lectures on Coursera that enables quiz-driven video navigation and reviewing.
+
+[Smart Subtitles](http://smartsubs.csail.mit.edu) helps you learn vocabulary while watching dramas.
+
+[GrammarVis](http://grammarvis.csail.mit.edu) helps you learn grammar while reading manga.
+
+ScreenMatch provides software translators with context by showing them screenshots that illustrate how the translated strings are used.
+
+<br>
+
+<a name="publications"></a>
+### Publications
+
+**Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Reserach Competition (to appear)*.
+
+Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* ([ACM DL](http://dl.acm.org/citation.cfm?id=2581351))
+
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
+
+**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2514931), [video](http://www.youtube.com/watch?v=uz76ryyKc0A))
+
+**Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
+
+**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf))
+
+**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
+
+<br>
+
+### Open-Source Projects
 
 I've worked on some popular open-source projects:
 
@@ -19,18 +47,7 @@ You can find my other projects on [Github](http://github.com/gkovacs) and [Launc
 
 See my [resume](resume.pdf) for details on industry experience.
 
-<a name="publications"></a>
-### Publications
-
-[Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *To appear in CHI 2014*. ([video](http://www.youtube.com/watch?v=AkJeiAZP52g))
-
-[Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2514931), [video](http://www.youtube.com/watch?v=uz76ryyKc0A))
-
-[Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
-
-[Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf))
-
-[ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
+<br>
 
 <a name="teaching"></a>
 ### Teaching
@@ -42,6 +59,8 @@ See my [resume](resume.pdf) for details on industry experience.
 [Introduction to C# and the .NET Framework (Instructor, IAP 2011)](http://iap-csharp.github.com/)
 
 [Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
+
+<br>
 
 <a name="contact"></a>
 ### Contact
@@ -55,6 +74,8 @@ For personal correspondence, I prefer email:
 <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
 
 If you're into social networking, see [LinkedIn](http://www.linkedin.com/in/gezako), [Facebook](http://www.facebook.com/gkovacs), and [Google Plus](https://plus.google.com/115256740026582893742).
+
+<br>
 
 <a name="faq"></a>
 ### FAQ / Misc
