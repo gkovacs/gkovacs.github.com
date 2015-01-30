@@ -5,15 +5,109 @@ I'm a 2nd year PhD student in Computer Science at Stanford advised by [Michael B
 <a name="work"></a>
 ## Research
 
-[FeedLearn](https://feedlearn.herokuapp.com/study1) helps you learn vocabulary as you browse your Facebook feed.
+<div>
+<img src="feedlearn-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="https://feedlearn.herokuapp.com/study1">FeedLearn: Microlearning in Facebook Feeds</a>
+<div class="padlink"></div>
+FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
+It inserts interactive quizzes which you can answer without leaving your feed.<br><br>
+<a href="https://feedlearn.herokuapp.com/study1">Homepage</a>
+</div>
+<br style="clear: both">
+</div>
 
-QuizCram is a viewer for MOOC lectures on Coursera that enables quiz-driven video navigation and reviewing.
 
-[Smart Subtitles](http://smartsubs.csail.mit.edu) helps you learn vocabulary while watching dramas.
 
-[GrammarVis](http://grammarvis.csail.mit.edu) helps you learn grammar while reading manga.
+<div>
+<img src="quizcram-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<span class="biglink">QuizCram: Question-Driven Video Viewing</span>
+<div class="padlink"></div>
+QuizCram is a viewer for MOOC lectures that enables quiz-driven video navigation and reviewing.<br>
+Materials can be generated from existing in-video quizzes on Coursera.<br><br>
+CHI 2015 SRC (to appear)
+</div>
+<br style="clear: both">
+</div>
 
-ScreenMatch provides software translators with context by showing them screenshots that illustrate how the translated strings are used.
+
+
+<div>
+<img src="smart-subtitles-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles: Learn Vocabulary while Watching Dramas</a>
+<div class="padlink"></div>
+Smart Subtitles lets you learn vocabulary while you watch foreign-language dramas.<br>
+It has an interactive transcript with features like mouse-over definitions and dialog-based navigation.<br><br>
+CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a><br>
+<!-- <a href="http://smartsubs.csail.mit.edu">Homepage</a>-->
+</div>
+<br style="clear: both">
+</div>
+
+
+
+<div>
+<img src="grammarvis-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">GrammarVis: Visualize the Grammar of Foreign Languages</a>
+<div class="padlink"></div>
+GrammarVis allows users to explore the syntactic structure of sentences in a foreign language.<br>
+I built it as part of a foreign-language manga reader application.<br><br>
+UIST 2014 demo: <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
+<!-- <a href="http://grammarvis.csail.mit.edu">Homepage</a>-->
+</div>
+<br style="clear: both">
+</div>
+
+
+
+<div>
+<img src="screenmatch-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Software Translators</a>
+<div class="padlink"></div>
+Software translators lack visual context which illustrates how strings they are translating are used in the software.<br>
+ScreenMatch matches translation strings to screenshots, to illustrate how the translated strings are used.<br><br>
+CHI 2012 SRC: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
+</div>
+<br style="clear: both">
+</div>
+
+<br>
+
+## Open-Source Projects
+
+<div>
+<img src="unetbootin-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="http://unetbootin.sourceforge.net/">UNetbootin: LiveUSB Creator</a>
+<div class="padlink"></div>
+UNetbootin is a graphical tool to create bootable live USB drives.<br>
+It allows users to install Ubuntu and other Linux distributions on tablets and netbooks without CD drives.<br><br>
+I built and maintain UNetbootin. It has been downloaded over 40 million times.<br>
+<a href="http://unetbootin.sourceforge.net/">Homepage</a> <a href="https://en.wikipedia.org/wiki/UNetbootin">Wikipedia</a>
+</div>
+<br style="clear: both">
+</div>
+
+<div>
+<img src="wubi-screenshot.png" style="float: left; margin-right: 30px" width="200px">
+<div>
+<a class="biglink" href="http://wubi.sourceforge.net/faq.php">Wubi: Ubuntu Installer for Windows</a>
+<div class="padlink"></div>
+Wubi is a tool that allows users to install Ubuntu from Windows.<br>
+It installs and boots Ubuntu from a file, so it does not require any repartitioning.<br><br>
+I built the original versions of Wubi, which is now part of Ubuntu.<br>
+<a href="http://wubi.sourceforge.net/faq.php">Homepage</a> <a href="https://en.wikipedia.org/wiki/Wubi_(software)">Wikipedia</a>
+</div>
+<br style="clear: both">
+</div>
+
+You can find my other projects on [Github](http://github.com/gkovacs) and [Launchpad](http://launchpad.net/~gezakovacs).
+
+See my [resume](resume.pdf) for details on industry experience.
 
 <br>
 
@@ -22,7 +116,7 @@ ScreenMatch provides software translators with context by showing them screensho
 
 **Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Reserach Competition (to appear)*.
 
-**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 full paper*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
 
 Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* ([ACM DL](http://dl.acm.org/citation.cfm?id=2581351))
 
@@ -33,19 +127,6 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 **Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf))
 
 **Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
-
-<br>
-
-## Open-Source Projects
-
-I've worked on some popular open-source projects:
-
-* I built the first versions of [Wubi](http://wubi.sourceforge.net/), the [Ubuntu](http://www.ubuntu.com/) installer for Windows.
-* I also built and currently maintain [UNetbootin](http://unetbootin.sourceforge.net/), which allows you to make USB drives to install Linux.
-
-You can find my other projects on [Github](http://github.com/gkovacs) and [Launchpad](http://launchpad.net/~gezakovacs).
-
-See my [resume](resume.pdf) for details on industry experience.
 
 <br>
 
