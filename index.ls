@@ -1,5 +1,5 @@
 $(document).ready ->
-  for let x in $('.header')
+  for let x in $('.hlink')
     target = $(x).attr('href')
     if target.indexOf('#') != 0
       return

@@ -2,7 +2,7 @@
 (function(){
   $(document).ready(function(){
     var i$, ref$, len$, results$ = [];
-    for (i$ = 0, len$ = (ref$ = $('.header')).length; i$ < len$; ++i$) {
+    for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
       results$.push((fn$.call(this, ref$[i$])));
     }
     return results$;
