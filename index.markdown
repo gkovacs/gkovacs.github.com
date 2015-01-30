@@ -84,7 +84,7 @@ CHI 2012 SRC: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screen
 <br>
 
 <a name="opensource"></a>
-## Open-Source Projects
+## Open-Source
 
 <div>
 <img src="unetbootin-screenshot-200px.png" style="float: left; margin-right: 30px" width="200px">
@@ -112,7 +112,7 @@ I built the original versions of Wubi, which is now part of Ubuntu.<br>
 <br style="clear: both">
 </div>
 
-You can find my other projects on [Github](http://github.com/gkovacs) and [Launchpad](http://launchpad.net/~gezakovacs).
+You can find my other open-source projects on [Github](http://github.com/gkovacs) and [Launchpad](http://launchpad.net/~gezakovacs).
 
 See my [resume](resume.pdf) for details on industry experience.
 
