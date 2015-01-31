@@ -32,7 +32,8 @@ It inserts interactive quizzes which you can answer without leaving your feed.<b
 <div class="padlink"></div>
 QuizCram is a viewer for MOOC lectures that uses quizzes to direct navigation and reviewing.<br>
 Materials can be generated from existing in-video quizzes on Coursera.<br><br>
-CHI 2015 SRC (to appear)
+CHI 2015 SRC (to appear)<br>
+<a href="http://quizcram.herokuapp.com">Homepage</a>
 </div>
 <br style="clear: both">
 </div>
