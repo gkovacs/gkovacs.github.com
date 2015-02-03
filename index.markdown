@@ -12,7 +12,7 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 ## Research
 
 <div>
-<img src="feedlearn-screenshot-200px.png" class="limg" width="200px">
+<img src="feedlearn-screenshot-200px.png" class="limg" width="200px" style="padding-bottom: 10px">
 <div>
 <a class="biglink" href="https://feedlearn.herokuapp.com/study1">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
