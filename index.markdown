@@ -18,6 +18,7 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 <div class="padlink"></div>
 FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
 It inserts interactive quizzes which you can answer without leaving your feed.<br><br>
+CHI 2015 WIP (to appear)<br>
 <a href="https://feedlearn.herokuapp.com/study1">Homepage</a>
 </div>
 <br style="clear: both">
@@ -121,6 +122,8 @@ See my [resume](resume.pdf) for details on industry experience.
 
 <a name="publications"></a>
 ## Publications
+
+**Geza Kovacs**. FeedLearn: Using Facebook Feeds for Microlearning. *CHI 2015 Works in Progress (to appear)*.
 
 **Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition (to appear)*.
 
