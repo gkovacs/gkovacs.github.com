@@ -12,14 +12,13 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 ## Research
 
 <div>
-<img src="feedlearn-screenshot-200px.png" class="limg" width="200px" style="padding-bottom: 10px">
+<img src="feedlearn-screenshot-200px.png" class="limg" width="200px">
 <div>
 <a class="biglink" href="https://feedlearn.herokuapp.com/study1">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
 FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
 It inserts interactive quizzes which you can answer without leaving your feed.<br><br>
-CHI 2015 WIP (to appear)<br>
-<a href="https://feedlearn.herokuapp.com/study1">Homepage</a>
+CHI 2015 WIP (to appear). <a href="https://feedlearn.herokuapp.com/study1">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -33,8 +32,7 @@ CHI 2015 WIP (to appear)<br>
 <div class="padlink"></div>
 QuizCram is a viewer for MOOC lectures that uses quizzes to direct navigation and reviewing.<br>
 Materials can be generated from existing in-video quizzes on Coursera.<br><br>
-CHI 2015 SRC (to appear)<br>
-<a href="http://quizcram.herokuapp.com">Homepage</a>
+CHI 2015 SRC (to appear). <a href="http://quizcram.herokuapp.com">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -48,8 +46,7 @@ CHI 2015 SRC (to appear)<br>
 <div class="padlink"></div>
 Smart Subtitles helps you learn vocabulary while you watch foreign-language videos.<br>
 It features an interactive transcript with mouse-over definitions and dialog-based navigation.<br><br>
-CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a><br>
-<!-- <a href="http://smartsubs.csail.mit.edu">Homepage</a>-->
+CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a href="http://smartsubs.csail.mit.edu">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -63,8 +60,7 @@ CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014
 <div class="padlink"></div>
 GrammarVis lets you interactively explore the syntactic structure of sentences.<br>
 I built it as part of a foreign-language manga reader application.<br><br>
-UIST 2014 demo: <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
-<!-- <a href="http://grammarvis.csail.mit.edu">Homepage</a>-->
+UIST 2014 demo: <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a> <a href="http://grammarvis.csail.mit.edu">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
