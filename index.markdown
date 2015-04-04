@@ -60,7 +60,7 @@ CHI 2014 full paper: <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014
 <div class="padlink"></div>
 GrammarVis lets you interactively explore the syntactic structure of sentences.<br>
 I built it as part of a foreign-language manga reader application.<br><br>
-UIST 2014 demo: <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a> <a href="http://grammarvis.csail.mit.edu">Homepage</a><br>
+UIST 2013 demo: <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a> <a href="http://grammarvis.csail.mit.edu">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
