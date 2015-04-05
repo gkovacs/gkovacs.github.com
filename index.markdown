@@ -18,7 +18,7 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 <div class="padlink"></div>
 FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
 It inserts interactive quizzes which you can answer without leaving your feed.<br><br>
-CHI 2015 WIP (to appear). <a href="https://feedlearn.herokuapp.com/study1">Homepage</a><br>
+CHI 2015 WIP (to appear). <a href="https://feedlearn.herokuapp.com/study1">Homepage</a> <a href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
 </div>
 <br style="clear: both">
 </div>
