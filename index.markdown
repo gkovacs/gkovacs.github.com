@@ -6,7 +6,7 @@ I'm interested in microlearning, MOOCs, language learning, and educational techn
 
 I did my undergrad and masters in CS at MIT, where I worked in the [User Interface Design group](http://groups.csail.mit.edu/uid/) at CSAIL.
 
-<br><br>
+<br>
 
 <a name="research"></a>
 ## Research
@@ -79,12 +79,10 @@ I built it as part of a foreign-language manga reader application.<br>
 Software translators lack visual context which illustrates how the strings they are translating are used.<br>
 ScreenMatch matches translatable strings to screenshots, to illustrate how they are used in the software.<br>
 <div class="padlink"></div>
-<a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
+<a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a><br>
 </div>
 <br style="clear: both">
 </div>
-
-<br>
 
 <a name="opensource"></a>
 ## Open-Source
