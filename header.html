@@ -9,8 +9,11 @@
 <meta name="google-site-verification" content="lKEtfQSvi3YPqGz0tOzfFnfOuwPzQjunH2qCRgdPGTw" />
 <meta name="msvalidate.01" content="7ECDC9A356BFD8DEA84AC7AA3C34705A" />
 <style type="text/css">
+
 body {
   font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 h2 {
   font-size: 32px;
@@ -22,13 +25,21 @@ h2 {
   /*color: #333333;*/
   text-decoration: none;
   /*border-bottom: 3px solid #AA3333;*/
-  background-color: #770000;
+  /*background-color: #333355;*/
+  background-color: black;
   color: white;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
+}
+.header:hover {
+  background-color: #333355;
 }
 .padlink {
   margin-top: 10px;
@@ -49,9 +60,9 @@ strong {
 .boxlink {
   text-decoration: none;
   /*
-  background-color: #770000;
-  */
   background-color: #333355;
+  */
+  background-color: #770000;
   color: white;
   margin-right: 3px;
   padding-left: 5px;
@@ -68,10 +79,10 @@ strong {
 </head>
 <body>
 
-<div style="position: fixed; top: 0px; padding-bottom: 0px; width: 100%; background-color: white">
+<div style="position: fixed; top: 0px; padding-bottom: 0px; width: 100%; background-color: black">
 <!--<a style="font-size: 32px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444; font-weight: bold" href="#top" class="hlink">geza kovacs</a>-->
 <!--<a style="font-family: Palatino Linotype, Book Antiqua, Palatino, serif; font-size: 30px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444" href="#top" class="hlink">Geza Kovacs</a>-->
-<div style="float: left; padding-top: 1px"><a class="hlink" href="#top"><img src="gezakovacs.png" alt="Geza Kovacs"></a></div>
+<div style="float: left"><a style="padding-top: 1px; padding-left: 10px" class="hlink" href="#top"><img src="gezakovacs-black.png" alt="Geza Kovacs"></a></div>
 <div style="position: fixed; top: 10px; left: 238px">
 <a href="#research"     class="header hlink">Research</a>
 <a href="#opensource"   class="header hlink">Open-Source</a>
@@ -86,6 +97,6 @@ strong {
 
 <div style="padding-bottom: 40px"></div>
 
-<img src="geza.png" style="margin-top: 10px" class="limg" alt="geza" />
+<img src="geza.png" style="margin-top: 10px; margin-left: 10px" class="limg" alt="geza" />
 
-
+<div style="padding-left: 10px">
