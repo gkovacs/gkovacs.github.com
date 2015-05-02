@@ -68,14 +68,17 @@ strong {
 </head>
 <body>
 
-<div style="position: fixed; top: 0px; padding-bottom: 3px; width: 100%; background-color: white">
-<a style="font-size: 32px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: black" href="#top" class="hlink">Geza Kovacs</a>
+<div style="position: fixed; top: 0px; padding-bottom: 0px; width: 100%; background-color: white">
+<!--<a style="font-size: 32px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444; font-weight: bold" href="#top" class="hlink">geza kovacs</a>-->
+<div style="float: left"><a class="hlink" href="#top"><img src="gezakovacs.png"></a></div>
+<div style="position: fixed; top: 10px; left: 238px">
 <a href="#research"     class="header hlink">Research</a>
 <a href="#opensource"   class="header hlink">Open-Source</a>
 <a href="#publications" class="header hlink">Publications</a>
 <a href="#teaching"     class="header hlink">Teaching</a>
 <a href="#contact"      class="header hlink">Contact</a>
 <a href="resume.pdf"    class="header hlink">CV / Resume</a>
+</div>
 </div>
 
 <a name="top"></a>
@@ -295,6 +298,9 @@ I built the original versions of Wubi, which is now part of Ubuntu.<br>
       return $(x).click(function(evt){
         var targetloc;
         targetloc = $('a[name="' + targetbase + '"]').offset().top;
+        if (targetbase === 'top') {
+          targetloc = 40;
+        }
         console.log(targetloc);
         $('html, body').animate({
           scrollTop: targetloc - 40

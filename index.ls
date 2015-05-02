@@ -7,6 +7,8 @@ $(document).ready ->
     $(x).attr('href', '#')
     $(x).click (evt) ->
       targetloc = $('a[name="' + targetbase + '"]').offset().top
+      if targetbase == 'top'
+        targetloc = 40
       console.log targetloc
       $('html, body').animate({
         scrollTop: (targetloc - 40)
