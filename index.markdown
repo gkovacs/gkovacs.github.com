@@ -17,8 +17,9 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 <a class="biglink" href="https://feedlearn.herokuapp.com/study1">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
 FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
-It inserts interactive quizzes which you can answer without leaving your feed.<br><br>
-CHI 2015 WIP (to appear). <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Homepage</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
+It inserts interactive quizzes which you can answer without leaving your feed.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Homepage</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -31,8 +32,9 @@ CHI 2015 WIP (to appear). <a class="boxlink" href="https://feedlearn.herokuapp.c
 <a class="biglink" href="http://quizcram.herokuapp.com">QuizCram: Question-Driven Video Viewing</a>
 <div class="padlink"></div>
 QuizCram is a viewer for MOOC lectures that uses quizzes to direct navigation and reviewing.<br>
-Materials can be generated from existing in-video quizzes on Coursera.<br><br>
-CHI 2015 SRC (to appear). <a class="boxlink" href="http://quizcram.herokuapp.com">Homepage</a><br>
+Materials can be generated from existing in-video quizzes on Coursera.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="http://quizcram.herokuapp.com">Homepage</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -45,8 +47,9 @@ CHI 2015 SRC (to appear). <a class="boxlink" href="http://quizcram.herokuapp.com
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
 Smart Subtitles helps you learn vocabulary while you watch foreign-language videos.<br>
-It features an interactive transcript with mouse-over definitions and dialog-based navigation.<br><br>
-CHI 2014 full paper: <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a class="boxlink" href="http://smartsubs.csail.mit.edu">Homepage</a><br>
+It features an interactive transcript with mouse-over definitions and dialog-based navigation.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="http://smartsubs.csail.mit.edu">Homepage</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2015</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <br>
 </div>
 <br style="clear: both">
 </div>
@@ -59,8 +62,9 @@ CHI 2014 full paper: <a class="boxlink" href="http://groups.csail.mit.edu/uid/ot
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">GrammarVis: Visualizing the Grammar of Foreign Languages</a>
 <div class="padlink"></div>
 GrammarVis lets you interactively explore the syntactic structure of sentences.<br>
-I built it as part of a foreign-language manga reader application.<br><br>
-UIST 2013 demo: <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a> <a class="boxlink" href="http://grammarvis.csail.mit.edu">Homepage</a><br>
+I built it as part of a foreign-language manga reader application.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="http://grammarvis.csail.mit.edu">Homepage</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper: UIST 2013 Demo</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
 </div>
 <br style="clear: both">
 </div>
@@ -73,8 +77,9 @@ UIST 2013 demo: <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-p
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Software Translators</a>
 <div class="padlink"></div>
 Software translators lack visual context which illustrates how the strings they are translating are used.<br>
-ScreenMatch matches translatable strings to screenshots, to illustrate how they are used in the software.<br><br>
-CHI 2012 SRC: <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
+ScreenMatch matches translatable strings to screenshots, to illustrate how they are used in the software.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
 </div>
 <br style="clear: both">
 </div>
@@ -125,17 +130,17 @@ See my [resume](resume.pdf) for details on industry experience.
 
 **Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition (to appear)*.
 
-**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 full paper*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2556288.2557256), [video](http://www.youtube.com/watch?v=AkJeiAZP52g))
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 full paper*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">video</a>
 
-Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* ([ACM DL](http://dl.acm.org/citation.cfm?id=2581351))
+Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. Learning Online via Prompts to Explain. *CHI 2014 Works in Progress.* <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2581351">ACM DL</a>
 
-**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2514931), [video](http://www.youtube.com/watch?v=uz76ryyKc0A))
+**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf) *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">video</a>
 
 **Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 
-**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2479499), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf))
+**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">poster</a>
 
-**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. ([ACM DL](http://dl.acm.org/citation.cfm?id=2212458), [poster](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf))
+**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">poster</a>
 
 <br>
 
