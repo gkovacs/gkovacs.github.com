@@ -12,7 +12,7 @@ I did my undergrad and masters in CS at MIT, where I worked in the [User Interfa
 ## Research
 
 <div>
-<img src="feedlearn-screenshot-200px.png" class="limg" width="200px">
+<img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200">
 <div>
 <a class="biglink" href="https://feedlearn.herokuapp.com/study1">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
@@ -27,7 +27,7 @@ It inserts interactive quizzes which you can answer without leaving your feed.<b
 
 
 <div>
-<img src="quizcram-screenshot-200px.png" class="limg" width="200px">
+<img src="quizcram-screenshot-200px.png" alt="QuizCram" class="limg" width="200">
 <div>
 <a class="biglink" href="http://quizcram.herokuapp.com">QuizCram: Question-Driven Video Viewing</a>
 <div class="padlink"></div>
@@ -42,7 +42,7 @@ Materials can be generated from existing in-video quizzes on Coursera.<br>
 
 
 <div>
-<img src="smart-subtitles-screenshot-200px.png" class="limg" width="200px">
+<img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200">
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
@@ -57,7 +57,7 @@ It features an interactive transcript with mouse-over definitions and dialog-bas
 
 
 <div>
-<img src="grammarvis-screenshot-200px.png" class="limg" width="200px">
+<img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200">
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">GrammarVis: Visualizing the Grammar of Foreign Languages</a>
 <div class="padlink"></div>
@@ -72,7 +72,7 @@ I built it as part of a foreign-language manga reader application.<br>
 
 
 <div>
-<img src="screenmatch-screenshot-200px.png" class="limg" width="200px">
+<img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200">
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Software Translators</a>
 <div class="padlink"></div>
@@ -88,7 +88,7 @@ ScreenMatch matches translatable strings to screenshots, to illustrate how they 
 ## Open-Source
 
 <div>
-<img src="unetbootin-screenshot-200px.png" class="limg" width="200px">
+<img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200">
 <div>
 <a class="biglink" href="http://unetbootin.sourceforge.net/">UNetbootin: LiveUSB Creator</a>
 <div class="padlink"></div>
@@ -102,7 +102,7 @@ I built and maintain UNetbootin. It has been downloaded over 40 million times.<b
 </div>
 
 <div>
-<img src="wubi-screenshot-200px.png" class="limg" width="200px">
+<img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200">
 <div>
 <a class="biglink" href="http://wubi.sourceforge.net/faq.php">Wubi: Ubuntu Installer for Windows</a>
 <div class="padlink"></div>
