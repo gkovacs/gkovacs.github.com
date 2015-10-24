@@ -124,6 +124,8 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"></a>
 ## Publications
 
+Stanford Crowd Research Collective. Daemo: A Self-Governed Crowdsourcing Marketplace. *UIST 2015 Poster (to appear)*.
+
 **Geza Kovacs**. FeedLearn: Using Facebook Feeds for Microlearning. *CHI 2015 Works in Progress (to appear)*.
 
 **Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition (to appear)*.
