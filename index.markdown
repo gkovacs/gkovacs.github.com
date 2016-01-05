@@ -124,11 +124,13 @@ See my [resume](resume.pdf) for details on industry experience.
 <a name="publications"></a>
 ## Publications
 
-Stanford Crowd Research Collective. Daemo: A Self-Governed Crowdsourcing Marketplace. *UIST 2015 Poster (to appear)*.
+**Geza Kovacs**. Effects of In-Video Quizzes on MOOC Lecture Viewing. *Learning at Scale 2016 full paper (to appear)*.
 
-**Geza Kovacs**. FeedLearn: Using Facebook Feeds for Microlearning. *CHI 2015 Works in Progress (to appear)*.
+Stanford Crowd Research Collective. Daemo: A Self-Governed Crowdsourcing Marketplace. *UIST 2015 Poster*.
 
-**Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition (to appear)*.
+**Geza Kovacs**. FeedLearn: Using Facebook Feeds for Microlearning. *CHI 2015 Works in Progress*.
+
+**Geza Kovacs**. QuizCram: A Question-Driven Video Studying Interface. *CHI 2015 Student Research Competition*.
 
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 full paper*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">video</a>
 
