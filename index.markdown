@@ -15,7 +15,7 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 <div>
 <img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200">
 <div>
-<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on Lecture Viewing</a>
+<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Lecture Viewing</a>
 <div class="padlink"></div>
 An exploratory data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
 We discover quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
