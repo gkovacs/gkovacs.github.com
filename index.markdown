@@ -13,7 +13,23 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 
 
 <div>
-<img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200">
+<a href="http://habitlab.stanford.edu/"><img src="habitlab-screenshot-200px.png" alt="HabitLab" class="limg" width="200"></a>
+<div>
+<a class="biglink" href="http://habitlab.stanford.edu/">HabitLab: Improving Online Habits Through Self-Experimentation</a>
+<div class="padlink"></div>
+HabitLab helps you improve your online habits (ie, wasting less time online) via self-experimentation.<br>
+This is an ongoing project. Sign up below to try out our Chrome extension once it is released!<br>
+<div class="padlink"></div>
+<a class="boxlink" href="http://habitlab.stanford.edu/">Website</a><br>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+
+<div>
+<a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Lecture Viewing</a>
 <div class="padlink"></div>
@@ -29,7 +45,7 @@ We discover quiz-driven navigation patterns such as seeking from one in-video qu
 
 
 <div>
-<img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200">
+<a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
@@ -45,7 +61,7 @@ It inserts interactive quizzes which you can answer without leaving your feed.<b
 
 
 <div>
-<img src="quizcram-screenshot-200px.png" alt="QuizCram" class="limg" width="200">
+<a href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf"><img src="quizcram-screenshot-200px.png" alt="QuizCram" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">QuizCram: Question-Driven Video Viewing</a>
 <div class="padlink"></div>
@@ -61,7 +77,7 @@ Materials can be generated from existing in-video quizzes on Coursera.<br>
 
 
 <div>
-<img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200">
+<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
@@ -77,7 +93,7 @@ It features an interactive transcript with mouse-over definitions and dialog-bas
 
 
 <div>
-<img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200">
+<a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf"><img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">GrammarVis: Visualizing the Grammar of Foreign Languages</a>
 <div class="padlink"></div>
@@ -93,7 +109,7 @@ I built it as part of a foreign-language manga reader application.<br>
 
 
 <div>
-<img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200">
+<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf"><img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Software Translators</a>
 <div class="padlink"></div>
@@ -110,7 +126,7 @@ ScreenMatch matches translatable strings to screenshots, to illustrate how they 
 ## Open-Source
 
 <div>
-<img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200">
+<a href="http://unetbootin.sourceforge.net/"><img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://unetbootin.sourceforge.net/">UNetbootin: LiveUSB Creator</a>
 <div class="padlink"></div>
@@ -125,7 +141,7 @@ I built and maintain UNetbootin. It has been downloaded over 40 million times.<b
 </div>
 
 <div>
-<img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200">
+<a href="http://wubi.sourceforge.net/faq.php"><img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://wubi.sourceforge.net/faq.php">Wubi: Ubuntu Installer for Windows</a>
 <div class="padlink"></div>
