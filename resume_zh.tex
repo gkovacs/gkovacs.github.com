@@ -1,0 +1,173 @@
+%______________________________________________________________________________________________________________________
+% @brief    LaTeX2e Resume for Geza Kovacs
+
+\documentclass[margin,line]{resume}
+
+\usepackage{xeCJK}
+
+\paperwidth 8.5in
+\paperheight 11in
+
+\usepackage{amssymb,amsmath}
+
+\usepackage{paralist}
+
+\usepackage{times}
+\usepackage{hyperref}
+\hypersetup{backref,
+  pdftitle=陈明忠简历,
+  pdfauthor=陈明忠简历,
+  pdfkeywords=陈明忠简历,
+  pdfsubject=陈明忠简历,
+  colorlinks=true,
+  urlcolor=black} 
+
+
+\usepackage{url}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+\@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{
+\small\rmfamily
+}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+
+\begin{document}
+
+\vspace{-5.0mm}
+
+\name{\LARGE{\textsf{陈明忠}} \hspace{32.5mm} 电邮 \large{\textsf{geza@cs.stanford.edu}} \hspace{35.5mm} 网站 \large{\textsf{\href{http://www.gkovacs.com}{gkovacs.com}}}}
+\begin{resume}
+
+\section{\mysidestyle 教育背景}
+
+\textbf{斯坦福大学} \vspace{0mm}\\\vspace{0mm}%
+博士学位, 计算机科学系  \hspace{4.5mm} 成绩平均绩点: 4.0/4.0 \hspace{5mm} \hfill \textsl{2013年 -- 如今}
+
+\textbf{麻省理工学院} \vspace{0mm}\\\vspace{0mm}%
+硕士学位, 计算机科学系 \hspace{4.5mm} 成绩平均绩点: 4.9/5.0 \hspace{10mm} \hfill \textsl{2012年 -- 2013年}\\\vspace{1mm}%
+学士学位, 计算机科学系 \hspace{4.5mm} 成绩平均绩点: 5.0/5.0 \hfill \textsl{2008年 -- 2012年}\vspace{-0.8mm}
+
+\section{\mysidestyle 事业经验}
+
+\textbf{微软研究院 -- 研究实习生, 雷德蒙} \hspace{13.5mm} \hfill \textsl{2015年夏季}\\
+设计并开发提高用户的学和读写能力的教育性社交消息来源。研究将在CSCW 2017讨论会发布。
+
+\textbf{微软亚洲研究院 -- 研究实习生, 北京} \hspace{17.5mm} \hfill \textsl{2014年夏季}\\
+设计并开发新型以视频里的测试提高用户的长期记忆的教育性视频浏览器。
+
+\textbf{谷歌 -- 软件编程实习生, 山景城} \hspace{5mm} \hfill \textsl{2013年夏季}\\
+设计并开发新型安卓手机和平板的输入法。
+
+\textbf{谷歌 -- 软件编程实习生, 山景城} \hfill \textsl{2012年夏季}\\
+开发检出电子书内的专门词汇并提供定义的智能自然语言处理系统。
+
+\textbf{谷歌 -- 软件编程实习生, 山景城} \hfill \textsl{2011年夏季}\\
+开发在安卓商店（现在谷歌Play）上推断用户评价的质量的智能自然语言处理系统。
+
+\textbf{微软 -- 软件编程实习生, 雷德蒙} \hfill \textsl{2010年夏季}\\
+\textbf{谷歌 -- FFmpeg (视频编码器) 开源项目} \hfill \textsl{2009年夏季}\\
+
+% \textbf{Microsoft Corporation -- Software Development Engineer Intern, Redmond} \hfill \textsl{Summer 2010}\\
+% Implemented the Intellisense API and Visual Studio code completion plugin for a new programming language. %under development by the Technical Computing group.
+
+% \textbf{Google Summer of Code -- FFmpeg (Video transcoding library)} \hfill \textsl{Summer 2009}\\
+% Developed a playlist and concatenation API and parsers for several playlist formats for FFmpeg.
+%Developed a playlist and concatenation API parsers for several playlist formats, and a transitional interface for existing applications, for the FFmpeg video transcoding library.
+
+\vspace{-3mm}
+
+\section{\mysidestyle 开源项目}
+
+\textbf{首领开发者，UNetbootin (创造安装Linux操作系统的LiveUSB的工具)} \hfill \textsl{2007年1月 -- 如今}\\
+%Built a utility to create bootable USB flash drives for a variety (50+) of Linux distributions.\\ %This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
+\emph{多余4千万次下载,} \url{http://unetbootin.github.io/}
+
+\textbf{首领开发者，Wubi (Windows上安装Ubuntu操作系统的工具)} \hfill \textsl{2006年11月 -- 2007年8月}\\
+%Built the first versions of Wubi, which allows Windows users to safely install Ubuntu without repartitioning. \\ % This work is now part of Ubuntu. \\
+% Built the first versions of the Windows-based Ubuntu Installer, which allows Windows users to safely install Ubuntu Linux without repartitioning. This work is now part of Ubuntu. \\
+\emph{已经成为Ubuntu的组成部分,} \url{http://wubi.sourceforge.net/}
+
+\section{\mysidestyle 教诲经验}
+
+\textbf{助教 -- 自然语言处理 (6.863) 麻省理工学院} \hfill \textsl{2012年秋季} \\
+
+\vspace{-5mm}
+
+\textbf{教员 -- C++入门 (6.096) ，麻省理工学院} \hfill \textsl{2011年冬季}\\
+
+\vspace{-4mm}
+
+\vspace{-4mm}
+
+授课，演讲，并创作和分数作业。我创作的教材已在麻省理工学院的公开教育系统上发布：
+
+\vspace{-4mm}
+
+\url{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011} \\
+
+\vspace{-5mm}
+
+\textbf{软件主任 -- Maslab自主导航机器人学比赛，麻省理工学院} \hfill \textsl{2011年冬季}\\
+
+\vspace{-4mm}
+
+\section{\mysidestyle 奖项}
+
+国立国防部理工研究奖学金 (NDSEG)，2013年-2016年 \\
+国家科学基金会研究奖学金 (NSF GRFP)，2013年 \\
+首位，ACM UIST（人机界面软件和技术）学生创新比赛，2012年 \\
+首位，ACM CHI（人机交互）学生研究比赛，2012年 \\
+首位，麻省理工学院 Maslab自主导航机器人学比赛，2010年 \\
+
+\pagebreak
+
+%\section{\mysidestyle Programming}
+
+%Have experience with Java, Python, C++, C\#, and web programming from projects and coursework.
+
+% \section{\mysidestyle Publications}
+
+%\textbf{Conference Papers}
+
+\section{\mysidestyle 长论文}
+
+% \section{\mysidestyle Publications: Full Papers}
+
+Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. ``EduFeed: 来鼓励文盲的小儿学习识字的教育性社交消息来源。" 2017年ACM年度人机协同工作（CSCW）讨论会（将发布)。
+
+\textbf{Geza Kovacs}. ``视频内测试对MOOC（大规模公开课）演讲观看的效应。'' 2016年ACM年度大规模教育讨论会（L@S）讨论会。
+
+\textbf{Geza Kovacs} and Robert C. Miller. ``帮助词汇学习的智能字幕。'' 2014年ACM年度人机交互（CHI）讨论会。
+
+%\textbf{Extended Abstracts}
+
+\section{\mysidestyle 短论文}
+
+Stanford Crowd Research Collective. ``Daemo：自治众包市场''. 2015年ACM年度人机界面软件和技术（UIST）讨论会。
+
+\textbf{Geza Kovacs}. ``FeedLearn: 以Facebook社交信息来源帮助微型教学。'' 2015年ACM年度人机交互（CHI）讨论会。
+
+\textbf{Geza Kovacs}. ``QuizCram: 以测试为主的演讲学习视频浏览器。'' 2015年ACM年度人机交互（CHI）讨论会。
+
+Joseph Jay Williams, \textbf{Geza Kovacs}, Caren Walker, Samuel G Maldonado, Tania Lombrozo. ``在网上通过自我分析指使的学习。'' 2014年ACM年度人机交互（CHI）讨论会。
+
+\textbf{Geza Kovacs} and Robert C. Miller. ``外语漫画浏览器：一边读漫画，一边学语法和发音。''  2013年ACM年度人机界面软件和技术（UIST）讨论会。
+
+\textbf{Geza Kovacs}. ``帮助语言学习的智能字幕。'' 2013年ACM年度人机交互（CHI）讨论会。
+
+\textbf{Geza Kovacs}. ``ScreenMatch：通过截图给软件翻译者提供语境。'' 2012年ACM年度人机交互（CHI）讨论会。
+%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf}
+
+%\vspace{-3mm}
+
+\begin{small}
+\begin{center}
+更新于 \today. 最新版本在 \href{http://www.gkovacs.com/resume.pdf}{http://www.gkovacs.com/resume.pdf}
+\end{center}
+\end{small}
+
+\end{resume}
+\end{document}
