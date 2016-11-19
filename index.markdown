@@ -2,7 +2,7 @@ I'm Geza Kovacs, a 3<sup>rd</sup> year Computer Science PhD student at Stanford 
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
 
-I'm interested in microlearning, MOOCs, and social computing.
+I'm interested in crowdsourcing, microlearning, MOOCs, and social computing.
 
 I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details on industry experience.
 
