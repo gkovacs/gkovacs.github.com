@@ -164,7 +164,7 @@ You can find my other open-source projects on [Github](http://github.com/gkovacs
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities. *To appear in CSCW 2017*.
+Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *To appear in CSCW 2017*.
 <p></p>
 **Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
 <p></p>
