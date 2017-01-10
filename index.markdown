@@ -2,7 +2,7 @@ I'm Geza Kovacs, a 3<sup>rd</sup> year Computer Science PhD student at Stanford 
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
 
-My research spans crowdsourcing, behavior change, social computing, microlearning, and MOOCs.
+My research spans crowdsourcing, behavior change, social computing, and online education.
 
 I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details on industry experience.
 
@@ -21,6 +21,21 @@ HabitLab helps you improve your online habits (ie, wasting less time online) via
 This is an ongoing project. Sign up below to try out our Chrome extension once it is released!<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://habitlab.stanford.edu/">Website</a><br>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+<div>
+<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
+<div>
+<a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: A Social Feed for Engaging Children in Educational Activities</a>
+<div class="padlink"></div>
+EduFeed is a social feed which encourages preliterate children to engage in and share educational activities.<br>
+In our deployment, we used EduFeed to teach basic reading and arithmetic skills to preliterate children in India.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
