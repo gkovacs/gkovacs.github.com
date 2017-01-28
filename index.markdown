@@ -1,4 +1,4 @@
-I'm Geza Kovacs, a 3<sup>rd</sup> year Computer Science PhD student at Stanford supported by the NDSEG fellowship.
+I'm Geza Kovacs, a Computer Science PhD student at Stanford supported by the NDSEG fellowship.
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
 
