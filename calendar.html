@@ -157,10 +157,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
 <iframe id="iframe" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
 <script>
-  var iframe_full = document.getElementById('iframe_full')
-  var iframe_meal = document.getElementById('iframe_meal')
-  var iframe_appointment = document.getElementById('iframe_appointment')
-
   var is_mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)
 
   var src_url_full = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1&title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles&"
@@ -174,8 +170,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
     src_url_meal = src_url_meal.split('mode=WEEK').join('mode=AGENDA')
     src_url_appointment = src_url_appointment.split('mode=WEEK').join('mode=AGENDA')
   }
-
-  //set_page(getUrlParameters().page)
 
   function set_hash(hash) {
     window.location.hash = hash
@@ -192,6 +186,10 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   function make_appointment() {
     document.getElementById('tab-3').checked = 'checked'
   }
+
+  var iframe_full = document.getElementById('iframe_full')
+  var iframe_meal = document.getElementById('iframe_meal')
+  var iframe_appointment = document.getElementById('iframe_appointment')
 
   var loc_hash = window.location.hash
   if (loc_hash && loc_hash[0] == '#') {
