@@ -190,6 +190,8 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   var iframe_meal = document.getElementById('iframe_meal')
   var iframe_appointment = document.getElementById('iframe_appointment')
 
+  var loading_src = 'data:text/html;base64,TG9hZGluZw=='
+
   var loc_hash = window.location.hash
   if (loc_hash && loc_hash[0] == '#') {
     loc_hash = loc_hash.substr(1)
@@ -199,18 +201,30 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   if (loc_hash == 'meal') {
     document.getElementById('tab-2').checked = 'checked'
     iframe_meal.src = src_url_meal
-    iframe_full.src = src_url_full
-    iframe_appointment.src = src_url_appointment
+    iframe_full.src = loading_src
+    iframe_appointment.src = loading_src
+    setTimeout(function() {
+      iframe_full.src = src_url_full
+      iframe_appointment.src = src_url_appointment
+    }, 4000)
   } else if (loc_hash == 'appointment') {
     document.getElementById('tab-3').checked = 'checked'
-    iframe_full.src = src_url_full
-    iframe_meal.src = src_url_meal
     iframe_appointment.src = src_url_appointment
+    iframe_full.src = loading_src
+    iframe_meal.src = loading_src
+    setTimeout(function() {
+      iframe_full.src = src_url_full
+      iframe_meal.src = src_url_meal
+    }, 4000)
   } else {
     document.getElementById('tab-1').checked = 'checked'
-    iframe_appointment.src = src_url_appointment
     iframe_full.src = src_url_full
-    iframe_meal.src = src_url_meal
+    iframe_appointment.src = loading_src
+    iframe_meal.src = loading_src
+    setTimeout(function() {
+      iframe_appointment.src = src_url_appointment
+      iframe_meal.src = src_url_meal
+    }, 4000)
   }
 
   function resized() {
