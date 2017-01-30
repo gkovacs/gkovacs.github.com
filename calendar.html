@@ -139,11 +139,21 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   <!-- tab-content -->
   <div class="tab-content">
     <section id="tab-item-1">
-      <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'><span style="background-color: #BC6D19; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">Meals</span> <span style="background-color: #681527; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">High Priority</span> <span style="background-color: #5DBFB3; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">Medium Priority</span> <span style="background-color: #23184D; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">Low Priority</span> Ignore Full-Day Events. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a></div>
+      <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
+        <span style="background-color: #BC6D19; border-color: #BC6D19; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'meals')">Meals</span>
+        <span style="background-color: #681527; border-color: #681527; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'hipri')">High Priority</span>
+        <span style="background-color: #5DBFB3; border-color: #5DBFB3; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'medpri')">Medium Priority</span>
+        <span style="background-color: #23184D; border-color: #23184D; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'lopri')">Low Priority</span>
+        Ignore Full-Day Events. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a>
+      </div>
       <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
     </section>
     <section id="tab-item-2">
-      <div id="toptext" style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'><span style="background-color: #134B38; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">Available</span> <span style="background-color: #BC6D19; padding: 5px; border-radius: 5px; color: white; white-space: nowrap">Unavailable</span> See <a href="#full" onclick="full_schedule()">Full Schedule</a>. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a></div>
+      <div id="toptext" style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
+        <span style="background-color: #134B38; border-color: #134B38; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_meal(this, 'available')">Available</span>
+        <span style="background-color: #BC6D19; border-color: #BC6D19; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_meal(this, 'meals')">Unavailable</span>
+        See <a href="#full" onclick="full_schedule()">Full Schedule</a>. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a>
+      </div>
       <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
     </section>
     <section id="tab-item-3">
@@ -158,16 +168,76 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 <script>
   var is_mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)
 
-  var src_url_full = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1&title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles&"
+  //var src_url_full = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles"
+  //var src_url_meal = "https://calendar.google.com/calendar/embed?showTitle=0&mode=WEEK&embed?showNav=1&showPrint=0&wkst=1&bgcolor=%23FFFFFF&src=t7trgt2buhpkb8tftsqnouq3kg%40group.calendar.google.com&color=%230F4B38&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&ctz=America%2FLos_Angeles"
+  var src_url_base = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1"
 
-  var src_url_meal = "https://calendar.google.com/calendar/embed?showTitle=0&mode=WEEK&embed?showNav=1&showPrint=0&wkst=1&bgcolor=%23FFFFFF&src=t7trgt2buhpkb8tftsqnouq3kg%40group.calendar.google.com&color=%230F4B38&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&ctz=America%2FLos_Angeles"
+  if (is_mobile) {
+    src_url_base = src_url_base.split('mode=WEEK').join('mode=AGENDA')
+  }
 
   var src_url_appointment = "https://calendly.com/geza/60min"
 
-  if (is_mobile) {
-    src_url_full = src_url_full.split('mode=WEEK').join('mode=AGENDA')
-    src_url_meal = src_url_meal.split('mode=WEEK').join('mode=AGENDA')
-    src_url_appointment = src_url_appointment.split('mode=WEEK').join('mode=AGENDA')
+  var calendar_ids = {
+    available: 't7trgt2buhpkb8tftsqnouq3kg@group.calendar.google.com',
+    meals: "hqcqah533la58h15gsku2uhrc4@group.calendar.google.com",
+    lopri: "5f5kiek12oo6hthfnim5ouie1o@group.calendar.google.com",
+    medpri: "moed0ihkgem3lbmflstqrs0afk@group.calendar.google.com",
+    hipri: "geza0kovacs@gmail.com"
+  }
+
+  var calendar_colors = {
+    available: '0F4B38',
+    meals: 'BE6D00',
+    lopri: '23164E',
+    medpri: '1B887A',
+    hipri: '691426'
+  }
+
+  var shown_full = {
+    meals: true,
+    lopri: true,
+    medpri: true,
+    hipri: true
+  }
+
+  var shown_meal = {
+    available: true,
+    meals: true
+  }
+
+  function make_url_with_calendars(calendar_list) {
+    var output = [src_url_base]
+    for (var i = 0; i < calendar_list.length; ++i) {
+      var calname = calendar_list[i]
+      output.push('&src=' + calendar_ids[calname])
+      output.push('&color=%23' + calendar_colors[calname])
+    }
+    return output.join('')
+  }
+
+  function get_enabled_calendars_full() {
+    var all_calendars = ['meals', 'lopri', 'medpri', 'hipri']
+    var output = []
+    for (var i = 0; i < all_calendars.length; ++i) {
+      var calname = all_calendars[i]
+      if (shown_full[calname]) {
+        output.push(calname)
+      }
+    }
+    return output
+  }
+
+  function get_enabled_calendars_meal() {
+    var all_calendars = ['available', 'meals']
+    var output = []
+    for (var i = 0; i < all_calendars.length; ++i) {
+      var calname = all_calendars[i]
+      if (shown_meal[calname]) {
+        output.push(calname)
+      }
+    }
+    return output
   }
 
   function set_page(page) {
@@ -194,6 +264,46 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   var loading_src = 'data:text/html;base64,TG9hZGluZw=='
 
   iframe_full.src = iframe_meal.src = iframe_appointment.src = loading_src
+
+  var src_url_full;
+  var src_url_meal;
+
+  function generate_src_url_full() {
+    src_url_full = make_url_with_calendars(get_enabled_calendars_full())
+  }
+
+  function generate_src_url_meal() {
+    src_url_meal = make_url_with_calendars(get_enabled_calendars_meal())
+  }
+
+  generate_src_url_full()
+  generate_src_url_meal()
+
+  function toggle_full(button, calname) {
+    shown_full[calname] = !shown_full[calname]
+    generate_src_url_full()
+    iframe_full.src = src_url_full
+    if (!shown_full[calname]) {
+      button.style.backgroundColor = 'white'
+      button.style.color = 'black'
+    } else {
+      button.style.backgroundColor = '#' + calendar_colors[calname]
+      button.style.color = 'white'
+    }
+  }
+
+  function toggle_meal(button, calname) {
+    shown_meal[calname] = !shown_meal[calname]
+    generate_src_url_meal()
+    iframe_meal.src = src_url_meal
+    if (!shown_meal[calname]) {
+      button.style.backgroundColor = 'white'
+      button.style.color = 'black'
+    } else {
+      button.style.backgroundColor = '#' + calendar_colors[calname]
+      button.style.color = 'white'
+    }
+  }
 
   function ensure_loaded(page) {
     if (page == 'meal') {
