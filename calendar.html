@@ -8,9 +8,16 @@
 if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.com') {
   window.location.protocol = 'https:';
 }
+src_url = "https://www.google.com/calendar/embed?mode=WEEK&embed?showNav=1&showPrint=0&wkst=1&title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles&"
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  src_url = src_url.split('mode=WEEK').join('mode=AGENDA')
+}
 </script>
 </head>
 <body style="margin: 0; padding: 0; border: 0; overflow: hidden; width: 100%; height: 100%">
-<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;embed?showNav=1&amp;showPrint=0&amp;wkst=1&amp;title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&amp;src=geza0kovacs%40gmail.com&amp;color=%23691426&amp;src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&amp;color=%23BE6D00&amp;src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&amp;color=%231B887A&amp;src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FLos_Angeles&amp;" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+<iframe id="iframe" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+<script>
+document.getElementById('iframe').src = src_url;
+</script>
 </body>
 </html>
