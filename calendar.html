@@ -127,13 +127,13 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
 <div class="tabs effect-1">
   <!-- tab-title -->
-  <input type="radio" id="tab-1" name="tab" onclick="set_hash('full')">
+  <input type="radio" id="tab-1" name="tab" onclick="set_page('full')">
   <span href="#tab-item-1">Full Schedule</span>
 
-  <input type="radio" id="tab-2" name="tab" onclick="set_hash('meal')">
+  <input type="radio" id="tab-2" name="tab" onclick="set_page('meal')">
   <span href="#tab-item-2">Meal Schedule</span>
 
-  <input type="radio" id="tab-3" name="tab" onclick="set_hash('appointment')">
+  <input type="radio" id="tab-3" name="tab" onclick="set_page('appointment')">
   <span href="#tab-item-3" style="width: 34%">Appointments</span>
 
   <!-- tab-content -->
@@ -170,8 +170,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
     src_url_appointment = src_url_appointment.split('mode=WEEK').join('mode=AGENDA')
   }
 
-  function set_hash(hash) {
-    window.location.hash = hash
+  function set_page(page) {
+    window.location.hash = page
+    ensure_loaded(page)
   }
 
   function full_schedule() {
@@ -192,6 +193,30 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
   var loading_src = 'data:text/html;base64,TG9hZGluZw=='
 
+  iframe_full.src = iframe_meal.src = iframe_appointment.src = loading_src
+
+  function ensure_loaded(page) {
+    if (page == 'meal') {
+      if (iframe_meal.src !== src_url_meal) {
+        iframe_meal.src = src_url_meal
+      }
+    } else if (page == 'appointment') {
+      if (iframe_appointment.src !== src_url_appointment) {
+        iframe_appointment.src = src_url_appointment
+      }
+    } else {
+      if (iframe_full.src !== src_url_full) {
+        iframe_full.src = src_url_full
+      }
+    }
+  }
+
+  function ensure_loaded_after(page, msecs) {
+    setTimeout(function() {
+      ensure_loaded(page)
+    }, msecs)
+  }
+
   var loc_hash = window.location.hash
   if (loc_hash && loc_hash[0] == '#') {
     loc_hash = loc_hash.substr(1)
@@ -201,30 +226,18 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   if (loc_hash == 'meal') {
     document.getElementById('tab-2').checked = 'checked'
     iframe_meal.src = src_url_meal
-    iframe_full.src = loading_src
-    iframe_appointment.src = loading_src
-    setTimeout(function() {
-      iframe_full.src = src_url_full
-      iframe_appointment.src = src_url_appointment
-    }, 4000)
+    ensure_loaded_after('full', 4000)
+    ensure_loaded_after('appointment', 8000)
   } else if (loc_hash == 'appointment') {
     document.getElementById('tab-3').checked = 'checked'
     iframe_appointment.src = src_url_appointment
-    iframe_full.src = loading_src
-    iframe_meal.src = loading_src
-    setTimeout(function() {
-      iframe_full.src = src_url_full
-      iframe_meal.src = src_url_meal
-    }, 4000)
+    ensure_loaded_after('full', 4000)
+    ensure_loaded_after('meal', 8000)
   } else {
     document.getElementById('tab-1').checked = 'checked'
     iframe_full.src = src_url_full
-    iframe_appointment.src = loading_src
-    iframe_meal.src = loading_src
-    setTimeout(function() {
-      iframe_appointment.src = src_url_appointment
-      iframe_meal.src = src_url_meal
-    }, 4000)
+    ensure_loaded_after('appointment', 4000)
+    ensure_loaded_after('meal', 8000)
   }
 
   function resized() {
