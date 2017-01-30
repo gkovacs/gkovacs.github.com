@@ -124,8 +124,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 </head>
 <body style="margin: 0; padding: 0; border: 0; overflow: hidden; width: 100%; height: 100%">
 
-<div id="toptext">
-
 <div class="tabs effect-1">
   <!-- tab-title -->
   <input type="radio" id="tab-1" name="tab" onclick="set_page('full')">
@@ -140,7 +138,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   <!-- tab-content -->
   <div class="tab-content">
     <section id="tab-item-1">
-      <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
+      <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 30px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
         <span style="background-color: #BC6D19; border-color: #BC6D19; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'meals')">Meals</span>
         <span style="background-color: #681527; border-color: #681527; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'hipri')">High Priority</span>
         <span style="background-color: #5DBFB3; border-color: #5DBFB3; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_full(this, 'medpri')">Medium Priority</span>
@@ -150,7 +148,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
       <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
     </section>
     <section id="tab-item-2">
-      <div id="toptext" style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 28px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
+      <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 30px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
         <span style="background-color: #134B38; border-color: #134B38; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_meal(this, 'available')">Available</span>
         <span style="background-color: #BC6D19; border-color: #BC6D19; border-style: solid; border-width: 1px; padding: 5px; border-radius: 5px; color: white; white-space: nowrap; cursor: pointer" onclick="toggle_meal(this, 'meals')">Unavailable</span>
         See <a href="#full" onclick="full_schedule()">Full Schedule</a>. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a>
@@ -163,9 +161,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   </div>
 </div>
 
-</div>
-
-<iframe id="iframe" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
 <script>
   var is_mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)
 
@@ -208,6 +203,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   }
 
   function make_url_with_calendars(calendar_list) {
+    if (calendar_list.length == 0) {
+      return enable_one_calendar
+    }
     var output = [src_url_base]
     for (var i = 0; i < calendar_list.length; ++i) {
       var calname = calendar_list[i]
@@ -263,6 +261,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   var iframe_appointment = document.getElementById('iframe_appointment')
 
   var loading_src = 'data:text/html;base64,TG9hZGluZw=='
+  var enable_one_calendar = 'data:text/html;base64,WW91IG11c3QgZW5hYmxlIGF0IGxlYXN0IG9uZSBjYWxlbmRhcg=='
 
   iframe_full.src = iframe_meal.src = iframe_appointment.src = loading_src
 
