@@ -8,23 +8,226 @@
 if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.com') {
   window.location.protocol = 'https:';
 }
-src_url = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1&title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles&"
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
-  src_url = src_url.split('mode=WEEK').join('mode=AGENDA')
-}
 </script>
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: normal;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'
+}
+
+.tabs {
+  background: #fff;
+  position: relative;
+}
+
+.tabs > input,
+.tabs > span {
+  width: 33%;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+}
+
+.tabs > input {
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+.tabs > span {
+  background: #f0f0f0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tabs > span i,
+.tabs > span {
+  -webkit-transition: all .5s;
+     -moz-transition: all .5s;
+     -o-transition: all .5s;
+      transition: all .5s;
+}
+
+.tabs > input:hover + span {
+  background: rgba(255,255,255,.1);
+}
+
+.tabs > input:checked + span {
+  background: #fff;
+  font-weight: bold;
+}
+
+.tabs > input:checked + span,
+.tabs > input:hover + span {
+  color: #3498DB;
+}
+
+#tab-1, #tab-1 + span {
+  left: 0;
+}
+
+#tab-2, #tab-2 + span {
+  left: 33%;
+}
+
+#tab-3, #tab-3 + span {
+  right: 0%;
+}
+
+.tab-content {
+  padding: 50px 20px 20px;
+  width: 100%;
+  min-height: 340px;
+}
+
+.tab-content section {
+  width: 100%;
+  display: none;
+}
+
+.tab-content section h1 {
+  margin-top: 15px;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#tab-1:checked ~ .tab-content #tab-item-1  {
+  display: block;
+}
+
+#tab-2:checked ~ .tab-content #tab-item-2  {
+  display: block;
+}
+
+#tab-3:checked ~ .tab-content #tab-item-3  {
+  display: block;
+}
+
+#tab-4:checked ~ .tab-content #tab-item-4  {
+  display: block;
+}
+
+#tab-5:checked ~ .tab-content #tab-item-5  {
+  display: block;
+}
+</style>
 </head>
 <body style="margin: 0; padding: 0; border: 0; overflow: hidden; width: 100%; height: 100%">
-<div id="toptext" style='z-index: 999999999; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>Geza's Calendar. <span style="background-color: #BC6D19; color: white">Meals</span> <span style="background-color: #681527; color: white">High Priority</span> <span style="background-color: #5DBFB3; color: white">Medium Priority</span> <span style="background-color: #23184D; color: white">Low Priority</span>. Ignore Full-Day Events. Make an <a href="https://www.gkovacs.com/meet">Appointment</a></div>
+
+<div id="toptext">
+
+<div class="tabs effect-1">
+  <!-- tab-title -->
+  <input type="radio" id="tab-1" name="tab" onclick="set_hash('full')">
+  <span href="#tab-item-1">Full Schedule</span>
+
+  <input type="radio" id="tab-2" name="tab" onclick="set_hash('meal')">
+  <span href="#tab-item-2">Meal Schedule</span>
+
+  <input type="radio" id="tab-3" name="tab" onclick="set_hash('appointment')">
+  <span href="#tab-item-3" style="width: 34%">Make an Appointment</span>
+
+  <!-- tab-content -->
+  <div class="tab-content">
+    <section id="tab-item-1">
+      <div style='z-index: 999999999; padding-top: 0px; padding-bottom: 10px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'><span style="background-color: #BC6D19; padding: 5px; border-radius: 5px; color: white">Meals</span> <span style="background-color: #681527; padding: 5px; border-radius: 5px; color: white">High Priority</span> <span style="background-color: #5DBFB3; padding: 5px; border-radius: 5px; color: white">Medium Priority</span> <span style="background-color: #23184D; padding: 5px; border-radius: 5px; color: white">Low Priority</span> Ignore Full-Day Events. Make an <a href="#appointment" onclick="make_appointment()">Appointment</a></div>
+      <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+    </section>
+    <section id="tab-item-2">
+      <div id="toptext" style='z-index: 999999999; padding-top: 0px; padding-bottom: 10px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'><span style="background-color: #134B38; padding: 5px; border-radius: 5px; color: white">Available</span> <span style="background-color: #BC6D19; padding: 5px; border-radius: 5px; color: white">Unavailable</span> See <a href="#full" onclick="full_schedule()">Full Schedule</a>. Make an <a href="#apppointment" onclick="make_appointment()">Appointment</a></div>
+      <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+    </section>
+    <section id="tab-item-3">
+      <div>See <a href="#full" onclick="full_schedule()">Full Schedule</a> and <a href="#meal" onclick="meal_schedule()">Meal Schedule</a></div>
+      <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+    </section>
+  </div>
+</div>
+
+</div>
+
 <iframe id="iframe" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
 <script>
-var iframe = document.getElementById('iframe')
-var toptext = document.getElementById('toptext')
-iframe.src = src_url;
+var iframe_full = document.getElementById('iframe_full')
+var iframe_meal = document.getElementById('iframe_meal')
+var iframe_appointment = document.getElementById('iframe_appointment')
+
+var is_mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)
+
+var src_url_full = "https://www.google.com/calendar/embed?showTitle=0&mode=WEEK&showNav=1&showPrint=0&wkst=1&title=Geza%20-%20Orange%3DMeals%2C%20Red%3DHigh%20Priority%2C%20Teal%3DMed%20Priority%2C%20Purple%3DLow%20Priority.%20Ignore%20Full-Day%20Events.%20Make%20appointment%20at%20http%3A%2F%2Fgkovacs.com%2Fmeet&src=geza0kovacs%40gmail.com&color=%23691426&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&src=moed0ihkgem3lbmflstqrs0afk%40group.calendar.google.com&color=%231B887A&src=5f5kiek12oo6hthfnim5ouie1o%40group.calendar.google.com&color=%2323164E&ctz=America%2FLos_Angeles&"
+
+var src_url_meal = "https://calendar.google.com/calendar/embed?showTitle=0&mode=WEEK&embed?showNav=1&showPrint=0&wkst=1&bgcolor=%23FFFFFF&src=t7trgt2buhpkb8tftsqnouq3kg%40group.calendar.google.com&color=%230F4B38&src=hqcqah533la58h15gsku2uhrc4%40group.calendar.google.com&color=%23BE6D00&ctz=America%2FLos_Angeles"
+
+var src_url_appointment = "https://calendly.com/geza/60min"
+
+if (is_mobile) {
+  src_url_full = src_url_full.split('mode=WEEK').join('mode=AGENDA')
+  src_url_meal = src_url_meal.split('mode=WEEK').join('mode=AGENDA')
+  src_url_appointment = src_url_appointment.split('mode=WEEK').join('mode=AGENDA')
+}
+
+//set_page(getUrlParameters().page)
+
+function set_hash(hash) {
+  window.location.hash = hash
+}
+
+function full_schedule() {
+  document.getElementById('tab-1').checked = 'checked'
+}
+
+function meal_schedule() {
+  document.getElementById('tab-2').checked = 'checked'
+}
+
+function make_appointment() {
+  document.getElementById('tab-3').checked = 'checked'
+}
+
+var loc_hash = window.location.hash
+if (loc_hash && loc_hash[0] == '#') {
+  loc_hash = loc_hash.substr(1)
+} else {
+  window.location.hash = 'full'
+}
+if (loc_hash == 'meal') {
+  document.getElementById('tab-2').checked = 'checked'
+  iframe_meal.src = src_url_meal
+  iframe_full.src = src_url_full
+  iframe_appointment.src = src_url_appointment
+} else if (loc_hash == 'appointment') {
+  document.getElementById('tab-3').checked = 'checked'
+  iframe_full.src = src_url_full
+  iframe_meal.src = src_url_meal
+  iframe_appointment.src = src_url_appointment
+} else {
+  document.getElementById('tab-1').checked = 'checked'
+  iframe_appointment.src = src_url_appointment
+  iframe_full.src = src_url_full
+  iframe_meal.src = src_url_meal
+}
+
 function resized() {
-  var toptext_height = toptext.clientHeight;
-  iframe.height = (document.body.clientHeight - toptext_height) + 'px';
-  iframe.style.height = (document.body.clientHeight - toptext_height) + 'px';
+  var iframe_full_position = iframe_full.getBoundingClientRect().top;
+  iframe_full.height = (document.body.clientHeight - iframe_full_position) + 'px';
+  iframe_full.style.height = (document.body.clientHeight - iframe_full_position) + 'px';
+
+  var iframe_meal_position = iframe_meal.getBoundingClientRect().top;
+  iframe_meal.height = (document.body.clientHeight - iframe_meal_position) + 'px';
+  iframe_meal.style.height = (document.body.clientHeight - iframe_meal_position) + 'px';
+
+  var iframe_appointment_position = iframe_appointment.getBoundingClientRect().top;
+  iframe_appointment.height = (document.body.clientHeight - iframe_appointment_position) + 'px';
+  iframe_appointment.style.height = (document.body.clientHeight - iframe_appointment_position) + 'px';
 }
 window.addEventListener('resize', resized, true);
 resized();
