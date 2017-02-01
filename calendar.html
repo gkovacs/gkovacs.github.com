@@ -138,10 +138,11 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   /* nada! */
 }
 
+/*
 #iframe_appointment_wrapper {
   overflow-y: auto;
 }
-
+*/
 
 </style>
 </head>
@@ -186,7 +187,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
     </section>
     <section id="tab-item-3">
       <div class="scroll-wrapper" id="iframe_appointment_wrapper">
-        <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
+        <!-- Calendly inline widget begin -->
+        <div id="iframe_appointment" class="calendly-inline-widget" data-url="https://calendly.com/geza/60min" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0"></div>
+<!-- Calendly inline widget end -->
       </div>
     </section>
   </div>
@@ -297,7 +300,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   var loading_src = 'data:text/html;base64,TG9hZGluZw=='
   var enable_one_calendar = 'data:text/html;base64,WW91IG11c3QgZW5hYmxlIGF0IGxlYXN0IG9uZSBjYWxlbmRhcg=='
 
-  iframe_full.src = iframe_meal.src = iframe_appointment.src = loading_src
+  iframe_full.src = iframe_meal.src= loading_src
 
   var src_url_full;
   var src_url_meal;
@@ -345,9 +348,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         iframe_meal.src = src_url_meal
       }
     } else if (page == 'appointment') {
-      if (iframe_appointment.src !== src_url_appointment) {
-        iframe_appointment.src = src_url_appointment
-      }
+      //if (iframe_appointment.src !== src_url_appointment) {
+      //  iframe_appointment.src = src_url_appointment
+      //}
     } else {
       if (iframe_full.src !== src_url_full) {
         iframe_full.src = src_url_full
@@ -375,7 +378,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
     ensure_loaded_after('appointment', 8000)
   } else if (loc_hash == 'appointment') {
     document.getElementById('tab-3').checked = 'checked'
-    iframe_appointment.src = src_url_appointment
+    //iframe_appointment.src = src_url_appointment
     ensure_loaded_after('full', 4000)
     ensure_loaded_after('meal', 8000)
   } else {
@@ -398,8 +401,8 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
     var iframe_meal_position = iframe_meal.getBoundingClientRect().top;
     var iframe_meal_height = (document.body.clientHeight - iframe_meal_position) + 'px';
-    iframe_meal.style.height = iframe_meal_height
-    iframe_meal.style.width = viewport_width;
+    iframe_meal_wrapper.style.height = iframe_meal_height
+    iframe_meal_wrapper.style.width = viewport_width;
     iframe_meal.height = iframe_meal_height;
     iframe_meal.style.height = iframe_meal_height;
     iframe_meal.width = viewport_width;
@@ -407,8 +410,8 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
     var iframe_appointment_position = iframe_appointment.getBoundingClientRect().top;
     var iframe_appointment_height = (document.body.clientHeight - iframe_appointment_position) + 'px';
-    iframe_appointment.style.height = iframe_appointment_height;
-    iframe_appointment.style.width = viewport_width;
+    iframe_appointment_wrapper.style.height = iframe_appointment_height;
+    iframe_appointment_wrapper.style.width = viewport_width;
     iframe_appointment.height = iframe_appointment_height;
     iframe_appointment.style.height = iframe_appointment_height;
     iframe_appointment.width = viewport_width;
@@ -417,5 +420,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   window.addEventListener('resize', resized, true);
   resized();
 </script>
+<script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
 </body>
 </html>
