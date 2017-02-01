@@ -123,13 +123,15 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
 .scroll-wrapper {
   -webkit-overflow-scrolling: touch;
+  -webkit-transform: translateZ(0px);
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-perspective: 1000;
   overflow-y: scroll;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   border: 0;
-  overflow: hidden;
   /* important:  dimensions or positioning here! */
 }
 
