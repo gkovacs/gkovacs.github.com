@@ -126,7 +126,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   -webkit-transform: translateZ(0px);
   -webkit-transform: translate3d(0,0,0);
   -webkit-perspective: 1000;
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -167,7 +167,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
       <div class="scroll-wrapper">
-        <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0"></iframe>
+        <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
     <section id="tab-item-2">
@@ -178,12 +178,12 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
       <div class="scroll-wrapper">
-        <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0"></iframe>
+        <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
     <section id="tab-item-3">
       <div class="scroll-wrapper">
-        <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0"></iframe>
+        <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
   </div>
@@ -347,6 +347,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         iframe_full.src = src_url_full
       }
     }
+    resized()
   }
 
   function ensure_loaded_after(page, msecs) {
@@ -380,16 +381,16 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
   function resized() {
     var iframe_full_position = iframe_full.getBoundingClientRect().top;
-    iframe_full.height = (document.body.clientHeight - iframe_full_position) + 'px';
-    iframe_full.style.height = (document.body.clientHeight - iframe_full_position) + 'px';
+    iframe_full.height = (document.body.clientHeight - 10 - iframe_full_position) + 'px';
+    iframe_full.style.height = (document.body.clientHeight - 10 - iframe_full_position) + 'px';
 
     var iframe_meal_position = iframe_meal.getBoundingClientRect().top;
-    iframe_meal.height = (document.body.clientHeight - iframe_meal_position) + 'px';
-    iframe_meal.style.height = (document.body.clientHeight - iframe_meal_position) + 'px';
+    iframe_meal.height = (document.body.clientHeight - 10 - iframe_meal_position) + 'px';
+    iframe_meal.style.height = (document.body.clientHeight - 10 - iframe_meal_position) + 'px';
 
     var iframe_appointment_position = iframe_appointment.getBoundingClientRect().top;
-    iframe_appointment.height = (document.body.clientHeight - iframe_appointment_position) + 'px';
-    iframe_appointment.style.height = (document.body.clientHeight - iframe_appointment_position) + 'px';
+    iframe_appointment.height = (document.body.clientHeight - 10 - iframe_appointment_position) + 'px';
+    iframe_appointment.style.height = (document.body.clientHeight - 10 - iframe_appointment_position) + 'px';
   }
   window.addEventListener('resize', resized, true);
   resized();
