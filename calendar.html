@@ -126,7 +126,6 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   -webkit-transform: translateZ(0px);
   -webkit-transform: translate3d(0,0,0);
   -webkit-perspective: 1000;
-  overflow-y: auto;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -137,6 +136,10 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 
 .scroll-wrapper iframe {
   /* nada! */
+}
+
+#iframe_appointment_wrapper {
+  overflow-y: auto;
 }
 
 
@@ -166,7 +169,7 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap">Ignore Full-Day Events.</span>
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
-      <div class="scroll-wrapper">
+      <div class="scroll-wrapper" id ="iframe_full_wrapper">
         <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
@@ -177,12 +180,12 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap">See <a href="#full" onclick="full_schedule()">Full Schedule</a>.</span>
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
-      <div class="scroll-wrapper">
+      <div class="scroll-wrapper" id="iframe_meal_wrapper">
         <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
     <section id="tab-item-3">
-      <div class="scroll-wrapper">
+      <div class="scroll-wrapper" id="iframe_appointment_wrapper">
         <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: auto"></iframe>
       </div>
     </section>
@@ -287,6 +290,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   var iframe_full = document.getElementById('iframe_full')
   var iframe_meal = document.getElementById('iframe_meal')
   var iframe_appointment = document.getElementById('iframe_appointment')
+  var iframe_full_wrapper = document.getElementById('iframe_full_wrapper')
+  var iframe_meal_wrapper = document.getElementById('iframe_meal_wrapper')
+  var iframe_appointment_wrapper = document.getElementById('iframe_appointment_wrapper')
 
   var loading_src = 'data:text/html;base64,TG9hZGluZw=='
   var enable_one_calendar = 'data:text/html;base64,WW91IG11c3QgZW5hYmxlIGF0IGxlYXN0IG9uZSBjYWxlbmRhcg=='
@@ -380,17 +386,33 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
   }
 
   function resized() {
+    var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0) + 'px'
     var iframe_full_position = iframe_full.getBoundingClientRect().top;
-    iframe_full.height = (document.body.clientHeight - 10 - iframe_full_position) + 'px';
-    iframe_full.style.height = (document.body.clientHeight - 10 - iframe_full_position) + 'px';
+    var iframe_full_height = (document.body.clientHeight - iframe_full_position) + 'px';
+    iframe_full_wrapper.style.height = iframe_full_height;
+    iframe_full_wrapper.style.width = viewport_width;
+    iframe_full.height = (document.body.clientHeight - iframe_full_position) + 'px';;
+    iframe_full.style.height = iframe_full_height;
+    iframe_full.width = viewport_width;
+    iframe_full.style.width = viewport_width;
 
     var iframe_meal_position = iframe_meal.getBoundingClientRect().top;
-    iframe_meal.height = (document.body.clientHeight - 10 - iframe_meal_position) + 'px';
-    iframe_meal.style.height = (document.body.clientHeight - 10 - iframe_meal_position) + 'px';
+    var iframe_meal_height = (document.body.clientHeight - iframe_meal_position) + 'px';
+    iframe_meal.style.height = iframe_meal_height
+    iframe_meal.style.width = viewport_width;
+    iframe_meal.height = iframe_meal_height;
+    iframe_meal.style.height = iframe_meal_height;
+    iframe_meal.width = viewport_width;
+    iframe_meal.style.width = viewport_width;
 
     var iframe_appointment_position = iframe_appointment.getBoundingClientRect().top;
-    iframe_appointment.height = (document.body.clientHeight - 10 - iframe_appointment_position) + 'px';
-    iframe_appointment.style.height = (document.body.clientHeight - 10 - iframe_appointment_position) + 'px';
+    var iframe_appointment_height = (document.body.clientHeight - iframe_appointment_position) + 'px';
+    iframe_appointment.style.height = iframe_appointment_height;
+    iframe_appointment.style.width = viewport_width;
+    iframe_appointment.height = iframe_appointment_height;
+    iframe_appointment.style.height = iframe_appointment_height;
+    iframe_appointment.width = viewport_width;
+    iframe_appointment.style.width = viewport_width;
   }
   window.addEventListener('resize', resized, true);
   resized();
