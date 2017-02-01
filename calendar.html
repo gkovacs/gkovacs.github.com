@@ -120,6 +120,24 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
 #tab-5:checked ~ .tab-content #tab-item-5  {
   display: block;
 }
+
+.scroll-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  /* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+  /* nada! */
+}
+
+
 </style>
 </head>
 <body style="margin: 0; padding: 0; border: 0; overflow: hidden; width: 100%; height: 100%">
@@ -146,7 +164,9 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap">Ignore Full-Day Events.</span>
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
-      <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      <div class="scroll-wrapper">
+        <iframe id="iframe_full" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      </div>
     </section>
     <section id="tab-item-2">
       <div style='z-index: 999999999; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; font-size: 16px; line-height: 30px; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;'>
@@ -155,10 +175,14 @@ if (window.location.protocol == 'http:' && window.location.host == 'www.gkovacs.
         <span style="white-space: nowrap">See <a href="#full" onclick="full_schedule()">Full Schedule</a>.</span>
         <span style="white-space: nowrap"><a href="#apppointment" onclick="make_appointment()">Make Appointment</a></span>
       </div>
-      <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      <div class="scroll-wrapper">
+        <iframe id="iframe_meal" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      </div>
     </section>
     <section id="tab-item-3">
-      <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      <div class="scroll-wrapper">
+        <iframe id="iframe_appointment" width="100%" height="100%" style="width: 100%; height: 100%; margin: 0; padding: 0; border: 0; overflow: hidden"></iframe>
+      </div>
     </section>
   </div>
 </div>
