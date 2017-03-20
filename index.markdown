@@ -15,12 +15,12 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 <div>
 <a href="http://habitlab.stanford.edu/"><img src="habitlab-screenshot-200px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="http://habitlab.stanford.edu/">HabitLab: Improving Online Habits Through Self-Experimentation</a>
+<a class="biglink" href="https://habitlab.stanford.edu/">HabitLab: Improving Online Habits Through Self-Experimentation</a>
 <div class="padlink"></div>
 HabitLab helps you improve your online habits (ie, wasting less time online) via self-experimentation.<br>
 This is an ongoing project. Sign up below to try out our Chrome extension once it is released!<br>
 <div class="padlink"></div>
-<a class="boxlink" href="http://habitlab.stanford.edu/">Website</a><br>
+<a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
