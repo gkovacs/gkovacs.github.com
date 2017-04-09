@@ -35,7 +35,7 @@ HabitLab is an ongoing open-source project. Install our Chrome extension below!<
 EduFeed is a social feed which encourages preliterate children to engage in and share educational activities.<br>
 In our deployment, we used EduFeed to teach basic reading and arithmetic skills to preliterate children in India.<br>
 <div class="padlink"></div>
-<a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a><br>
+<a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -179,7 +179,7 @@ You can find my other open-source projects on [Github](http://github.com/gkovacs
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *To appear in CSCW 2017*.
+Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a>
 <p></p>
 **Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
 <p></p>
@@ -189,17 +189,17 @@ Stanford Crowd Research Collective. [Daemo: A Self-Governed Crowdsourcing Market
 <p></p>
 **Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a>
 <p></p>
-**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">video</a>
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a>
 <p></p>
 Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. [Learning Online via Prompts to Explain](http://hci.stanford.edu/publications/2014/explain/explain-chi2014.pdf). *CHI 2014 Works in Progress.* <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2581351">ACM DL</a>
 <p></p>
-**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">video</a><p></p>
+**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><p></p>
 <p></p>
 **Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 <p></p>
-**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">poster</a>
+**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">Poster</a>
 <p></p>
-**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">poster</a>
+**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
 
 </div>
 
