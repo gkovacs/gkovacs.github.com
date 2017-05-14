@@ -219,7 +219,7 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 <a name="contact"></a>
 ## Contact
 
-If asking about [UNetbootin](http://unetbootin.sourceforge.net), please ask a question on [Launchpad](https://answers.launchpad.net/unetbootin), and consider making a donation:
+If asking about [UNetbootin](http://unetbootin.github.io), please report an issue on [Github](https://github.com/unetbootin/unetbootin/issues), and consider making a donation:
 
 <div style="font-family: verdana, arial , helvetica, sans-serif;">
 
