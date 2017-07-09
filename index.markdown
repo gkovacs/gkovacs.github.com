@@ -253,12 +253,12 @@ If you're into social networking, see:
 ## FAQ / Misc
 
 <a name="pronunciation"></a>
-Q: How do I pronounce your name?
+<p>Q: How do I pronounce your name?</p>
 
-A: <span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()">Kovács Géza <img src="speaker.svg" /> (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first. <br>
+<p>A: <img style="height: 1em; cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()"> Kovács Géza (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first.</p>
 
-I also use my Vietnamese name, <span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()">Minh Trung <img src="speaker.svg" /> (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span>
+<p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
 
-Q: What are your pseudonyms?
+<p>Q: What are your pseudonyms?</p>
 
-A: I used to go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites.
+<p>A: I used to go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites.</p>
