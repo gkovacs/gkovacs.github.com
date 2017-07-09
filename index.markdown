@@ -255,9 +255,9 @@ If you're into social networking, see:
 <a name="pronunciation"></a>
 Q: How do I pronounce your name?
 
-A: Kovács Géza <img src="speaker.svg" style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" /> (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>) The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first. <br>
+A: <span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()">Kovács Géza </span><img src="speaker.svg" style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" /> (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>) The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first. <br>
 
-I also use my Vietnamese name, Minh Trung <img src="speaker.svg" style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()" /> (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>), which is written in Chinese characters as 明忠.
+I also use my Vietnamese name, <span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()">Minh Trung </span><img src="speaker.svg" style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()" /> (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)
 
 Q: What are your pseudonyms?
 
