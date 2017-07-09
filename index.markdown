@@ -252,10 +252,13 @@ If you're into social networking, see:
 <a name="faq"></a>
 ## FAQ / Misc
 
+<a name="pronunciation"></a>
 Q: How do I pronounce your name?
 
-A: The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks".
+A: Kovács Géza <img src="speaker.svg" style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" /> (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>) The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first. <br>
 
-Q: What are your pseudonyms / other names?
+I also use my Vietnamese name, Minh Trung <img src="speaker.svg" style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()" /> (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>), which is written in Chinese characters as 明忠.
 
-A: I go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites. My Vietnamese name is Minh Trung, which is written in Chinese characters as 明忠. My Hungarian name is Kovács Géza (Hungarian puts the surname first).
+Q: What are your pseudonyms?
+
+A: I used to go by [tuxcantfly](http://ubuntuforums.org/member.php?u=79823) on the Ubuntu forums and some other open-source software-related sites.
