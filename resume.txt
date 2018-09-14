@@ -1,0 +1,181 @@
+   Geza Kovacs geza@cs.stanford.edu gkovacs.com
+
+                                   Education
+
+   Stanford University
+   PhD, Computer Science GPA: 4.0/4.0 Advisor: Michael Bernstein 2013 -
+   now
+
+   Massachusetts Institute of Technology
+   MEng, Computer Science GPA: 4.9/5.0 Advisor: Rob Miller 2012 - 2013
+   BS, Computer Science GPA: 5.0/5.0 2008 - 2012
+
+                                    Industry
+                                   Experience
+
+   Microsoft Research - Research Intern, Redmond Summer 2015
+   Designed and built an educational social feed experience for teaching
+   literacy and mathematics skills. Research will be published as a full
+   paper at CSCW 2017.
+
+   Microsoft Research - Research Intern, Beijing Summer 2014
+   Designed and built a quiz-directed lecture viewer to improve learners'
+   engagement with in-video quizzes.
+
+   Google - Software Engineering Intern, Mountain View Summer 2013
+   Designed and built novel text input methods on Android phones and
+   tablets.
+
+   Google - Software Engineering Intern, Mountain View Summer 2012
+   Designed and built a system to detect and provide definitions for
+   specialized vocabulary in books.
+
+   Google - Software Engineering Intern, Mountain View Summer 2011
+   Developed a system to predict the quality of user reviews on the
+   Android Marketplace (now Google Play).
+
+   Microsoft Corporation - Software Development Engineer Intern, Redmond
+   Summer 2010
+   Google - Summer of Code, FFmpeg (video transcoding library) Summer 2009
+
+                              Research Experience
+
+   Stanford HCI Group - PhD student. Leading the following research
+   projects: Fall 2013 - now
+
+   HabitLab: Personalized Interventions for Better Online Habits (to
+   appear at CSCW 2018)
+   HabitLab is a Chrome extension which helps users achieve goals like
+   wasting less time on Facebook/Youtube, by deploying a variety of
+   interventions and determining what works most effectively for each
+   user.
+
+   EduFeed: A Social Feed to Engage Preliterate Children in Educational
+   Activities (published at CSCW 2017)
+   Effects of In-Video Quizzes on MOOC Lecture Viewing (published at L@S
+   2016)
+   FeedLearn: Microlearning in Facebook Feeds (published at CHI 2015 WIP)
+   QuizCram: Question-Driven Video Viewing (published at CHI 2015 SRC)
+
+   MIT UID Group - Undergraduate/MEng research. Led the following
+   projects: Fall 2011 - Spring 2013
+
+   Smart Subtitles for Foreign Language Learning (published at CHI 2014)
+   GrammarVis: Visualizing the Grammar of Foreign Languages (published at
+   UIST 2013 demo)
+   ScreenMatch: Visual Context for Software Translators (published at CHI
+   2012 SRC)
+
+                                  Open-source
+                                    Projects
+
+   UNetbootin (LiveUSB Creator) January 2007 - now
+   Built a utility to create bootable USB flash drives for a variety (50+)
+   of Linux distributions.
+   40 million downloads, http://unetbootin.github.io/
+
+   Wubi (Ubuntu Installer for Windows) November 2006 - August 2007
+   Built the first versions of Wubi, which allows Windows users to safely
+   install Ubuntu without repartitioning.
+   Now part of Ubuntu and ships on the official Ubuntu CD,
+   http://wubi.sourceforge.net/
+
+                               Awards and Honors
+
+   National Defense Science and Engineering Graduate Fellowship, 2013
+   National Science Foundation Graduate Research Fellowship, 2013
+   Finalist and Honorable Mention, MIT Web Programming Competition
+   (6.470), 2013
+   1 $^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface
+   Software and Technology) Student Innovation Contest, 2012
+   1 $^{\textrm{st}}$ place, ACM CHI (Conference on Human Factors in
+   Computing Systems) Student Research Competition, 2012
+   1 $^{\textrm{st}}$ place, MIT Autonomous Robotics Competition (Maslab),
+   2010
+   Member of Tau Beta Pi (Engineering), Phi Beta Kappa (Liberal Arts), Eta
+   Kappa Nu (EECS) honor societies
+
+                                    Teaching
+                                   Experience
+
+   Teaching Assistant - Natural Language Processing (6.863) at MIT Fall
+   2012
+   Helped write assignments, managed the course infrastructure, and graded
+   assignments. I developed new tools to make the assignment grading
+   process faster, semi-automatic, and paper-free.
+
+   Instructor - Introduction to C++ IAP (6.096) at MIT January 2011
+   Gave lectures, helped write and grade assignments, and helped students
+   in lab for a student-run, for-credit introductory C++ course. The
+   teaching materials I produced have been made available on
+   OpenCourseWare:
+
+   http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
+   6-096-introduction-to-c-january-iap-2011
+
+   Software Director - Maslab Autonomous Robotics Competition at MIT
+   January 2011
+   As the software director for the competition, I gave the
+   software-related lectures, managed the software for the competition,
+   and helped students in lab.
+
+                         Journal and Conference Papers
+
+   Geza Kovacs, Zhengxuan Wu, Michael Bernstein. “Rotating Online Behavior
+   Change Interventions Increases Effectiveness But Also Increases
+   Attrition. ACM Conference on Computer-Supported Cooperative Work and
+   Social Computing (CSCW) 2018.
+
+   Rajan Vaish, Neil Gaikwad, Geza Kovacs, Andreas Veit, Ranjay Krishna,
+   Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie,
+   Sharad Goel, James Davis, Michael Bernstein. “Crowd Research: Open and
+   Scalable University Laboratories. ACM Symposium on User Interface
+   Software and Technology (UIST) 2017.
+
+   Kiley Sobel, Geza Kovacs, Galen McQuillen, Andrew Cross, Nirupama
+   Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. “EduFeed:
+   A Social Feed to Engage Preliterate Children in Educational
+   Activities". ACM annual conference on Computer Supported Collaborative
+   Work (CSCW) 2017.
+
+   Geza Kovacs. “Effects of In-Video Quizzes on MOOC Lecture Viewing.” ACM
+   annual conference on Learning at Scale (L@S) 2016.
+
+   Geza Kovacs and Robert C. Miller. “Smart Subtitles for Vocabulary
+   Learning.” ACM annual conference on Human Factors in Computing Systems
+   (CHI) 2014.
+
+                               Extended Abstracts
+
+   Stanford Crowd Research Collective. “Daemo: A Self-Governed
+   Crowdsourcing Marketplace”. ACM Symposium on User Interface Software
+   and Technology (UIST) 2015, Poster.
+
+   Geza Kovacs. “FeedLearn: Using Facebook Feeds for Microlearning.” ACM
+   annual conference on Human Factors in Computing Systems (CHI) 2015,
+   Extended Abstracts.
+
+   Geza Kovacs. “QuizCram: A Question-Driven Video Studying Interface.”
+   ACM annual conference on Human Factors in Computing Systems (CHI) 2015,
+   Extended Abstracts.
+
+   Joseph Jay Williams, Geza Kovacs, Caren Walker, Samuel G Maldonado,
+   Tania Lombrozo. “Learning Online via Prompts to Explain.” ACM annual
+   conference on Human Factors in Computing Systems (CHI) 2014, Extended
+   Abstracts.
+
+   Geza Kovacs and Robert C. Miller. “Foreign Manga Reader: Learn Grammar
+   and Pronunciation while Reading Comics.” ACM Symposium on User
+   Interface Software and Technology (UIST) 2013, Demo.
+
+   Geza Kovacs. “Smart Subtitles for Language Learning.” ACM annual
+   conference on Human Factors in Computing Systems (CHI) 2013, Extended
+   Abstracts.
+
+   Geza Kovacs. “ScreenMatch: providing context to software translators by
+   displaying screenshots.” ACM annual conference on Human Factors in
+   Computing Systems (CHI) 2012, Extended Abstracts.
+
+               Updated on September 14, 2018. Latest version:
+                      http://www.gkovacs.com/resume.pdf
+     __________________________________________________________________
