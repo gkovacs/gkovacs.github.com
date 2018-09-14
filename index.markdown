@@ -181,7 +181,7 @@ You can find my other open-source projects on [Github](http://github.com/gkovacs
 
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition. *CSCW 2018 (full paper, to appear)*
 
-Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*.
+Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>
 <p></p>
 Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a>
 <p></p>
