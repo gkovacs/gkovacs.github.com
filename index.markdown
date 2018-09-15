@@ -179,30 +179,30 @@ You can find my other open-source projects on [Github](http://github.com/gkovacs
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition. *CSCW 2018 (full paper, to appear)*
-<p></p>
-Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>
-<p></p>
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition. *CSCW 2018 (full paper, to appear)*. 
+<br>
+Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>.
+<br>
 Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a>
-<p></p>
+<br>
 **Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
-<p></p>
+<br>
 Stanford Crowd Research Collective. [Daemo: A Self-Governed Crowdsourcing Marketplace](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf). *UIST 2015 Poster*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2815739">ACM DL</a>
-<p></p>
+<br>
 **Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a>
-<p></p>
+<br>
 **Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a>
-<p></p>
+<br>
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a>
-<p></p>
+<br>
 Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. [Learning Online via Prompts to Explain](http://hci.stanford.edu/publications/2014/explain/explain-chi2014.pdf). *CHI 2014 Works in Progress.* <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2581351">ACM DL</a>
-<p></p>
-**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><p></p>
-<p></p>
+<br>
+**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a>
+<br>
 **Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
-<p></p>
+<br>
 **Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">Poster</a>
-<p></p>
+<br>
 **Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
 
 </div>
