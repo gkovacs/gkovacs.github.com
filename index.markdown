@@ -20,7 +20,7 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 HabitLab helps you improve your online habits (ie, wasting less time online) via self-experimentation.<br>
 HabitLab is an ongoing open-source project. Install our Chrome extension below!<br>
 <div class="padlink"></div>
-<a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android App</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -179,7 +179,7 @@ You can find my other open-source projects on [Github](http://github.com/gkovacs
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition. *CSCW 2018 (full paper, to appear)*. 
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018 (full paper, to appear)*. 
 <br>
 Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>.
 <br>
