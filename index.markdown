@@ -210,6 +210,8 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 <a name="teaching"></a>
 ## Teaching
 
+[Human-Computer Interaction Research (TA, Fall 2018)](https://hcicourses.stanford.edu/cs376/2018/)
+
 [Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
 
 [Introduction to C++ (Instructor, IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
