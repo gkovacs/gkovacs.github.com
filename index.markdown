@@ -26,7 +26,6 @@ HabitLab is an ongoing open-source project. Install our Chrome extension below!<
 <div style="margin-bottom: 30px"></div>
 </div>
 
-
 <div>
 <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div>
@@ -41,6 +40,20 @@ In our deployment, we used EduFeed to teach basic reading and arithmetic skills 
 <div style="margin-bottom: 30px"></div>
 </div>
 
+
+<div>
+<a href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf"><img src="daemo-screenshot-200px.png" alt="Crowd Research" class="limg" width="200"></a>
+<div>
+<a class="biglink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Crowd Research: Open and Scalable University Laboratories</a>
+<div class="padlink"></div>
+Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo,<br>
+a crowdsourcing platform that implements novel solutions to trust and fairness issues on existing marketplaces.<br>
+<div class="padlink"></div>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Paper: UIST 2017</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a> <a class="boxlink" href="https://www.daemo.org/">Website</a> <br>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
 
 
 <div>
@@ -187,7 +200,7 @@ Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasek
 <br>
 **Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
 <br>
-Stanford Crowd Research Collective. [Daemo: A Self-Governed Crowdsourcing Marketplace](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf). *UIST 2015 Poster*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2815739">ACM DL</a>
+Stanford Crowd Research, **Geza Kovacs**, Rajan Vaish, Michael Bernstein. [Daemo: A Self-Governed Crowdsourcing Marketplace](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf). *UIST 2015 Poster*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2815739">ACM DL</a>
 <br>
 **Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a>
 <br>
