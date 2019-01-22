@@ -20,7 +20,7 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 HabitLab helps you improve your online habits (ie, wasting less time online) via self-experimentation.<br>
 HabitLab is an ongoing open-source project. Install our Chrome extension below!<br>
 <div class="padlink"></div>
-<a class="boxlink" href="https://www.gkovacs.com/publications/procrastination-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android App</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android App</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -192,7 +192,7 @@ You can find my other open-source projects on [Github](https://github.com/gkovac
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://www.gkovacs.com/publications/procrastination-chi2019.pdf). *CHI 2019 (full paper, to appear)*. 
+**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper, to appear)*. 
 <br>
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018 (full paper)*. <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a>.
 <br>
