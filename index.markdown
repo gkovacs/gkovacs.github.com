@@ -192,7 +192,7 @@ You can find my other open-source projects on [Github](https://github.com/gkovac
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper, to appear)*. 
+**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper)*. <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3300560">ACM DL</a>.
 <br>
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018 (full paper)*. <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a>.
 <br>
@@ -225,15 +225,17 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 <a name="teaching"></a>
 ## Teaching
 
-[Human-Computer Interaction Research (TA, Fall 2018)](https://hcicourses.stanford.edu/cs376/2018/)
+[Understanding Users (CS 377U) - Stanford - TA, Spring 2019](https://hci.stanford.edu/courses/cs377u/)
 
-[Natural Language Processing (TA, Fall 2012)](http://web.mit.edu/6.863/www/fall2012/)
+[Human-Computer Interaction Research (CS 376) - Stanford - TA, Fall 2018](https://hcicourses.stanford.edu/cs376/2018/)
 
-[Introduction to C++ (Instructor, IAP 2011)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
+[Natural Language Processing (6.863) - MIT - TA, Fall 2012](http://web.mit.edu/6.863/www/fall2012/)
 
-[Introduction to C# and the .NET Framework (Instructor, IAP 2011)](https://iap-csharp.github.com/)
+[Introduction to C++ (6.096) - MIT - Instructor, MIT, IAP 2011](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/)
 
-[Maslab Autonomous Robotics Competition (Software Director, IAP 2011)](http://maslab.mit.edu/2011/wiki/Maslab_2011)
+[Introduction to C# and the .NET Framework - MIT - Instructor, IAP 2011](https://iap-csharp.github.com/)
+
+[Maslab Autonomous Robotics Competition (6.186) - MIT - Software Director, IAP 2011](http://maslab.mit.edu/2011/wiki/Maslab_2011)
 
 <br>
 
