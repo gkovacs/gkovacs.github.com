@@ -2,20 +2,21 @@
 <div style="display: inline-block; text-align: left; max-width: 800px">
 <div style="padding-bottom: 44px"></div>
 
-<img src="geza.png" style="margin-top: 10px; margin-left: 0px" class="limg" alt="geza" />
+## Geza Kovacs
+
+<img src="geza.png" style="margin-top: 0px; margin-left: 0px" class="limg" alt="geza" />
 
 <div>
-<br>
-I'm Geza Kovacs, a Computer Science PhD student at Stanford supported by the NDSEG fellowship.
+I'm Geza Kovacs, a Computer Science PhD student at Stanford.
 <br><br>
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
 <br><br>
 
-My research spans crowdsourcing, behavior change, social computing, and online education.
+My research spans behavior change, social computing, and online education.
 <br><br>
 
-I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details on industry experience.
+I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details.
 <br><br>
 </div>
 
@@ -26,12 +27,11 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 <div>
 <a href="https://habitlab.github.io/"><img src="habitlab-screenshot-200px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="https://habitlab.github.io/">HabitLab: Improving Online Habits Through Self-Experimentation</a>
+<a class="biglink" href="https://habitlab.github.io/">HabitLab: Online Behavior Change Experiments</a>
 <div class="padlink"></div>
-HabitLab helps you improve your online habits (ie, wasting less time online) via self-experimentation.<br>
-HabitLab is an ongoing open-source project. Install our Chrome extension below!<br>
+HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
 <div class="padlink"></div>
-<a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome Extension</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android App</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -40,10 +40,10 @@ HabitLab is an ongoing open-source project. Install our Chrome extension below!<
 <div>
 <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: A Social Feed for Engaging Children in Educational Activities</a>
+<a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: An Educational Social Feed for Children</a>
 <div class="padlink"></div>
-EduFeed is a social feed which encourages preliterate children to engage in and share educational activities.<br>
-In our deployment, we used EduFeed to teach basic reading and arithmetic skills to preliterate children in India.<br>
+EduFeed is an educational social news feed for preliterate children.<br>
+We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a><br>
 </div>
@@ -55,10 +55,9 @@ In our deployment, we used EduFeed to teach basic reading and arithmetic skills 
 <div>
 <a href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf"><img src="daemo-screenshot-200px.png" alt="Crowd Research" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Crowd Research: Open and Scalable University Laboratories</a>
+<a class="biglink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Crowd Research: Open and Scalable Laboratories</a>
 <div class="padlink"></div>
-Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo,<br>
-a crowdsourcing platform that implements novel solutions to trust and fairness issues on existing marketplaces.<br>
+Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo, a crowdsourcing platform that implements novel solutions to trust and fairness issues in crowdsourcing.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Paper: UIST 2017</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a> <a class="boxlink" href="https://www.daemo.org/">Website</a> <br>
 </div>
@@ -70,10 +69,10 @@ a crowdsourcing platform that implements novel solutions to trust and fairness i
 <div>
 <a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Lecture Viewing</a>
+<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Video Viewing</a>
 <div class="padlink"></div>
-An exploratory data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
-We discover quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
+A data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
+We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a><br>
 </div>
@@ -84,12 +83,11 @@ We discover quiz-driven navigation patterns such as seeking from one in-video qu
 
 
 <div>
-<a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200"></a>
+<a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200" style="margin-bottom: 20px"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
-FeedLearn helps you learn vocabulary as you browse your Facebook feed.<br>
-It inserts interactive quizzes which you can answer without leaving your feed.<br>
+FeedLearn helps users learn vocabulary while browsing Facebook by inserting interactive quizzes into the news feed. Users complete 4x more exercises with FeedLearn, compared to injecting links into the feed or sending daily emails.
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
 </div>
@@ -104,8 +102,7 @@ It inserts interactive quizzes which you can answer without leaving your feed.<b
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">QuizCram: Question-Driven Video Viewing</a>
 <div class="padlink"></div>
-QuizCram is a viewer for MOOC lectures that uses quizzes to direct navigation and reviewing.<br>
-Materials can be generated from existing in-video quizzes on Coursera.<br>
+QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and reviewing. It automatically generates materials from existing Coursera lectures.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a><br>
 </div>
@@ -120,8 +117,7 @@ Materials can be generated from existing in-video quizzes on Coursera.<br>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
-Smart Subtitles helps you learn vocabulary while you watch foreign-language videos.<br>
-It features an interactive transcript with mouse-over definitions and dialog-based navigation.<br>
+Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <br>
 </div>
@@ -134,9 +130,9 @@ It features an interactive transcript with mouse-over definitions and dialog-bas
 <div>
 <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf"><img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">GrammarVis: Visualizing the Grammar of Foreign Languages</a>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Visualizing Grammar to Learn Foreign Languages</a>
 <div class="padlink"></div>
-GrammarVis lets you interactively explore the syntactic structure of sentences.<br>
+GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br>
 I built it as part of a foreign-language manga reader application.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper: UIST 2013 Demo</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
@@ -150,10 +146,10 @@ I built it as part of a foreign-language manga reader application.<br>
 <div>
 <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf"><img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200"></a>
 <div>
-<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Software Translators</a>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Translators</a>
 <div class="padlink"></div>
-Software translators lack visual context which illustrates how the strings they are translating are used.<br>
-ScreenMatch matches translatable strings to screenshots, to illustrate how they are used in the software.<br>
+ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br>
+It collects screenshots while users run the app, and matches them via OCR.<br>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a><br>
 </div>
@@ -203,33 +199,72 @@ You can find my other open-source projects on [Github](https://github.com/gkovac
 
 <div class="publicationsdiv" style="line-height: 150%">
 
-**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper)*. <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3300560">ACM DL</a>.
+**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper)*.
 <br>
-**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018 (full paper)*. <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a>.
+<a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3300560">ACM DL</a>.
+<br><br>
+
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018 (full paper)*.
 <br>
-Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>.
+<a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a>.
+<br><br>
+
+Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017 (full paper)*.
 <br>
-Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a>.
+<br><br>
+
+Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017 (full paper)*.
 <br>
-**Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a>
+<br><br>
+
+**Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016 (full paper)*.
 <br>
-Stanford Crowd Research, **Geza Kovacs**, Rajan Vaish, Michael Bernstein. [Daemo: A Self-Governed Crowdsourcing Marketplace](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf). *UIST 2015 Poster*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2815739">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a>
+<br><br>
+
+Stanford Crowd Research, **Geza Kovacs**, Rajan Vaish, Michael Bernstein. [Daemo: A Self-Governed Crowdsourcing Marketplace](http://hci.stanford.edu/publications/2015/crowdresearch/daemo-uist.pdf). *UIST 2015 Poster*.
 <br>
-**Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2815739">ACM DL</a>
+<br><br>
+
+**Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*.
 <br>
-**Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a>
+<br><br>
+
+**Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*.
 <br>
-**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a>
+<br><br>
+
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*.
 <br>
-Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. [Learning Online via Prompts to Explain](http://hci.stanford.edu/publications/2014/explain/explain-chi2014.pdf). *CHI 2014 Works in Progress.* <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2581351">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a>
+<br><br>
+
+Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lombrozo. [Learning Online via Prompts to Explain](http://hci.stanford.edu/publications/2014/explain/explain-chi2014.pdf). *CHI 2014 Works in Progress*.
 <br>
-**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2581351">ACM DL</a>
+<br><br>
+
+**Geza Kovacs**, Robert C Miller. [Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics](http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf). *UIST 2013 Demo*.
 <br>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a>
+<br><br>
+
 **Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
+<br><br>
+
+**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*.
 <br>
-**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">Poster</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2479499">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs-poster.pdf">Poster</a>
+<br><br>
+
+**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*.
 <br>
-**Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*. <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a>
 
 </div>
 
