@@ -1,12 +1,23 @@
+<div style="text-align: center">
+<div style="display: inline-block; text-align: left; max-width: 800px">
+<div style="padding-bottom: 44px"></div>
+
+<img src="geza.png" style="margin-top: 10px; margin-left: 0px" class="limg" alt="geza" />
+
+<div>
+<br>
 I'm Geza Kovacs, a Computer Science PhD student at Stanford supported by the NDSEG fellowship.
+<br><br>
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
+<br><br>
 
 My research spans crowdsourcing, behavior change, social computing, and online education.
+<br><br>
 
 I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details on industry experience.
-
-<br>
+<br><br>
+</div>
 
 <a name="research"></a>
 ## Research
@@ -285,3 +296,4 @@ If you're into social networking, see:
 <p>Q: What are your pseudonyms?</p>
 
 <p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p>
+</div>

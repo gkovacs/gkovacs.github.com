@@ -82,6 +82,7 @@ strong {
 .publicationsdiv > p {
   line-height: 250%;
 }
+
 </style>
 </head>
 <body>
@@ -89,9 +90,11 @@ strong {
 <div style="position: fixed; top: 0px; width: 100%; height: 43px; background-color: black">
 <!--<a style="font-size: 32px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444; font-weight: bold" href="#top" class="hlink">geza kovacs</a>-->
 <!--<a style="font-family: Palatino Linotype, Book Antiqua, Palatino, serif; font-size: 30px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444" href="#top" class="hlink">Geza Kovacs</a>-->
-<div style="float: left; padding-top: 2px"><a style="padding-left: 10px" class="hlink" href="#top"><img src="gezakovacs-black.png" alt="Geza Kovacs"></a></div>
-<div style="position: fixed; top: 10px; left: 238px; white-space: nowrap">
-<a href="#research"     class="header hlink">Research</a>
+<!-- <div style="float: left; padding-top: 2px"><a style="padding-left: 10px" class="hlink" href="#top"><img src="gezakovacs-black.png" alt="Geza Kovacs"></a></div> -->
+<div style="position: fixed; top: 10px; text-align: center; width: 100%; white-space: nowrap">
+<div style="display: inline-block">
+  <a href="#main"     class="header hlink" style="font-weight: 800">Geza Kovacs</a>
+  <a href="#research"     class="header hlink">Research</a>
 <a href="#opensource"   class="header hlink">Open-Source</a>
 <a href="#publications" class="header hlink">Publications</a>
 <a href="#teaching"     class="header hlink">Teaching</a>
@@ -99,19 +102,29 @@ strong {
 <a href="resume.pdf"    class="header hlink">CV / Resume</a>
 </div>
 </div>
+</div>
 
 <a name="top"></a>
-
+<div style="text-align: center">
+<div style="display: inline-block; text-align: left; max-width: 800px">
 <div style="padding-bottom: 44px"></div>
 
-<img src="geza.png" style="margin-top: 10px; margin-left: 10px" class="limg" alt="geza" />
+<p><img src="geza.png" style="margin-top: 10px; margin-left: 0px" class="limg" alt="geza" /></p>
+<div>
+<br>
+I&#39;m Geza Kovacs, a Computer Science PhD student at Stanford supported by the NDSEG fellowship.
+<br><br>
 
-<div style="padding-left: 10px">
-<p>I&#39;m Geza Kovacs, a Computer Science PhD student at Stanford supported by the NDSEG fellowship.</p>
-<p>My advisor is <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group.</p>
-<p>My research spans crowdsourcing, behavior change, social computing, and online education.</p>
-<p>I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume</a> for details on industry experience.</p>
-<p><br></p>
+My advisor is <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group.
+<br><br>
+
+My research spans crowdsourcing, behavior change, social computing, and online education.
+<br><br>
+
+I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume</a> for details on industry experience.
+<br><br>
+</div>
+
 <p><a name="research"></a></p>
 <h2 id="research">Research</h2>
 <div>
@@ -367,7 +380,8 @@ Joseph Jay Williams, <strong>Geza Kovacs</strong>, Caren Walker, Samuel G Maldon
 
 <p>Q: What are your pseudonyms?</p>
 
-<p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p>
+<p><p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p>
+</div></p>
 
 <script>
 var jQl={q:[],dq:[],gs:[],ready:function(a){"function"==typeof a&&jQl.q.push(a);return jQl},getScript:function(a,c){jQl.gs.push([a,c])},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},ungs:function(){for(var a=0;a<jQl.gs.length;a++)jQuery.getScript(jQl.gs[a][0],jQl.gs[a][1]);jQl.gs=[]},bId:null,boot:function(a){"undefined"==typeof window.jQuery.fn?jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(a)},25)):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),jQl.ungs(),jQuery(jQl.unq()), "function"==typeof a&&a())},booted:function(){return 0===jQl.bId},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script");b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){a&&("undefined"!==typeof window.jQuery.fn&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a))},unqjQdep:function(){if("undefined"==typeof window.jQuery.fn)setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]); jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text=a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){4!=b.readyState||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,!0),b.send("")}catch(d){}},getxo:function(){var a=!1;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a= new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}};if("undefined"==typeof window.jQuery){var $=jQl.ready,jQuery=$;$.getScript=jQl.getScript};
