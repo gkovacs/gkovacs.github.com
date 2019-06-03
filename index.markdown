@@ -362,7 +362,7 @@ If you're into social networking, see:
 <br><br>
 For <strong>data science</strong> I prefer using Python in a Jupyter notebook, using rpy2 to invoke R libraries.
 <br>For <strong>machine learning</strong> I prefer PyTorch.
-<br>For <strong>backend development</strong> I prefer NodeJS with Koa if writing in Javascript, or Flask if writing in Python.
+<br>For <strong>backend development</strong> I prefer NodeJS with Koa if writing in JavaScript, or Flask if writing in Python.
 <br>For <strong>frontend development</strong> I have the most experience with Polymer, though I also enjoy using React.
 <br>For <strong>mobile development</strong> I've had good experiences with NativeScript and React Native.
 <br></p>
