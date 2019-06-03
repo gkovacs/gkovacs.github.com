@@ -349,7 +349,7 @@ If you're into social networking, see:
 
 <p>A: Check <a href="https://github.com/gkovacs">my GitHub account</a>.</p>
 
-<p>Q: What computer languages and libraries do you use and recommend?</p>
+<p>Q: What programming languages and libraries do you use and recommend?</p>
 
 <p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so would just recommend starting new projects in JavaScript or Python.
 <br><br>
