@@ -34,7 +34,37 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
 </div>
 <div class="padlink"></div>
-<a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+ <a class="boxlink" href="https://www.gkovacs.com/phd_thesis/thesis.pdf">PhD Thesis (in progress)</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+<div>
+<a href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf"><img src="conservation-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<div>
+<a class="biglink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Conservation of Procrastination</a>
+<div class="padlink"></div>
+<div class="paratext">
+Do productivity interventions save time, or just redistribute it elsewhere? In this 5,230 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that interventions help save time not just on targetted sites, but on other sites as well.<br>
+</div>
+<div class="padlink"></div>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/conservation-chi2019.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3290605.3300560">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+<div>
+<a href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf"><img src="rotation-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<div>
+<a class="biglink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Effects of Rotating Behavior Change Interventions</a>
+<div class="padlink"></div>
+<div class="paratext">
+In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that rotating interventions improves effectiveness at the cost of increased attrition. We reduced this attrition by half with a dialog that explains the rotation system.<br>
+</div>
+<div class="padlink"></div>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/rotation-cscw2018.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
