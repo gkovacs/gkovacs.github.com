@@ -362,7 +362,7 @@ For <strong>data science</strong> I prefer using Python in a Jupyter notebook, u
 
 <p>Q: What natural languages do you know?</p>
 
-I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian and Vietnamese from speaking them with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
+I'm fluent in English, Standard Chinese (Mandarin), and Hungarian. I also know Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
 
 <a name="pronunciation"></a>
 <p>Q: How do I pronounce your name?</p>
