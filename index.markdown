@@ -351,7 +351,7 @@ If you're into social networking, see:
 
 <p>Q: What programming languages and libraries do you use and recommend?</p>
 
-<p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so would just recommend starting new projects in JavaScript or Python.
+<p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so mostly use Python and JavaScript these days.
 <br><br>
 For <strong>data science</strong> I prefer using Python in a Jupyter notebook, using rpy2 to invoke R libraries.
 <br>For <strong>machine learning</strong> I prefer PyTorch.
