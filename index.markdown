@@ -345,18 +345,11 @@ If you're into social networking, see:
 <a name="faq"></a>
 ## FAQ / Misc
 
-<a name="pronunciation"></a>
-<p>Q: How do I pronounce your name?</p>
-
-<p>A: <img style="height: 1em; cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()"> Kovács Géza (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first.</p>
-
-<p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
-
 <p>Q: Can I have the source code for one of your projects?</p>
 
 <p>A: Check <a href="https://github.com/gkovacs">my GitHub account</a>.</p>
 
-<p>Q: What languages and libraries do you use and recommend?</p>
+<p>Q: What computer languages and libraries do you use and recommend?</p>
 
 <p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so would just recommend starting new projects in JavaScript or Python.
 <br><br>
@@ -366,6 +359,19 @@ For <strong>data science</strong> I prefer using Python in a Jupyter notebook, u
 <br>For <strong>frontend development</strong> I have the most experience with Polymer, though I also enjoy using React.
 <br>For <strong>mobile development</strong> I've had good experiences with NativeScript and React Native.
 <br></p>
+
+<p>Q: What natural languages do you know?</p>
+
+I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian and Vietnamese from speaking them with my family. I studied Spanish and Japanese in high school and college for 3 years apiece, and can still read them but haven't spoken them in a while.
+
+<a name="pronunciation"></a>
+<p>Q: How do I pronounce your name?</p>
+
+<p>A: <img style="height: 1em; cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()"> Kovács Géza (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first.</p>
+
+<p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
+
+<!-- I can understand some Cantonese, mostly through self-study. -->
 
 <!-- <p>Q: What are your pseudonyms?</p>
 
