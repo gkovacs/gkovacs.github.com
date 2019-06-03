@@ -352,6 +352,21 @@ If you're into social networking, see:
 
 <p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
 
+<p>Q: Can I have the source code for one of your projects?</p>
+
+<p>A: Check <a href="https://github.com/gkovacs">my GitHub account</a>.</p>
+
+<p>Q: What languages and libraries do you use and recommend?</p>
+
+<p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so would just recommend starting new projects in JavaScript or Python.
+<br><br>
+For <strong>data science</strong> I prefer using Python in a Jupyter notebook, using rpy2 to invoke R libraries.
+<br>For <strong>machine learning</strong> I prefer PyTorch.
+<br>For <strong>backend development</strong> I prefer NodeJS with Koa if writing in Javascript, or Flask if writing in Python.
+<br>For <strong>frontend development</strong> I have the most experience with Polymer, though I also enjoy using React.
+<br>For <strong>mobile development</strong> I've had good experiences with NativeScript and React Native.
+<br></p>
+
 <!-- <p>Q: What are your pseudonyms?</p>
 
 <p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p> -->
