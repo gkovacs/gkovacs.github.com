@@ -2,22 +2,23 @@
 <div style="display: inline-block; text-align: left; max-width: 800px">
 <div style="padding-bottom: 44px"></div>
 
+<img src="geza.png" style="margin-top: 10px; margin-left: 0px; width: 200px" class="limg" alt="geza" />
+
 ## Geza Kovacs
 
-<img src="geza.png" style="margin-top: 0px; margin-left: 0px" class="limg" alt="geza" />
-
 <div>
-I'm Geza Kovacs, a Computer Science PhD student at Stanford.
-<br><br>
+<div style="line-height: 2.0">
+I'm Geza Kovacs, a Computer Science PhD student at Stanford.<br>
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
-<br><br>
+<br>
 
 My research spans behavior change, social computing, and online education.
-<br><br>
+<br>
 
 I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details.
-<br><br>
+<br>
+</div>
 </div>
 
 <a name="research"></a>
@@ -25,11 +26,13 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 
 
 <div>
-<a href="https://habitlab.github.io/"><img src="habitlab-screenshot-200px.png" alt="HabitLab" class="limg" width="200"></a>
+<a href="https://habitlab.github.io/"><img src="habitlab-screenshot-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://habitlab.github.io/">HabitLab: Online Behavior Change Experiments</a>
 <div class="padlink"></div>
+<div class="paratext">
 HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
 </div>
@@ -42,8 +45,10 @@ HabitLab is an open-source platform that helps users reduce their time online by
 <div>
 <a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: An Educational Social Feed for Children</a>
 <div class="padlink"></div>
+<div class="paratext">
 EduFeed is an educational social news feed for preliterate children.<br>
 We used EduFeed to teach reading and arithmetic skills to children in India.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a><br>
 </div>
@@ -57,7 +62,9 @@ We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 <div>
 <a class="biglink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Crowd Research: Open and Scalable Laboratories</a>
 <div class="padlink"></div>
+<div class="paratext">
 Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo, a crowdsourcing platform that implements novel solutions to trust and fairness issues in crowdsourcing.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Paper: UIST 2017</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a> <a class="boxlink" href="https://www.daemo.org/">Website</a> <br>
 </div>
@@ -71,8 +78,10 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Video Viewing</a>
 <div class="padlink"></div>
+<div class="paratext">
 A data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
 We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a><br>
 </div>
@@ -87,7 +96,9 @@ We discover that the presence of in-video quizzes results in quiz-driven navigat
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">FeedLearn: Microlearning in Facebook Feeds</a>
 <div class="padlink"></div>
+<div class="paratext">
 FeedLearn helps users learn vocabulary while browsing Facebook by inserting interactive quizzes into the news feed. Users complete 4x more exercises with FeedLearn, compared to injecting links into the feed or sending daily emails.
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
 </div>
@@ -102,7 +113,9 @@ FeedLearn helps users learn vocabulary while browsing Facebook by inserting inte
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">QuizCram: Question-Driven Video Viewing</a>
 <div class="padlink"></div>
+<div class="paratext">
 QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and reviewing. It automatically generates materials from existing Coursera lectures.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a><br>
 </div>
@@ -117,7 +130,9 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <div class="padlink"></div>
+<div class="paratext">
 Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <br>
 </div>
@@ -132,8 +147,10 @@ Smart Subtitles helps learners learn vocabulary while watching foreign-language 
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Visualizing Grammar to Learn Foreign Languages</a>
 <div class="padlink"></div>
+<div class="paratext">
 GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br>
 I built it as part of a foreign-language manga reader application.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper: UIST 2013 Demo</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
 </div>
@@ -148,8 +165,10 @@ I built it as part of a foreign-language manga reader application.<br>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Translators</a>
 <div class="padlink"></div>
+<div class="paratext">
 ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br>
 It collects screenshots while users run the app, and matches them via OCR.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a><br>
 </div>
@@ -165,9 +184,11 @@ It collects screenshots while users run the app, and matches them via OCR.<br>
 <div>
 <a class="biglink" href="http://unetbootin.sourceforge.net/">UNetbootin: LiveUSB Creator</a>
 <div class="padlink"></div>
+<div class="paratext">
 UNetbootin is a graphical tool to create bootable live USB drives.<br>
 It allows users to install Ubuntu and other Linux distributions on tablets and netbooks without CD drives.<br><br>
 I built and maintain UNetbootin. It has been downloaded over 40 million times.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://unetbootin.sourceforge.net/">Website</a> <a class="boxlink" href="https://en.wikipedia.org/wiki/UNetbootin">Wikipedia</a>
 </div>
@@ -180,9 +201,11 @@ I built and maintain UNetbootin. It has been downloaded over 40 million times.<b
 <div>
 <a class="biglink" href="http://wubi.sourceforge.net/faq.php">Wubi: Ubuntu Installer for Windows</a>
 <div class="padlink"></div>
+<div class="paratext">
 Wubi is a tool that allows users to install Ubuntu from Windows.<br>
 It installs and boots Ubuntu from a file, so it does not require any repartitioning.<br><br>
 I built the original versions of Wubi, which is now part of Ubuntu.<br>
+</div>
 <div class="padlink"></div>
 <a class="boxlink" href="http://wubi.sourceforge.net/faq.php">Website</a> <a class="boxlink" href="https://en.wikipedia.org/wiki/Wubi_(software)">Wikipedia</a>
 </div>
@@ -190,14 +213,14 @@ I built the original versions of Wubi, which is now part of Ubuntu.<br>
 <div style="margin-bottom: 30px"></div>
 </div>
 
-You can find my other open-source projects on [Github](https://github.com/gkovacs), [Launchpad](http://launchpad.net/~gezakovacs) and [Npm](https://www.npmjs.com/~geza).
+My other open-source projects are on [Github](https://github.com/gkovacs), [Npm](https://www.npmjs.com/~geza), [PyPI](https://pypi.org/user/geza/), and [Launchpad](http://launchpad.net/~gezakovacs).
 
 <br>
 
 <a name="publications"></a>
 ## Publications
 
-<div class="publicationsdiv" style="line-height: 150%">
+<div class="publicationsdiv" style="line-height: 160%">
 
 **Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper)*.
 <br>

@@ -10,9 +10,11 @@
 <style type="text/css">
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Trebuchet, Arial, sans-serif;
   padding: 0px;
   margin: 0px;
+  color: #303633;
+  /* background-color: #F9F9F9; */
 }
 h2 {
   font-size: 32px;
@@ -38,10 +40,14 @@ h2 {
   transition: background-color 0.13s ease-in;
 }
 .header:hover {
-  background-color: #033c73;
+  color: white;
+  background-color: #770000;
 }
 .padlink {
   margin-top: 10px;
+}
+.paratext {
+  line-height: 1.6;
 }
 .biglink {
   font-size: 24px;
@@ -56,7 +62,7 @@ strong {
   font-style: normal;
 }
 .limg {
-  border-radius: 5px;
+  border-radius: 7px;
   margin-left: 30px;
   float: right;
 }
@@ -66,7 +72,7 @@ strong {
   /*
   background-color: #333355;
   */
-  background-color: #033c73;
+  background-color: #770000;
   color: white;
   margin-right: 3px;
   padding-left: 5px;
@@ -79,13 +85,20 @@ strong {
   border-bottom: 3px solid #AA3333;
   */
 }
+.boxlink:hover {
+  background-color: #960018;
+  color: white;
+}
 .publicationsdiv > p {
   line-height: 250%;
 }
 
 a {
-  color: #033c73;
+  color: #770000;
   text-decoration: none;
+}
+a:hover {
+  color: #960018;
 }
 
 h2 {
@@ -98,13 +111,13 @@ h2 {
 
 <div style="position: fixed; top: -1000px; width: 100%; height: 1000px; background-color: #303633"></div>
 
-<div style="position: fixed; top: 0px; width: 100%; height: 43px; background-color: #303633">
+<div style="position: fixed; top: 0px; width: 100%; height: 53px; background-color: #303633">
 <!--<a style="font-size: 32px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444; font-weight: bold" href="#top" class="hlink">geza kovacs</a>-->
 <!--<a style="font-family: Palatino Linotype, Book Antiqua, Palatino, serif; font-size: 30px; vertical-align: middle; margin-right: 33px; text-decoration: none; color: #444444" href="#top" class="hlink">Geza Kovacs</a>-->
 <!-- <div style="float: left; padding-top: 2px"><a style="padding-left: 10px" class="hlink" href="#top"><img src="gezakovacs-black.png" alt="Geza Kovacs"></a></div> -->
-<div style="position: fixed; top: 10px; text-align: center; width: 100%; white-space: nowrap">
-<div style="display: inline-block">
-  <a href="#top"     class="header hlink" style="font-weight: 800">Geza Kovacs</a>
+<div style="position: fixed; top: 15px; text-align: center; width: 100%; white-space: nowrap">
+<div style="display: inline-block; width: 800px; text-align: left">
+<a href="#top"     class="header hlink" style="font-weight: 800">Geza Kovacs</a>
   <a href="#research"     class="header hlink">Research</a>
 <a href="#opensource"   class="header hlink">Open-Source</a>
 <a href="#publications" class="header hlink">Publications</a>
