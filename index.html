@@ -41,12 +41,18 @@ h2 {
   background-color: #770000;
 } */
 .header {
+  margin: 0px;
+  border: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 17px;
+  padding-right: 17px;
   display: inline-block;
   color: white;
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
 }
 .header:hover {
   color: white;
@@ -93,6 +99,10 @@ strong {
   color: #333333;
   border-bottom: 3px solid #AA3333;
   */
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
 }
 .boxlink:hover {
   background-color: #960018;
@@ -105,6 +115,10 @@ strong {
 a {
   color: #770000;
   text-decoration: none;
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
 }
 a:hover {
   color: #960018;
@@ -126,13 +140,13 @@ h2 {
 <!-- <div style="float: left; padding-top: 2px"><a style="padding-left: 10px" class="hlink" href="#top"><img src="gezakovacs-black.png" alt="Geza Kovacs"></a></div> -->
 <div style="text-align: center; width: 100%; white-space: nowrap">
 <div style="display: inline-block; width: 800px; text-align: left">
-<a href="#top"     class="header hlink" style="font-weight: 800">Geza Kovacs</a>
-  <a href="#research"     class="header hlink">Research</a>
-<a href="#opensource"   class="header hlink">Open-Source</a>
-<a href="#publications" class="header hlink">Publications</a>
-<a href="#teaching"     class="header hlink">Teaching</a>
-<a href="#contact"      class="header hlink">Contact</a>
-<a href="resume.pdf"    class="header hlink">CV / Resume</a>
+<a href="#top"     class="header hlink hlink_top" style="background-color: #770000; font-weight: 800">Geza Kovacs
+</a><a href="#research"     class="header hlink">Research
+</a><a href="#opensource"   class="header hlink">Open-Source
+</a><a href="#publications" class="header hlink">Publications
+</a><a href="#teaching"     class="header hlink">Teaching
+</a><a href="#contact"      class="header hlink">Contact
+</a><a href="resume.pdf"    class="header">CV / Resume</a>
 </div>
 </div>
 </div>
@@ -446,7 +460,8 @@ Joseph Jay Williams, <strong>Geza Kovacs</strong>, Caren Walker, Samuel G Maldon
 </div>
 
 <p>For personal correspondence, I prefer email:</p>
-<p><a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a></p>
+<!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
+<p><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></p>
 <p>If you&#39;re into social networking, see:</p>
 <div style="font-family: verdana, arial , helvetica, sans-serif;">
 
@@ -454,7 +469,7 @@ Joseph Jay Williams, <strong>Geza Kovacs</strong>, Caren Walker, Samuel G Maldon
 
 <a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.png" style="float: left; padding-right: 5px;" alt="fcbook">Facebook</div></a>
 
-<a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a>
+<!-- <a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a> -->
 
 </div>
 
@@ -468,10 +483,10 @@ Joseph Jay Williams, <strong>Geza Kovacs</strong>, Caren Walker, Samuel G Maldon
 
 <p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
 
-<p>Q: What are your pseudonyms?</p>
+<!-- <p>Q: What are your pseudonyms?</p>
 
-<p><p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p>
-</div></p>
+<p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p> -->
+<p></div></p>
 
 <script>
 var jQl={q:[],dq:[],gs:[],ready:function(a){"function"==typeof a&&jQl.q.push(a);return jQl},getScript:function(a,c){jQl.gs.push([a,c])},unq:function(){for(var a=0;a<jQl.q.length;a++)jQl.q[a]();jQl.q=[]},ungs:function(){for(var a=0;a<jQl.gs.length;a++)jQuery.getScript(jQl.gs[a][0],jQl.gs[a][1]);jQl.gs=[]},bId:null,boot:function(a){"undefined"==typeof window.jQuery.fn?jQl.bId||(jQl.bId=setInterval(function(){jQl.boot(a)},25)):(jQl.bId&&clearInterval(jQl.bId),jQl.bId=0,jQl.unqjQdep(),jQl.ungs(),jQuery(jQl.unq()), "function"==typeof a&&a())},booted:function(){return 0===jQl.bId},loadjQ:function(a,c){setTimeout(function(){var b=document.createElement("script");b.src=a;document.getElementsByTagName("head")[0].appendChild(b)},1);jQl.boot(c)},loadjQdep:function(a){jQl.loadxhr(a,jQl.qdep)},qdep:function(a){a&&("undefined"!==typeof window.jQuery.fn&&!jQl.dq.length?jQl.rs(a):jQl.dq.push(a))},unqjQdep:function(){if("undefined"==typeof window.jQuery.fn)setTimeout(jQl.unqjQdep,50);else{for(var a=0;a<jQl.dq.length;a++)jQl.rs(jQl.dq[a]); jQl.dq=[]}},rs:function(a){var c=document.createElement("script");document.getElementsByTagName("head")[0].appendChild(c);c.text=a},loadxhr:function(a,c){var b;b=jQl.getxo();b.onreadystatechange=function(){4!=b.readyState||200!=b.status||c(b.responseText,a)};try{b.open("GET",a,!0),b.send("")}catch(d){}},getxo:function(){var a=!1;try{a=new XMLHttpRequest}catch(c){for(var b=["MSXML2.XMLHTTP.5.0","MSXML2.XMLHTTP.4.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"],d=0;d<b.length;++d){try{a= new ActiveXObject(b[d])}catch(e){continue}break}}finally{return a}}};if("undefined"==typeof window.jQuery){var $=jQl.ready,jQuery=$;$.getScript=jQl.getScript};
@@ -481,10 +496,49 @@ jQl.loadjQ('//code.jquery.com/jquery-1.11.3.min.js');
 // Generated by LiveScript 1.5.0
 (function(){
   $(document).ready(function(){
-    var i$, ref$, len$;
+    var i$, ref$, len$, highlight_active_section;
     for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
       (fn$.call(this, ref$[i$]));
     }
+    highlight_active_section = function(){
+      var position, current_section, i$, ref$, len$, results$ = [];
+      position = window.scrollY;
+      current_section = 'top';
+      for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
+        (fn$.call(this, ref$[i$]));
+      }
+      for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
+        results$.push((fn1$.call(this, ref$[i$])));
+      }
+      return results$;
+      function fn$(x){
+        var target, targetbase, targetloc;
+        target = $(x).attr('href');
+        targetbase = target.slice(1);
+        targetloc = $('a[name="' + targetbase + '"]').offset().top;
+        if (position + 150 > targetloc) {
+          current_section = targetbase;
+          return;
+        }
+      }
+      function fn1$(x){
+        var target, targetbase, is_hovered;
+        target = $(x).attr('href');
+        targetbase = target.slice(1);
+        is_hovered = $(x).is(":hover");
+        if (is_hovered) {
+          $(x).css('background-color', '#960018');
+          return;
+        }
+        if (current_section === targetbase) {
+          $(x).css('background-color', '#770000');
+          return;
+        }
+        return $(x).css('background-color', '#303633');
+      }
+    };
+    setInterval(highlight_active_section, 50);
+    highlight_active_section();
     function fn$(x){
       var target, targetbase;
       target = $(x).attr('href');

@@ -325,7 +325,8 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 
 For personal correspondence, I prefer email:
 
-<a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a>
+<!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
+<img src="mail.png" alt="click to reveal mail" title="click to reveal mail" />
 
 If you're into social networking, see:
 
@@ -335,7 +336,7 @@ If you're into social networking, see:
 
 <a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.png" style="float: left; padding-right: 5px;" alt="fcbook">Facebook</div></a>
 
-<a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a>
+<!-- <a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a> -->
 
 </div>
 
@@ -351,7 +352,7 @@ If you're into social networking, see:
 
 <p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
 
-<p>Q: What are your pseudonyms?</p>
+<!-- <p>Q: What are your pseudonyms?</p>
 
-<p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p>
+<p>A: I used to go by <a href="http://ubuntuforums.org/member.php?u=79823">tuxcantfly</a> on the Ubuntu forums and some other open-source software-related sites.</p> -->
 </div>
