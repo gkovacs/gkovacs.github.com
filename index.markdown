@@ -34,7 +34,7 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
 </div>
 <div class="padlink"></div>
- <a class="boxlink" href="https://www.gkovacs.com/phd_thesis/thesis.pdf">PhD Thesis (in progress)</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+ <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">Github</a> <a class="boxlink" href="https://www.gkovacs.com/phd_thesis/thesis.pdf">Thesis (draft)</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <br>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -341,6 +341,23 @@ Joseph Jay Williams, **Geza Kovacs**, Caren Walker, Samuel G Maldonado, Tania Lo
 <a name="contact"></a>
 ## Contact
 
+For personal correspondence, I prefer email:
+
+<!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
+<img src="mail.png" alt="my first name at cs stanford" title="my first name at cs stanford" />
+
+<div style="font-family: verdana, arial , helvetica, sans-serif;">
+
+<a href="http://www.linkedin.com/in/gezako" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="lnkdin.png" style="float: left; padding-right: 5px;" alt="linkedin">LinkedIn</div></a>
+
+<a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.png" style="float: left; padding-right: 5px;" alt="fcbook">Facebook</div></a>
+
+<!-- <a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a> -->
+
+</div>
+
+<br>
+
 If asking about [UNetbootin](https://unetbootin.github.io), please report an issue on [Github](https://github.com/unetbootin/unetbootin/issues), and consider making a donation:
 
 <div style="font-family: verdana, arial , helvetica, sans-serif;">
@@ -350,23 +367,6 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 <a href="https://www.gkovacs.com/bitcoin.html" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold; width: 150px; text-align: center"><img src="bitcoin.png" style="float: left; padding-right: 5px" alt="Donate via Bitcoin" /> Donate via Bitcoin</div></a>
 
 <a href="https://venmo.com/?txn=pay&amp;recipients=gezak&amp;amount=5.00&amp;note=for%20UNetbootin%20Development&amp;audience=public" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="venmo.png" style="float: left; padding-right: 5px" alt="Donate via Venmo" /> Donate via Venmo</div></a>
-
-</div>
-
-For personal correspondence, I prefer email:
-
-<!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
-<img src="mail.png" alt="click to reveal mail" title="click to reveal mail" />
-
-If you're into social networking, see:
-
-<div style="font-family: verdana, arial , helvetica, sans-serif;">
-
-<a href="http://www.linkedin.com/in/gezako" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="lnkdin.png" style="float: left; padding-right: 5px;" alt="linkedin">LinkedIn</div></a>
-
-<a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.png" style="float: left; padding-right: 5px;" alt="fcbook">Facebook</div></a>
-
-<!-- <a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a> -->
 
 </div>
 
