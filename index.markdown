@@ -82,7 +82,7 @@ In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">Hab
 <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-EduFeed is an educational social news feed for preliterate children.<br>
+EduFeed is an educational social news feed for preliterate children.<br class="desktoponly">
 We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 </div>
 <div class="padlink2"></div>
@@ -119,7 +119,7 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 <a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-A data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
+A data-mining analysis of how users interact with in-video quizzes on Coursera.<br class="desktoponly">
 We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
 </div>
 <div class="padlink2"></div>
@@ -196,7 +196,7 @@ Smart Subtitles helps learners learn vocabulary while watching foreign-language 
 <a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf"><img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br>
+GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br class="desktoponly">
 I built it as part of a foreign-language manga reader application.<br>
 </div>
 <div class="padlink2"></div>
@@ -237,8 +237,8 @@ It collects screenshots while users run the app, and matches them via OCR.<br>
 <a href="http://unetbootin.sourceforge.net/"><img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-UNetbootin is a graphical tool to create bootable live USB drives.<br>
-It allows users to install Ubuntu and other Linux distributions on tablets and netbooks without CD drives.<br><br>
+UNetbootin is a graphical tool to create bootable live USB drives.<br class="desktoponly">
+It allows users to install Ubuntu and other Linux distributions on tablets and netbooks without CD drives.<br class="desktoponly"><br class="desktoponly">
 I built and maintain UNetbootin. It has been downloaded over 40 million times.<br>
 </div>
 <div class="padlink2"></div>
@@ -256,8 +256,8 @@ I built and maintain UNetbootin. It has been downloaded over 40 million times.<b
 <a href="http://wubi.sourceforge.net/faq.php"><img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-Wubi is a tool that allows users to install Ubuntu from Windows.<br>
-It installs and boots Ubuntu from a file, so it does not require any repartitioning.<br><br>
+Wubi is a tool that allows users to install Ubuntu from Windows.<br class="desktoponly">
+It installs and boots Ubuntu from a file, so it does not require any repartitioning.<br class="desktoponly"><br class="desktoponly">
 I built the original versions of Wubi, which is now part of Ubuntu.<br>
 </div>
 <div class="padlink2"></div>
