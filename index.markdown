@@ -1,5 +1,5 @@
 <div style="text-align: center">
-<div style="display: inline-block; text-align: left; max-width: 800px">
+<div style="display: inline-block; text-align: left; max-width: 800px; margin-left: 10px; margin-right: 10px">
 <div style="padding-bottom: 44px"></div>
 
 <img src="geza.png" style="margin-top: 10px; margin-left: 0px; width: 200px" class="limg" alt="geza" />
@@ -33,8 +33,10 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 <div class="paratext">
 HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
  <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">Github</a> <a class="boxlink" href="https://www.gkovacs.com/phd_thesis/thesis.pdf">Thesis (draft)</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -48,8 +50,10 @@ HabitLab is an open-source platform that helps users reduce their time online by
 <div class="paratext">
 Do productivity interventions save time, or just redistribute it elsewhere? In this 5,230 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that interventions help save time not just on targetted sites, but on other sites as well.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/conservation-chi2019.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3290605.3300560">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -63,8 +67,10 @@ Do productivity interventions save time, or just redistribute it elsewhere? In t
 <div class="paratext">
 In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that rotating interventions improves effectiveness at the cost of increased attrition. We reduced this attrition by half with a dialog that explains the rotation system.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/rotation-cscw2018.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -79,8 +85,10 @@ In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">Hab
 EduFeed is an educational social news feed for preliterate children.<br>
 We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -95,8 +103,10 @@ We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 <div class="paratext">
 Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo, a crowdsourcing platform that implements novel solutions to trust and fairness issues in crowdsourcing.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Paper: UIST 2017</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a> <a class="boxlink" href="https://www.daemo.org/">Website</a> <br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -112,8 +122,10 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 A data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
 We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -129,8 +141,10 @@ We discover that the presence of in-video quizzes results in quiz-driven navigat
 <div class="paratext">
 FeedLearn helps users learn vocabulary while browsing Facebook by inserting interactive quizzes into the news feed. Users complete 4x more exercises with FeedLearn, compared to injecting links into the feed or sending daily emails.
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome Extension</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -146,8 +160,10 @@ FeedLearn helps users learn vocabulary while browsing Facebook by inserting inte
 <div class="paratext">
 QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and reviewing. It automatically generates materials from existing Coursera lectures.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -163,8 +179,10 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 <div class="paratext">
 Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -181,8 +199,10 @@ Smart Subtitles helps learners learn vocabulary while watching foreign-language 
 GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br>
 I built it as part of a foreign-language manga reader application.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper: UIST 2013 Demo</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -199,8 +219,10 @@ I built it as part of a foreign-language manga reader application.<br>
 ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br>
 It collects screenshots while users run the app, and matches them via OCR.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a><br>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -219,8 +241,10 @@ UNetbootin is a graphical tool to create bootable live USB drives.<br>
 It allows users to install Ubuntu and other Linux distributions on tablets and netbooks without CD drives.<br><br>
 I built and maintain UNetbootin. It has been downloaded over 40 million times.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://unetbootin.sourceforge.net/">Website</a> <a class="boxlink" href="https://en.wikipedia.org/wiki/UNetbootin">Wikipedia</a>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -236,8 +260,10 @@ Wubi is a tool that allows users to install Ubuntu from Windows.<br>
 It installs and boots Ubuntu from a file, so it does not require any repartitioning.<br><br>
 I built the original versions of Wubi, which is now part of Ubuntu.<br>
 </div>
-<div class="padlink"></div>
+<div class="padlink2"></div>
+<div class="boxlc">
 <a class="boxlink" href="http://wubi.sourceforge.net/faq.php">Website</a> <a class="boxlink" href="https://en.wikipedia.org/wiki/Wubi_(software)">Wikipedia</a>
+</div>
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -346,7 +372,7 @@ For personal correspondence, I prefer email:
 <!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
 <img src="mail.png" style="height: 26px" alt="my first name at cs stanford" title="my first name at cs stanford" />
 
-<div style="font-family: verdana, arial , helvetica, sans-serif;">
+<div style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2; margin-top: -10px">
 
 <a href="http://www.linkedin.com/in/gezako" target="_blank"><div class="blackbutton"><img src="lnkdin-white.svg" style="float: left; padding-right: 5px; height: 16px" alt="linkedin">LinkedIn</div></a>
 
@@ -356,11 +382,13 @@ For personal correspondence, I prefer email:
 
 </div>
 
-<br>
+<div style="margin-top: 20px;" />
 
 If asking about [UNetbootin](https://unetbootin.github.io), please report an issue on [Github](https://github.com/unetbootin/unetbootin/issues), and consider making a donation:
 
-<div style="font-family: verdana, arial , helvetica, sans-serif;">
+<div style="margin-top: 10px;" />
+
+<div style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2">
 
 <a href="https://www.paypal.me/gezak/5" target="_blank"><div class="blackbutton"><img src="paypal-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Paypal" /> Donate via Paypal</div></a>
 
