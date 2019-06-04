@@ -362,11 +362,11 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 
 <div style="font-family: verdana, arial , helvetica, sans-serif;">
 
-<a href="https://www.paypal.me/gezak/5" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="paypal.png" style="float: left; padding-right: 5px;" alt="Donate via Paypal" /> Donate via Paypal</div></a>
+<a href="https://www.paypal.me/gezak/5" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="paypal.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Paypal" /> Donate via Paypal</div></a>
 
-<a href="https://www.gkovacs.com/bitcoin.html" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold; width: 150px; text-align: center"><img src="bitcoin.png" style="float: left; padding-right: 5px" alt="Donate via Bitcoin" /> Donate via Bitcoin</div></a>
+<a href="https://www.gkovacs.com/bitcoin.html" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; font-weight: bold; width: 150px; text-align: center"><img src="bitcoin.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Bitcoin" /> Donate via Bitcoin</div></a>
 
-<a href="https://venmo.com/?txn=pay&amp;recipients=gezak&amp;amount=5.00&amp;note=for%20UNetbootin%20Development&amp;audience=public" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="venmo.png" style="float: left; padding-right: 5px" alt="Donate via Venmo" /> Donate via Venmo</div></a>
+<a href="https://venmo.com/?txn=pay&amp;recipients=gezak&amp;amount=5.00&amp;note=for%20UNetbootin%20Development&amp;audience=public" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="venmo.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Venmo" /> Donate via Venmo</div></a>
 
 </div>
 
