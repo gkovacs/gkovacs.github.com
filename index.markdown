@@ -14,7 +14,7 @@ My advisor is <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in th
 <br class="desktoponly">
 My research spans behavior change, social computing, and online education.
 <br class="desktoponly">
-I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume</a> for details.
+I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">résumé</a> for details.
 <br class="desktoponly">
 </div>
 </div>
