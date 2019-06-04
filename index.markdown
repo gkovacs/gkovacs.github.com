@@ -216,7 +216,7 @@ I built it as part of a foreign-language manga reader application.<br>
 <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf"><img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br>
+ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br class="desktoponly">
 It collects screenshots while users run the app, and matches them via OCR.<br>
 </div>
 <div class="padlink2"></div>
