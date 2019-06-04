@@ -8,15 +8,13 @@
 
 <div>
 <div style="line-height: 2.0">
-I'm Geza Kovacs, a Computer Science PhD student at Stanford.<br class="desktoponly">
-
-My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
+I'm Geza Kovacs, a Computer Science PhD student at Stanford.
 <br class="desktoponly">
-
+My advisor is <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group.
+<br class="desktoponly">
 My research spans behavior change, social computing, and online education.
 <br class="desktoponly">
-
-I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details.
+I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume</a> for details.
 <br class="desktoponly">
 </div>
 </div>
