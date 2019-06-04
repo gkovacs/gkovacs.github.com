@@ -375,13 +375,13 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 <a name="faq"></a>
 ## FAQ / Misc
 
-<p>Q: Can I have the source code for one of your projects?</p>
+<p style="font-style: italic">Can I have the source code for one of your projects?</p>
 
-<p>A: Check <a href="https://github.com/gkovacs">my GitHub account</a>.</p>
+<p>Check <a href="https://github.com/gkovacs">my GitHub account</a>.</p>
 
-<p>Q: What programming languages and libraries do you use and recommend?</p>
+<p style="font-style: italic">What programming languages and libraries do you use and recommend?</p>
 
-<p>A: I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so mostly use Python and JavaScript these days.
+<p>I used to contribute to the <a href="http://livescript.net/">LiveScript</a> language but it's not very well maintained anymore, so mostly use Python and JavaScript these days.
 <br><br>
 For <strong>data science</strong> I prefer using Python in a Jupyter notebook, using rpy2 to invoke R libraries.
 <br>For <strong>machine learning</strong> I prefer PyTorch.
@@ -390,14 +390,14 @@ For <strong>data science</strong> I prefer using Python in a Jupyter notebook, u
 <br>For <strong>mobile development</strong> I've had good experiences with NativeScript and React Native.
 <br></p>
 
-<p>Q: What natural languages do you know?</p>
+<p style="font-style: italic">What natural languages do you know?</p>
 
 I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian by virtue of having spent my childhood in Hungary, and Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
 
 <a name="pronunciation"></a>
-<p>Q: How do I pronounce your name?</p>
+<p style="font-style: italic">How do I pronounce your name?</p>
 
-<p>A: <img style="height: 1em; cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()"> Kovács Géza (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first.</p>
+<p><img style="height: 1em; cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('kovacs_geza.wav').play()"> Kovács Géza (IPA: <span class="ipa">kovaːt͡ʃ ɡeːzɒ</span>)</span> The "e" sound in Geza is the same as in "hey". The "cs" in Kovacs is pronounced "ch", not "ks". Hungarian puts the surname first.</p>
 
 <p>I also use my Vietnamese name, <img style="height: 1em; cursor: pointer" onclick="new Audio('minh_trung.wav').play()" src="speaker.png" /><span style="cursor: pointer" onclick="new Audio('minh_trung.wav').play()"> Minh Trung (漢字: 明忠) (IPA: <span class="ipa">miŋ˧˧ ṯɕʊwŋ˧˧</span>)</span></p>
 
