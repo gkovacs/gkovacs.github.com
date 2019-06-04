@@ -3,5 +3,5 @@
 lsc -c index.ls
 #markdown index.markdown > content.html
 marked index.markdown > content.html
-cat header.html content.html scriptopen.html jquery-1.11.3.min.js scriptclose.html scriptopen.html index.js scriptclose.html footer.html > index.html
+cat header_precss.html main.css extra.css header.html content.html scriptopen.html jquery-1.11.3.min.js scriptclose.html scriptopen.html index.js scriptclose.html footer.html > index.html
 #git commit -a -m "updated main page"

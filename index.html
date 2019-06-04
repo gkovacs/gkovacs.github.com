@@ -11,7 +11,6 @@
 <title>Geza Kovacs, Computer Science PhD student at Stanford</title>
 <link rel="canonical" href="https://www.gkovacs.com/" />
 <style type="text/css">
-
 body {
   font-family: Helvetica, Trebuchet, Arial, sans-serif;
   padding: 0px;
@@ -184,11 +183,193 @@ h2 {
   #gezaimg {
     margin-top: 0px;
   }
+}.mobile-header-cvlink {
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
 }
 
+.mobile-header-cvlink:hover {
+  background-color: #960018;
+}
+
+/* Button styling */
+.menu-toggle {
+  display: inline-block;
+  /* padding: .75em 15px; */
+  line-height: 1em;
+  font-size: 1em;
+  color: #303633;
+  background-color: #770000;
+  -webkit-transition: background-color 0.13s ease-in;
+  -moz-transition: background-color 0.13s ease-in;
+  -o-transition: background-color 0.13s ease-in;
+  transition: background-color 0.13s ease-in;
+}
+
+.menu-toggle:hover {
+  /* color: #c00; */
+  background-color: #960018
+}
+
+/*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+.main-menu {
+  position: absolute;
+  display: none;
+  left: -200px;
+  top: 0;
+  /* height: 100%;
+  overflow-y: scroll;
+  overflow-x: visible; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: left 0.3s ease,
+              box-shadow 0.3s ease;
+  z-index: 999;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 2.5em 0 0;
+  /* Hide shadow w/ -8px while 'closed' */
+  -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+     -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+          box-shadow: -8px 0 8px rgba(0,0,0,.5);
+  min-height: 100%;
+  width: 200px;
+  background: #303633;
+}
+
+.main-menu a {
+  display: block;
+  padding: .75em 15px;
+  line-height: 1em;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.main-menu li:first-child a {
+  border-top: 1px solid #CDCDCD;
+}
+
+.main-menu a:hover {
+  background: #960018;
+  text-decoration: none;
+}
+
+.main-menu .menu-close {
+  background: #770000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/*
+ On small devices, allow it to toggle...
+*/
+/*
+ :target for non-JavaScript
+ [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
+*/
+.main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+/* 
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop{
+  position: absolute;
+  display: block;  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+/*  background: #000;
+  background: rgba(0,0,0,.85);*/
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop{
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .mobileheader {
+    /* padding: 20px;
+    display: flex;
+    align-items: baseline; */
+    position: fixed;
+    top: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #303633;
+    color: white;
+  }
+}
 </style>
 </head>
 <body>
+
+<div style="width: 100%; height: 2.5em" class="mobileonly mobileheader">
+  <a style="width: 50%; height: 2.5em; position: fixed; top: 0px; left: 0px" href="#main-menu" id="main-menu-toggle" class="menu-toggle">
+    <div style="width: 100%; height: 100%; padding: 0px">
+      <img style="vertical-align: middle; display: inline-block; width: 20%; height: 2.5em;" src="hmbgr-white.svg" /><div id="mobilenavtitle" style="font-weight: 800; vertical-align: middle; text-align: center; width: 80%; display: inline-block; color: white;">Geza Kovacs</div>      
+    </div>
+  </a>
+  <div class="mobile-header-cvlink" style="width: 50%; position: fixed; top: 0px; right: 0px; line-height: 1em; display: inline-block">
+    <a href="resume.pdf" style="width: 100%; height: 100%">
+        <div style="padding: .75em 15px; color: white; text-align: center">CV / Resume</div>
+    </a>
+    
+  </div>
+</div>
+
+<nav style="width: 50%" id="main-menu" class="main-menu">
+    <a style="width: 100%" href="#main-menu-toggle" id="main-menu-close" class="menu-close">
+      <span style="width: 100%;">Close Menu</span>
+    </a>
+    <ul style="width: 100%">
+        <li><a class="mhlink" href="#top">Geza Kovacs</a></li>
+      <li><a class="mhlink" href="#research">Research</a></li>
+      <li><a class="mhlink" href="#opensource">Open-Source</a></li>
+      <li><a class="mhlink" href="#publications">Publications</a></li>
+      <li><a class="mhlink" href="#teaching">Teaching</a></li>
+      <li><a class="mhlink" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle" class="backdrop" tabindex="-1" hidden></a>
 
 <div class="desktoponly" style="position: fixed; top: -1000px; width: 100%; height: 1000px; background-color: #303633"></div>
 
@@ -212,7 +393,7 @@ h2 {
 <a name="top"></a>
 <div style="text-align: center">
 <div style="display: inline-block; text-align: left; max-width: 800px; margin-left: 10px; margin-right: 10px">
-<div style="padding-bottom: 38px" class="desktoponly"></div>
+<div style="padding-bottom: 38px"></div>
 
 <h2 class="mobileonly">Geza Kovacs</h2>
 <img src="geza.png" style="margin-left: 0px; width: 200px" id="gezaimg" class="limg" alt="geza" />
@@ -638,9 +819,35 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
 // Generated by LiveScript 1.5.0
 (function(){
   $(document).ready(function(){
-    var i$, ref$, len$, highlight_active_section;
+    var fix_link_target, i$, ref$, len$, highlight_active_section;
+    fix_link_target = function(x, noprop){
+      var target, targetbase;
+      target = $(x).attr('href');
+      if (target.indexOf('#') !== 0) {
+        return;
+      }
+      targetbase = target.slice(1);
+      $(x).click(function(evt){
+        var targetloc;
+        if (noprop !== true) {
+          evt.preventDefault();
+          evt.stopPropagation();
+        }
+        targetloc = $('a[name="' + targetbase + '"]').offset().top;
+        if (targetbase === 'top') {
+          targetloc = 40;
+        }
+        console.log(targetloc);
+        return $('html, body').animate({
+          scrollTop: targetloc - 40
+        });
+      });
+    };
     for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
       (fn$.call(this, ref$[i$]));
+    }
+    for (i$ = 0, len$ = (ref$ = $('.mhlink')).length; i$ < len$; ++i$) {
+      (fn1$.call(this, ref$[i$]));
     }
     highlight_active_section = function(){
       var position, current_section, i$, ref$, len$, results$ = [];
@@ -664,7 +871,7 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
         }
       }
       function fn1$(x){
-        var target, targetbase, is_hovered;
+        var target, targetbase, is_hovered, current_section_readable;
         target = $(x).attr('href');
         targetbase = target.slice(1);
         is_hovered = $(x).is(":hover");
@@ -676,31 +883,27 @@ return new Za.prototype.init(a,b,c,d,e)}m.Tween=Za,Za.prototype={constructor:Za,
           $(x).css('background-color', '#770000');
           return;
         }
-        return $(x).css('background-color', '#303633');
+        $(x).css('background-color', '#303633');
+        current_section_readable = {
+          'top': 'Geza Kovacs',
+          'research': 'Research',
+          'opensource': 'Open-Source',
+          'publications': 'Publications',
+          'teaching': 'Teaching',
+          'contact': 'Contact'
+        }[current_section];
+        if (current_section_readable != null) {
+          return $('#mobilenavtitle').text(current_section_readable);
+        }
       }
     };
     setInterval(highlight_active_section, 50);
     highlight_active_section();
     function fn$(x){
-      var target, targetbase;
-      target = $(x).attr('href');
-      if (target.indexOf('#') !== 0) {
-        return;
-      }
-      targetbase = target.slice(1);
-      $(x).click(function(evt){
-        var targetloc;
-        evt.preventDefault();
-        evt.stopPropagation();
-        targetloc = $('a[name="' + targetbase + '"]').offset().top;
-        if (targetbase === 'top') {
-          targetloc = 40;
-        }
-        console.log(targetloc);
-        return $('html, body').animate({
-          scrollTop: targetloc - 40
-        });
-      });
+      fix_link_target(x, false);
+    }
+    function fn1$(x){
+      fix_link_target(x, true);
     }
   });
 }).call(this);
