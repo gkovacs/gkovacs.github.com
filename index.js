@@ -2,7 +2,6 @@
 (function(){
   $(document).ready(function(){
     var i$, ref$, len$, highlight_active_section;
-    $('#hlink_top').css('background-color', '#770000');
     for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
       (fn$.call(this, ref$[i$]));
     }

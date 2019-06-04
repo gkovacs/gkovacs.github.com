@@ -1,5 +1,4 @@
 $(document).ready !->
-  $('#hlink_top').css('background-color', '#770000')
   for let x in $('.hlink')
     target = $(x).attr('href')
     if target.indexOf('#') != 0
