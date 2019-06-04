@@ -32,16 +32,29 @@
       (fn1$.call(this, ref$[i$]));
     }
     highlight_active_section = function(){
-      var position, current_section, i$, ref$, len$, results$ = [];
+      var position, current_section, i$, ref$, len$, current_section_readable;
       position = window.scrollY;
       current_section = 'top';
       for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
         (fn$.call(this, ref$[i$]));
       }
       for (i$ = 0, len$ = (ref$ = $('.hlink')).length; i$ < len$; ++i$) {
-        results$.push((fn1$.call(this, ref$[i$])));
+        (fn1$.call(this, ref$[i$]));
       }
-      return results$;
+      for (i$ = 0, len$ = (ref$ = $('.mhlink')).length; i$ < len$; ++i$) {
+        (fn2$.call(this, ref$[i$]));
+      }
+      current_section_readable = {
+        'top': 'Geza Kovacs',
+        'research': 'Research',
+        'opensource': 'Open-Source',
+        'publications': 'Publications',
+        'teaching': 'Teaching',
+        'contact': 'Contact'
+      }[current_section];
+      if (current_section_readable != null) {
+        return $('#mobilenavtitle').text(current_section_readable);
+      }
       function fn$(x){
         var target, targetbase, targetloc;
         target = $(x).attr('href');
@@ -53,7 +66,7 @@
         }
       }
       function fn1$(x){
-        var target, targetbase, is_hovered, current_section_readable;
+        var target, targetbase, is_hovered;
         target = $(x).attr('href');
         targetbase = target.slice(1);
         is_hovered = $(x).is(":hover");
@@ -66,17 +79,21 @@
           return;
         }
         $(x).css('background-color', '#303633');
-        current_section_readable = {
-          'top': 'Geza Kovacs',
-          'research': 'Research',
-          'opensource': 'Open-Source',
-          'publications': 'Publications',
-          'teaching': 'Teaching',
-          'contact': 'Contact'
-        }[current_section];
-        if (current_section_readable != null) {
-          return $('#mobilenavtitle').text(current_section_readable);
+      }
+      function fn2$(x){
+        var target, targetbase, is_hovered;
+        target = $(x).attr('href');
+        targetbase = target.slice(1);
+        is_hovered = $(x).is(":hover");
+        if (is_hovered) {
+          $(x).css('background-color', '#960018');
+          return;
         }
+        if (current_section === targetbase) {
+          $(x).css('background-color', '#770000');
+          return;
+        }
+        $(x).css('background-color', '#303633');
       }
     };
     setInterval(highlight_active_section, 50);

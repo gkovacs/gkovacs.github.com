@@ -45,15 +45,26 @@ $(document).ready !->
         $(x).css 'background-color', '#770000'
         return
       $(x).css 'background-color', '#303633'
-      current_section_readable = {
-        'top': 'Geza Kovacs',
-        'research': 'Research',
-        'opensource': 'Open-Source',
-        'publications': 'Publications',
-        'teaching': 'Teaching',
-        'contact': 'Contact',
-      }[current_section]
-      if current_section_readable?
-        $('#mobilenavtitle').text(current_section_readable)
+    for let x in $('.mhlink')
+      target = $(x).attr('href')
+      targetbase = target.slice(1)
+      is_hovered = $(x).is(":hover")
+      if is_hovered
+        $(x).css 'background-color', '#960018'
+        return
+      if current_section == targetbase
+        $(x).css 'background-color', '#770000'
+        return
+      $(x).css 'background-color', '#303633'
+    current_section_readable = {
+      'top': 'Geza Kovacs',
+      'research': 'Research',
+      'opensource': 'Open-Source',
+      'publications': 'Publications',
+      'teaching': 'Teaching',
+      'contact': 'Contact',
+    }[current_section]
+    if current_section_readable?
+      $('#mobilenavtitle').text(current_section_readable)
   setInterval highlight_active_section, 50
   highlight_active_section()
