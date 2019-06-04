@@ -1,6 +1,6 @@
 <div style="text-align: center">
 <div style="display: inline-block; text-align: left; max-width: 800px; margin-left: 10px; margin-right: 10px">
-<div style="padding-bottom: 44px"></div>
+<div style="padding-bottom: 38px" class="desktoponly"></div>
 
 <h2 class="mobileonly">Geza Kovacs</h2>
 <img src="geza.png" style="margin-left: 0px; width: 200px" id="gezaimg" class="limg" alt="geza" />
