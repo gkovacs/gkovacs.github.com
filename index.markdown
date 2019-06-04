@@ -2,22 +2,22 @@
 <div style="display: inline-block; text-align: left; max-width: 800px; margin-left: 10px; margin-right: 10px">
 <div style="padding-bottom: 44px"></div>
 
-<img src="geza.png" style="margin-top: 10px; margin-left: 0px; width: 200px" class="limg" alt="geza" />
-
-## Geza Kovacs
+<h2 class="mobileonly">Geza Kovacs</h2>
+<img src="geza.png" style="margin-left: 0px; width: 200px" id="gezaimg" class="limg" alt="geza" />
+<h2 class="desktoponly">Geza Kovacs</h2>
 
 <div>
 <div style="line-height: 2.0">
-I'm Geza Kovacs, a Computer Science PhD student at Stanford.<br>
+I'm Geza Kovacs, a Computer Science PhD student at Stanford.<br class="desktoponly">
 
 My advisor is [Michael Bernstein](http://hci.stanford.edu/msb/) in the [Human-Computer Interaction](http://hci.stanford.edu/) group.
-<br>
+<br class="desktoponly">
 
 My research spans behavior change, social computing, and online education.
-<br>
+<br class="desktoponly">
 
 I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for details.
-<br>
+<br class="desktoponly">
 </div>
 </div>
 
@@ -26,9 +26,9 @@ I did my undergrad and masters in CS at MIT. See my [resume](resume.pdf) for det
 
 
 <div>
-<a href="https://habitlab.github.io/"><img src="habitlab-screenshot-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://habitlab.github.io/">HabitLab: Online Behavior Change Experiments</a>
+<a href="https://habitlab.github.io/"><img src="habitlab-screenshot-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 HabitLab is an open-source platform that helps users reduce their time online by conducting personalized  behavior change experiments using 30+ interventions. It is available for Chrome and Android and has over 12,000 active users.<br>
@@ -43,9 +43,9 @@ HabitLab is an open-source platform that helps users reduce their time online by
 </div>
 
 <div>
-<a href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf"><img src="conservation-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Conservation of Procrastination</a>
+<a href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf"><img src="conservation-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Do productivity interventions save time, or just redistribute it elsewhere? In this 5,230 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that interventions help save time not just on targetted sites, but on other sites as well.<br>
@@ -60,9 +60,9 @@ Do productivity interventions save time, or just redistribute it elsewhere? In t
 </div>
 
 <div>
-<a href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf"><img src="rotation-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Effects of Rotating Behavior Change Interventions</a>
+<a href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf"><img src="rotation-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">HabitLab</a> platform, we found that rotating interventions improves effectiveness at the cost of increased attrition. We reduced this attrition by half with a dialog that explains the rotation system.<br>
@@ -77,9 +77,9 @@ In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">Hab
 </div>
 
 <div>
-<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: An Educational Social Feed for Children</a>
+<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 EduFeed is an educational social news feed for preliterate children.<br>
@@ -96,9 +96,9 @@ We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 
 
 <div>
-<a href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf"><img src="daemo-screenshot-200px.png" alt="Crowd Research" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Crowd Research: Open and Scalable Laboratories</a>
+<a href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf"><img src="daemo-screenshot-200px.png" alt="Crowd Research" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Crowd Research is a project through which we coordinated hundreds of volunteers to build and deploy Daemo, a crowdsourcing platform that implements novel solutions to trust and fairness issues in crowdsourcing.<br>
@@ -114,9 +114,9 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 
 
 <div>
-<a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Video Viewing</a>
+<a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 A data-mining analysis of how users interact with in-video quizzes on Coursera.<br>
@@ -134,9 +134,9 @@ We discover that the presence of in-video quizzes results in quiz-driven navigat
 
 
 <div>
-<a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200" style="margin-bottom: 20px"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">FeedLearn: Microlearning in Facebook Feeds</a>
+<a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200" style="margin-bottom: 20px"></a>
 <div class="padlink"></div>
 <div class="paratext">
 FeedLearn helps users learn vocabulary while browsing Facebook by inserting interactive quizzes into the news feed. Users complete 4x more exercises with FeedLearn, compared to injecting links into the feed or sending daily emails.
@@ -153,9 +153,9 @@ FeedLearn helps users learn vocabulary while browsing Facebook by inserting inte
 
 
 <div>
-<a href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf"><img src="quizcram-screenshot-200px.png" alt="QuizCram" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">QuizCram: Question-Driven Video Viewing</a>
+<a href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf"><img src="quizcram-screenshot-200px.png" alt="QuizCram" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and reviewing. It automatically generates materials from existing Coursera lectures.<br>
@@ -172,9 +172,9 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 
 
 <div>
-<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
+<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
@@ -191,9 +191,9 @@ Smart Subtitles helps learners learn vocabulary while watching foreign-language 
 
 
 <div>
-<a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf"><img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Visualizing Grammar to Learn Foreign Languages</a>
+<a href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf"><img src="grammarvis-screenshot-200px.png" alt="GrammarVis" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 GrammarVis helps foreign language learners interactively explore the syntactic structure of sentences to better understand their word order and grammar.<br>
@@ -211,9 +211,9 @@ I built it as part of a foreign-language manga reader application.<br>
 
 
 <div>
-<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf"><img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">ScreenMatch: Visual Context for Translators</a>
+<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf"><img src="screenmatch-screenshot-200px.png" alt="ScreenMatch" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 ScreenMatch provides software translators with screenshots illustrating the contexts in which the strings they are translating are used in the app.<br>
@@ -232,9 +232,9 @@ It collects screenshots while users run the app, and matches them via OCR.<br>
 ## Open-Source
 
 <div>
-<a href="http://unetbootin.sourceforge.net/"><img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://unetbootin.sourceforge.net/">UNetbootin: LiveUSB Creator</a>
+<a href="http://unetbootin.sourceforge.net/"><img src="unetbootin-screenshot-200px.png" alt="UNetbootin" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 UNetbootin is a graphical tool to create bootable live USB drives.<br>
@@ -251,9 +251,9 @@ I built and maintain UNetbootin. It has been downloaded over 40 million times.<b
 </div>
 
 <div>
-<a href="http://wubi.sourceforge.net/faq.php"><img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200"></a>
 <div>
 <a class="biglink" href="http://wubi.sourceforge.net/faq.php">Wubi: Ubuntu Installer for Windows</a>
+<a href="http://wubi.sourceforge.net/faq.php"><img src="wubi-screenshot-200px.png" alt="Wubi" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Wubi is a tool that allows users to install Ubuntu from Windows.<br>

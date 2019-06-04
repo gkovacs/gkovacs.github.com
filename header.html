@@ -87,6 +87,7 @@ strong {
   margin-left: 30px;
   float: right;
 }
+
 .boxlink {
   text-decoration: none;
   white-space: nowrap;
@@ -155,6 +156,34 @@ h2 {
 
 .boxlc {
   line-height: 2;
+}
+
+.mobileonly {
+  display: none;
+}
+
+#gezaimg {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 790px) {
+  .limg {
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .mobileonly {
+    display: block;
+  }
+  .desktoponly {
+    display: none;
+  }
+  #gezaimg {
+    margin-top: 0px;
+  }
 }
 
 </style>
