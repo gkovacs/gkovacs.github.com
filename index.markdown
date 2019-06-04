@@ -348,9 +348,9 @@ For personal correspondence, I prefer email:
 
 <div style="font-family: verdana, arial , helvetica, sans-serif;">
 
-<a href="http://www.linkedin.com/in/gezako" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="lnkdin.png" style="float: left; padding-right: 5px;" alt="linkedin">LinkedIn</div></a>
+<a href="http://www.linkedin.com/in/gezako" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="lnkdin.svg" style="float: left; padding-right: 5px; height: 16px" alt="linkedin">LinkedIn</div></a>
 
-<a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.png" style="float: left; padding-right: 5px;" alt="fcbook">Facebook</div></a>
+<a href="http://www.facebook.com/gkovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="fcbook.svg" style="float: left; padding-right: 5px; height: 16px" alt="fcbook">Facebook</div></a>
 
 <!-- <a href="https://plus.google.com/+GezaKovacs" target="_blank"><div style="font-size: 12px; color: #444; border: 1px solid #ccc; border-radius: 5px; display: inline-block; left: auto; right: auto; padding: 3px; margin-right: 5px; font-weight: bold; width: 150px; text-align: center"><img src="gpls.png" style="float: left; padding-right: 5px;" alt="gpls">Google Plus</div></a> -->
 
@@ -392,7 +392,7 @@ For <strong>data science</strong> I prefer using Python in a Jupyter notebook, u
 
 <p>Q: What natural languages do you know?</p>
 
-I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian by virtue of having grown up in Hungary, and Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
+I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian by virtue of having spent my childhood in Hungary, and Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
 
 <a name="pronunciation"></a>
 <p>Q: How do I pronounce your name?</p>
