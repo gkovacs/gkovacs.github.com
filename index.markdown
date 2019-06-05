@@ -375,6 +375,7 @@ For personal correspondence, I prefer email:
 <a style="color: white" href="http://www.linkedin.com/in/gezako" target="_blank"><div class="blackbutton"><img src="lnkdin-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="linkedin">LinkedIn</div></a>
 <a style="color: white" href="http://www.github.com/gkovacs" target="_blank"><div class="blackbutton"><img src="gthb-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="github">GitHub</div></a>
 <a style="color: white" href="https://scholar.google.com/citations?user=mkJ0_XcAAAAJ" target="_blank"><div class="blackbutton"><img src="gschl-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="scholar">Google Scholar</div></a>
+<a style="color: white" href="resume.pdf" target="_blank"><div class="blackbutton"><img src="rscv-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="resume">CV / Résumé</div></a>
 </div>
 
 <!-- <a style="color: white" href="http://www.facebook.com/gkovacs" target="_blank"><div class="blackbutton"><img src="fcbook-white.svg" style="float: left; padding-right: 5px; height: 16px" alt="fcbook">Facebook</div></a> -->
@@ -385,9 +386,9 @@ For personal correspondence, I prefer email:
 
 <div style="margin-top: 20px;" />
 
-If asking about [UNetbootin](https://unetbootin.github.io), please report an issue on [Github](https://github.com/unetbootin/unetbootin/issues), and consider making a donation:
+If asking about [UNetbootin](https://unetbootin.github.io), please report an issue on [Github](https://github.com/unetbootin/unetbootin/issues), and consider <a href="donate.html">making a donation</a>.
 
-<div style="margin-top: 10px;" />
+<!-- <div style="margin-top: 10px;" />
 
 <div class="mobilecenter" style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2">
 
@@ -395,7 +396,7 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 <a style="color: white" href="https://www.gkovacs.com/bitcoin.html" target="_blank"><div class="blackbutton"><img src="bitcoin-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Bitcoin" /> Donate via Bitcoin</div></a>
 <a style="color: white" href="https://venmo.com/?txn=pay&amp;recipients=gezak&amp;amount=5.00&amp;note=for%20UNetbootin%20Development&amp;audience=public" target="_blank"><div class="blackbutton"><img src="venmo-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Venmo" /> Donate via Venmo</div></a>
 
-</div>
+</div> -->
 
 <br>
 
