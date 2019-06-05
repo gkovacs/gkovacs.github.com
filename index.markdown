@@ -372,10 +372,14 @@ For personal correspondence, I prefer email:
 <img src="mail.png" style="height: 26px" alt="my first name at cs stanford" title="my first name at cs stanford" />
 
 <div class="mobilecenter" style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2; margin-top: 10px">
+<div style="display: inline-block">
 <a style="color: white" href="http://www.linkedin.com/in/gezako" target="_blank"><div class="blackbutton"><img src="lnkdin-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="linkedin">LinkedIn</div></a>
 <a style="color: white" href="http://www.github.com/gkovacs" target="_blank"><div class="blackbutton"><img src="gthb-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="github">GitHub</div></a>
+</div>
+<div style="display: inline-block">
 <a style="color: white" href="https://scholar.google.com/citations?user=mkJ0_XcAAAAJ" target="_blank"><div class="blackbutton"><img src="gschl-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="scholar">Google Scholar</div></a>
 <a style="color: white" href="resume.pdf" target="_blank"><div class="blackbutton"><img src="rscv-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="resume">CV / Résumé</div></a>
+</div>
 </div>
 
 <!-- <a style="color: white" href="http://www.facebook.com/gkovacs" target="_blank"><div class="blackbutton"><img src="fcbook-white.svg" style="float: left; padding-right: 5px; height: 16px" alt="fcbook">Facebook</div></a> -->
