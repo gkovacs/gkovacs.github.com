@@ -3,7 +3,7 @@
 <div style="padding-bottom: 38px"></div>
 
 <h2 class="mobileonly">Geza Kovacs</h2>
-<img src="geza.png" style="margin-left: 0px; width: 200px" id="gezaimg" class="limg" alt="geza" />
+<img src="geza.png" id="gezaimg" class="limg" alt="geza" />
 <h2 class="desktoponly">Geza Kovacs</h2>
 
 <div>
@@ -371,7 +371,7 @@ For personal correspondence, I prefer email:
 <!-- <a href="http://www.google.com/recaptcha/mailhide/d?k=01i6b8jDw9EWfaFKH8_EnxXA==&amp;c=ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501i6b8jDw9EWfaFKH8_EnxXA\75\75\46c\75ZnTRSsz6rXxzSRfKiN1Y1FwvPm2VbGjmFq7kerpAWC0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"><img src="mail.png" alt="click to reveal mail" title="click to reveal mail" /></a> -->
 <img src="mail.png" style="height: 26px" alt="my first name at cs stanford" title="my first name at cs stanford" />
 
-<div style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2; margin-top: 10px">
+<div class="mobilecenter" style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2; margin-top: 10px">
 <a style="color: white" href="http://www.linkedin.com/in/gezako" target="_blank"><div class="blackbutton"><img src="lnkdin-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="linkedin">LinkedIn</div></a>
 <a style="color: white" href="http://www.github.com/gkovacs" target="_blank"><div class="blackbutton"><img src="gthb-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="github">GitHub</div></a>
 <a style="color: white" href="https://scholar.google.com/citations?user=mkJ0_XcAAAAJ" target="_blank"><div class="blackbutton"><img src="gschl-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="scholar">Google Scholar</div></a>
@@ -389,7 +389,7 @@ If asking about [UNetbootin](https://unetbootin.github.io), please report an iss
 
 <div style="margin-top: 10px;" />
 
-<div style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2">
+<div class="mobilecenter" style="font-family: verdana, arial , helvetica, sans-serif; line-height: 2">
 
 <a style="color: white" href="https://www.paypal.me/gezak/5" target="_blank"><div class="blackbutton"><img src="paypal-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Paypal" /> Donate via Paypal</div></a>
 <a style="color: white" href="https://www.gkovacs.com/bitcoin.html" target="_blank"><div class="blackbutton"><img src="bitcoin-white.svg" style="float: left; margin-right: 5px; height: 16px; border-radius: 4px" alt="Donate via Bitcoin" /> Donate via Bitcoin</div></a>
