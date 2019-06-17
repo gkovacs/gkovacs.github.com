@@ -76,6 +76,44 @@ In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">Hab
 
 <div>
 <div>
+<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Video Viewing</a>
+<a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+A data-mining analysis of how users interact with in-video quizzes on Coursera.<br class="desktoponly">
+We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
+</div>
+<div class="padlink2"></div>
+<div class="boxlc">
+<a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a> <a class="boxlink" href="https://github.com/gkovacs/invideo-quizzes-analysis-las2016/blob/master/readme.md">GitHub</a><br>
+</div>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+<div>
+<div>
+<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
+<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
+</div>
+<div class="padlink2"></div>
+<div class="boxlc">
+<a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a class="boxlink" href="https://github.com/gkovacs/smart-subtitles-system-chi2014/blob/master/readme.md">GitHub</a> <br>
+</div>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+
+<div>
+<div>
 <a class="biglink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">EduFeed: An Educational Social Feed for Children</a>
 <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf"><img src="edufeed-screenshot-200px.png" alt="EduFeed" class="limg" width="200"></a>
 <div class="padlink"></div>
@@ -113,26 +151,6 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 
 <div>
 <div>
-<a class="biglink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Effects of In-Video Quizzes on MOOC Video Viewing</a>
-<a href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf"><img src="invideo-screenshot-200px.png" alt="InVideo" class="limg" width="200"></a>
-<div class="padlink"></div>
-<div class="paratext">
-A data-mining analysis of how users interact with in-video quizzes on Coursera.<br class="desktoponly">
-We discover that the presence of in-video quizzes results in quiz-driven navigation patterns such as seeking from one in-video quiz to the next.<br>
-</div>
-<div class="padlink2"></div>
-<div class="boxlc">
-<a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a> <a class="boxlink" href="https://github.com/gkovacs/invideo-quizzes-analysis-las2016/blob/master/readme.md">GitHub</a><br>
-</div>
-</div>
-<br style="clear: both">
-<div style="margin-bottom: 30px"></div>
-</div>
-
-
-
-<div>
-<div>
 <a class="biglink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">FeedLearn: Microlearning in Facebook Feeds</a>
 <a href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf"><img src="feedlearn-screenshot-200px.png" alt="FeedLearn" class="limg" width="200" style="margin-bottom: 20px"></a>
 <div class="padlink"></div>
@@ -166,26 +184,6 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
 </div>
-
-
-
-<div>
-<div>
-<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
-<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
-<div class="padlink"></div>
-<div class="paratext">
-Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
-</div>
-<div class="padlink2"></div>
-<div class="boxlc">
-<a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a class="boxlink" href="https://github.com/gkovacs/smart-subtitles-system-chi2014/blob/master/readme.md">GitHub</a> <br>
-</div>
-</div>
-<br style="clear: both">
-<div style="margin-bottom: 30px"></div>
-</div>
-
 
 
 <div>
