@@ -293,7 +293,7 @@ Shows both Standard Chinese (Mandarin) and Cantonese pronunciations.<br>
 <div class="padlink"></div>
 <div class="paratext">
 Input methods that help Chinese speakers learn Cantonese and vice versa.<br class="desktoponly">
-Can type words with pronunciations in either language, and shows pronunciations in the other language. Based on the RIME IME.<br class="desktoponly">
+Can type words using pronunciations in either language, and shows pronunciations in the other language. Based on the RIME IME.<br class="desktoponly">
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
