@@ -325,7 +325,7 @@ Can type words using pronunciations in either language, and shows pronunciations
 
 <div>
 <div>
-<a class="biglink" href="https://github.com/gkovacs/fcitx-rime-config">2-key Cantonese Input Method 雙粵拼輸入法</a>
+<a class="biglink" href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md">2-key Cantonese Input Method 雙粵拼輸入法</a>
 <a href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md"><img src="doublejyutping-400px.png" style="margin-bottom: 30px" alt="Kindle Cantonse and Chinese Dictionaries" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
