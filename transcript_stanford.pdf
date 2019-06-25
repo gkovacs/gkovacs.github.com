@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir=ltr lang=en>
+<!-- Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved. -->
+<!--
+* ***************************************************************
+*  This software and related documentation are provided under a
+*  license agreement containing restrictions on use and
+*  disclosure and are protected by intellectual property
+*  laws. Except as expressly permitted in your license agreement
+*  or allowed by law, you may not use, copy, reproduce,
+*  translate, broadcast, modify, license, transmit, distribute,
+*  exhibit, perform, publish or display any part, in any form or
+*  by any means. Reverse engineering, disassembly, or
+*  decompilation of this software, unless required by law for
+*  interoperability, is prohibited.
+*  The information contained herein is subject to change without
+*  notice and is not warranted to be error-free. If you find any
+*  errors, please report them to us in writing.
+*
+*  Copyright (C) 1988, 2017, Oracle and/or its affiliates.
+*  All Rights Reserved.
+* ***************************************************************
+-->
+<head>
+<title>An error has occurred.</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">  
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+<link rel="stylesheet" href="/pscsprd/signin.css" type="text/css" >
+<script type="text/javascript" src="/pscsprd/signin.js"></script>
+</head>
+<body>
+  <div id="pswrapper">
+    <form id="login" name="login" method="post" action="https%3a%2f%2fpscsprd.sahr.stanford.edu%2fpsc%2fpscsprd%2f?cmd=login&languageCd=ENG" autocomplete="off">
+      <input type="hidden" name="httpPort" value="">
+      <input type="hidden" name="timezoneOffset" value="0">
+      <div>
+        <div class="signonMain">
+          <img src="/pscsprd/images/Header.png" class="ps-staticimg" alt="Oracle PeopleSoft Sign-in" title="Oracle PeopleSoft Sign-in">
+          <div class="ps_signinentry">
+            <div class="ps_box-info">
+              <p class="ps_loginmessagelarge">An error has occurred.</p>
+              <p>You may attempt to sign in again.</p>
+              <p>If your attempt fails, please contact your System Administrator.</p>
+              <p></p>
+              <p class="ps_loginmessagelarge"><a  HREF='javascript:void(0);' onclick='javascript:window.location.assign("https://pscsprd.sahr.stanford.edu/psc/pscsprd/?cmd=login&languageCd=ENG&fmode=1");'>Sign in to PeopleSoft</a></p>
+            </div>
+          </div>
+          <IMG SRC="/pscsprd/images/Footer.png" width="100%" alt="">
+          <footer id="ptfooter" class="ps_footer_text ">Copyright &copy; 2000, 2017, Oracle and/or its affiliates. All rights reserved. </footer>
+        </div>
+      </div>      
+    </form>
+  </div>
+</body>
+</html>
