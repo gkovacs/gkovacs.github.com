@@ -303,7 +303,7 @@ Shows both Standard Chinese (Mandarin) and Cantonese pronunciations.<br>
 
 <div>
 <div>
-<a class="biglink" href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md">Input Methods for Learning Chinese/Cantonese</a>
+<a class="biglink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">Input Methods for Learning Chinese/Cantonese</a>
 <a href="https://github.com/gkovacs/fcitx-rime-config"><img src="learnerime-400px.png" alt="Kindle Cantonse and Chinese Dictionaries" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
@@ -312,7 +312,7 @@ Can type words using pronunciations in either language, and shows pronunciations
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md">GitHub</a>
+<a class="boxlink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">GitHub</a>
 </div>
 </div>
 <br style="clear: both">
