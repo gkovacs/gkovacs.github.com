@@ -303,8 +303,8 @@ Shows both Standard Chinese (Mandarin) and Cantonese pronunciations.<br>
 
 <div>
 <div>
-<a class="biglink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">Input Methods for Learning Chinese/Cantonese</a>
-<a href="https://github.com/gkovacs/fcitx-rime-config"><img src="learnerime-400px.png" alt="Kindle Cantonse and Chinese Dictionaries" class="limg" width="200"></a>
+<a class="biglink" href="https://github.com/gkovacs/rime-td-pinyin-flypy-extra/blob/master/README.md">Input Methods for Learning Chinese/Cantonese</a>
+<a href="https://github.com/gkovacs/rime-td-pinyin-flypy-extra/blob/master/README.md"><img src="learnerime-400px.png" alt="Cantonse and Chinese Input Methods" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Input methods that help Chinese speakers learn Cantonese and vice versa.<br class="desktoponly">
@@ -312,7 +312,7 @@ Can type words using pronunciations in either language, and shows pronunciations
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">GitHub</a>
+<a class="boxlink" href="https://github.com/gkovacs/rime-td-pinyin-flypy-extra/blob/master/README.md">GitHub</a>
 </div>
 </div>
 <br style="clear: both">
@@ -321,15 +321,15 @@ Can type words using pronunciations in either language, and shows pronunciations
 
 <div>
 <div>
-<a class="biglink" href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md">2-Key Cantonese Input Method 雙粵拼輸入法</a>
-<a href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md"><img src="doublejyutping-400px.png" style="margin-bottom: 30px" alt="Kindle Cantonse and Chinese Dictionaries" class="limg" width="200"></a>
+<a class="biglink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">2-Key Cantonese Input Method 雙粵拼輸入法</a>
+<a href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md"><img src="doublejyutping-400px.png" style="margin-bottom: 30px" alt="Cantonse and Chinese Input Methods" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 A phonetic input method for Cantonese that allows you to unambiguously type a syllable with 2 keystrokes, or 3 if including tones. Designed to be easy to learn by users of Double Pinyin (雙拼) for Mandarin. Based on RIME.<br class="desktoponly">
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://github.com/gkovacs/fcitx-rime-config/blob/master/README.md">GitHub</a>
+<a class="boxlink" href="https://github.com/gkovacs/rime-double-jyutping-extra/blob/master/README.md">GitHub</a>
 </div>
 </div>
 <br style="clear: both">
