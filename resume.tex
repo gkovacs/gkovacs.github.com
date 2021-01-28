@@ -1,16 +1,54 @@
-%______________________________________________________________________________________________________________________
-% @brief    LaTeX2e Resume for Geza Kovacs
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2015 Jan Küster
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
 
-\documentclass[margin,line]{resume}
 
-\paperwidth 8.5in
-\paperheight 11in
+%============================================================================%
+%
+%	DOCUMENT DEFINITION
+%
+%============================================================================%
 
-\usepackage{amssymb,amsmath}
+%we use article class because we want to fully customize the page and dont use a cv template
+\documentclass[10pt,A4]{article}	
 
-\usepackage{paralist}
 
-\usepackage{times}
+%----------------------------------------------------------------------------------------
+%	ENCODING
+%----------------------------------------------------------------------------------------
+
+%we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}		
+
+%----------------------------------------------------------------------------------------
+%	LOGIC
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xifthen}
+
+\usepackage{xifthen}
+
+
 \usepackage{hyperref}
 \hypersetup{backref,
   pdftitle=Geza Kovacs CV,
@@ -20,250 +58,488 @@
   colorlinks=true,
   urlcolor=black} 
 
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
 
-\usepackage{url}
-%% Define a new 'leo' style for the package that will use a smaller font.
-\makeatletter
-\def\url@leostyle{%
-\@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{
-\small\rmfamily
-}}}
-\makeatother
-%% Now actually use the newly defined style.
-\urlstyle{leo}
+% some tex-live fonts - choose your own
 
-\usepackage[absolute,overlay]{textpos}
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
 
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}		
+
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%debug page outer frames
+%\usepackage{showframe}			
+
+
+%define page styles using geometry
+\usepackage[a4paper]{geometry}		
+
+% for example, change the margins to 2 inches all round
+%\geometry{top=1.25cm, bottom=-.6cm, left=1.5cm, right=1.5cm} 	
+\geometry{top=1.25cm, bottom=1.25cm, left=1.5cm, right=1.5cm} 	
+
+%use customized header
+\usepackage{fancyhdr}				
+\pagestyle{fancy}
+
+%less space between header and content
+\setlength{\headheight}{-5pt}		
+
+
+%customize entries left, center and right
+%\lhead{}
+%\chead{}
+%\rhead{}
+
+
+%indentation is zero
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+%	TABLE /ARRAY DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for layouting tables
+\usepackage{multicol}			
+\usepackage{multirow}
+
+%extended aligning of tabular cells
+\usepackage{array}
+
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for header image
+\usepackage{graphicx}
+
+%for floating figures
+\usepackage{wrapfig}
+\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+%for drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+\usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{0,150,255}
+
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+
+%============================================================================%
+%
+%
+%	DEFINITIONS
+%
+%
+%============================================================================%
+
+%----------------------------------------------------------------------------------------
+% 	HEADER
+%----------------------------------------------------------------------------------------
+
+% remove top header line
+\renewcommand{\headrulewidth}{0pt} 
+
+%remove botttom header line
+\renewcommand{\footrulewidth}{0pt}	  	
+
+%remove pagenum
+\renewcommand{\thepage}{}	
+
+%remove section num		
+\renewcommand{\thesection}{}			
+
+%----------------------------------------------------------------------------------------
+% 	ARROW GRAPHICS in Tikz
+%----------------------------------------------------------------------------------------
+
+% a six pointed arrow poiting to the left
+\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}	
+
+% include the left arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\larrow}[1]
+{\begin{tikzpicture}[scale=0.58]
+	 \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
+ \end{tikzpicture}
+}
+
+% a six pointed arrow poiting to the right
+\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
+
+% include the right arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\rarrow}
+{\begin{tikzpicture}[scale=0.7]
+	\filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
+ \end{tikzpicture}
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	custom sections
+%----------------------------------------------------------------------------------------
+
+% create a coloured box with arrow and title as cv section headline
+% param 1: section title
+%
+\newcommand{\cvsection}[1]
+{
+	\begin{center}
+		\large\textcolor{sectcol}{\textbf{#1}}
+	\end{center}
+}
+
+%create a coloured arrow with title as cv meta section section
+% param 1: meta section title
+%
+\newcommand{\metasection}[2]
+{
+%\begin{tabular*}{1\textwidth}{r r}
+\footnotesize{#2} \hspace*{\fill} \footnotesize{#1}\\[1pt]
+%\end{tabular*}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+% creates a stretched box as cv entry headline followed by two paragraphs about 
+% the work you did
+% param 1:	event time i.e. 2014 or 2011-2014 etc.
+% param 2:	event name (what did you do?)
+% param 3:	institution (where did you work / study)
+% param 4:	what was your position
+% param 5:	some words about your contributions
+%
+% \newcommand{\cvevent}[5]
+% {
+
+% \begin{tabular*}{1\textwidth}{p{13.6cm}  x{3.9cm}}
+% 	\textbf{#2} - \textcolor{bgcol}{#3} &   \vspace{2.5pt}\textcolor{sectcol}{#1}
+% \end{tabular*}
+
+% \vspace{-8pt}
+% \textcolor{softcol}{\hrule}
+% \vspace{6pt}
+
+%   $\cdot$ #4\\[3pt]
+%   $\cdot$ #5\\[6pt]
+
+% }
+
+\newcommand{\cvevent}[5]
+{
+
+	\textbf{#2} - \textcolor{bgcol}{#3} \hfill \vspace{2.5pt}\textcolor{sectcol}{#1}
+
+\vspace{-8pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+  #4\\[3pt]
+  #5\\[6pt]
+
+}
+
+\newcommand{\cvevtzero}[4]
+{
+
+	\textbf{#2} - \textcolor{bgcol}{#3} \hfill \vspace{2.5pt}\textcolor{sectcol}{#1}
+
+\vspace{-8pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+}
+
+% \newcommand{\cvevtzero}[3]
+% {
+
+% \begin{tabular*}{1\textwidth}{p{13.6cm}  x{3.9cm}}
+% 	\textbf{#2} - \textcolor{bgcol}{#3} &   \vspace{2.5pt}\textcolor{sectcol}{#1}
+% \end{tabular*}
+
+% \vspace{-8pt}
+% \textcolor{softcol}{\hrule}
+% \vspace{6pt}
+% }
+
+% \newcommand{\cvevtone}[4]
+% {
+
+% \begin{tabular*}{1\textwidth}{p{13.6cm}  x{3.9cm}}
+% 	\textbf{#2} - \textcolor{bgcol}{#3} &   \vspace{2.5pt}\textcolor{sectcol}{#1}
+% \end{tabular*}
+
+% \vspace{-8pt}
+% \textcolor{softcol}{\hrule}
+% \vspace{6pt}
+
+%   $\cdot$ #4\\[3pt]
+
+% }
+
+\newcommand{\cvevtone}[4]
+{
+
+	\textbf{#2} - \textcolor{bgcol}{#3} \hfill \vspace{2.5pt}\textcolor{sectcol}{#1}
+
+\vspace{-8pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+  #4\\[3pt]
+
+}
+
+
+% creates a stretched box as 
+\newcommand{\cveventmeta}[2]
+{
+	\mbox{\mystrut \hspace{87pt}\textit{#1}}\\
+	#2
+}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM STRUT FOR EMPTY BOXES
+%----------------------------------------- -----------------------------------------------
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM LOREM IPSUM
+%----------------------------------------------------------------------------------------
+\newcommand{\lorem}
+{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
 \begin{document}
 
-\vspace{-20mm}
 
-\begin{textblock*}{17cm}(0mm,-2mm) % {block width} (coords) 
-\begin{small}
+%use our custom fancy header definitions
+\pagestyle{fancy}	
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+
+%\begin{figure}[H]
+%\begin{flushright}
+%	\includegraphics[trim= 320 130 460 210,clip,width=0.2\linewidth]{myfoto.jpg}	%trimming relative to image size!
+%\end{flushright}
+%\end{figure}
+
+
+%---------------------------------------------------------------------------------------
+%	TITLE HEADLINE
+%----------------------------------------------------------------------------------------
+\vspace{-8pt}
 \begin{center}
-   \today. Publications are on page 2. Latest version: \href{https://www.gkovacs.com/resume.pdf}{gkovacs.com/resume}
+	\HUGE \textsc{Geza Kovacs}\\[2pt]
+	\small www.gkovacs.com \hfill \hspace{5mm} Human-Computer Interaction Researcher \hfill geza@cs.stanford.edu
+	%\small www.gkovacs.com
 \end{center}
-\end{small}
 
-\end{textblock*}
 
-\vspace{-5.0mm}
 
-\name{\LARGE{\textsf{Geza Kovacs}} \hspace{32.5mm} \large{\textsf{geza@cs.stanford.edu}} \hspace{35.5mm} \large{\textsf{\href{http://www.gkovacs.com}{gkovacs.com}}}}
-\begin{resume}
+%\vspace{6pt}
 
-\section{\mysidestyle Education}
 
-\textbf{Stanford University} \hspace{30.0mm} PhD \hspace{11.2mm} Computer Science \hspace{2.5mm} GPA: 4.0/4.0 \hfill \textsl{2013 -- 2019}\\
-%\textbf{Stanford University} \vspace{0mm}\\\vspace{0mm}%
-%PhD, Computer Science  \hspace{2.5mm} GPA: 4.0/4.0 \hspace{30mm} Advisor: Michael Bernstein \hfill \textsl{2013 -- now}
-\textbf{Massachusetts Institute of Technology} \hspace{2.5mm} BS+MEng \hspace{2.5mm} Computer Science \hspace{2.5mm} GPA: 5.0/5.0 \hfill \textsl{2008 -- 2013}\\
+%---------------------------------------------------------------------------------------
+%	META SECTION
+%----------------------------------------------------------------------------------------
+%\metasection{Bremen, Germany}{\textbf{Status:} M.Sc. Digital Media, Scientific Employee}
+%\metasection{www.gkovacs.com}{\textbf{Fields:} Software Engineering, Consulting, Scrum, Usability} 
+%\metasection{info@jankuester.com}{\textbf{Techs:} Meteor, Javascript, Mongo,. Bootstrap, Bash, Git, Webstorm}
+%\metasection{+49 176 *** *** **}{\textbf{Activities:} Global Game Jam, Open Source, Fitness}
+%\vspace{-2pt}
+%\textcolor{softcol}{\hrule}
+%\vspace{6pt}
 
-%\textbf{Stanford University} \vspace{0mm}\\\vspace{0mm}%
-%PhD, Computer Science  \hspace{2.5mm} GPA: 4.0/4.0 \hspace{30mm} Advisor: Michael Bernstein \hfill \textsl{2013 -- now}
+\normalsize
 
-%\textbf{Massachusetts Institute of Technology} \vspace{0mm}\\\vspace{0mm}%
-%MEng, Computer Science \hspace{0mm} GPA: 4.9/5.0 \hspace{30mm} Advisor: Rob Miller \hfill \textsl{2012 -- 2013}\\\vspace{1mm}%
-%BS, Computer Science \hspace{4.5mm} GPA: 5.0/5.0 \hfill \textsl{2008 -- 2012}\vspace{-0.8mm}
+%---------------------------------------------------------------------------------------
+%	SUMMARAY (optional)
+%----------------------------------------------------------------------------------------
+%\vspace{-6pt}
+%\cvsection{Research Interests}
+%Currently working on human-in-the-loop machine translation systems, and computer-assisted translation. PhD work was on behavior change.
+%Digital media graduate with project experience in the field of technology based assessment. Currently working as IT Consultant at We4IT, Bremen in the field of IBM Notes Domino and XPages applications. Master studies focused on teams from different disciplines and cultural backgrounds on solutions for complex problems.\\
 
-\vspace{-5mm}
 
-\section{\mysidestyle Experience}
 
-\textbf{Lilt} -- Senior Research Scientist, San Francisco \hfill \textsl{2019 -- now}\\
+%---------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%--------------------------------------------------------------------------------------
+\cvsection{Education}
 
-\vspace{-7mm}
+\cvevtone{2019}{Ph.D, Computer Science}{Stanford University}{Thesis: HabitLab: In-the-wild Behavior Experimentation at Scale. Advisor: Michael Bernstein. \hfill GPA: 4.0/4.0}%{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
 
-I lead the HCI research group at Lilt, a human-in-the-loop machine translation startup.
-
-\begin{compactitem}
-\item Improved the speed of Lilt's interactive machine translation system by shifting computation client-side and using heuristics to reuse computations.
-\item Ran user studies to evaluate where translators spend their time during translation, and identify features of translator behaviors that predict better performance.
-\item Ran large-scale A/B tests to evaluate the return-on-investment of translating websites, and developed a system to recommend which pages should be translated to which languages.
-\end{compactitem}
-
-%\vspace{-2mm}
-
-%EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities -- published at CSCW 2017\\
-%FeedLearn: Microlearning in Facebook Feeds -- published at CHI EA 2015\\
-%FeedLearn is a Chrome extension that helps you learn vocabulary as you browse your Facebook feed, by inserting interactive quizzes which you can answer without leaving your feed. % User studies show increased vocabulary retention and engagement with quizzes, compared to the email and link approaches used by Duolingo.
-%QuizCram: Question-Driven Video Viewing -- published at CHI EA 2015\\ %\hfill \textsl{Microsoft Research, 2014} \\
-%QuizCram is a viewer for MOOC lectures that enables quiz-driven video navigation and reviewing. User studies show higher engagement with quizzes and more reviewing compared to Coursera's in-video quiz format. % Materials can be generated from existing in-video quizzes on Coursera. % User studies show improved engagement with quizzes, increased reviewing, and improved test scores compared to Coursera's in-video quiz format.
-%\end{itemize}
-%
-%\textbf{MIT CSAIL -- User Interface Design Group} \hfill \textsl{Fall 2011 -- Spring 2013}
-%\vspace{-4.5mm}
-%\begin{itemize}
-%\begin{itemize}
-%\textbf{MIT UID Group -- Undergraduate/MEng research}. Led the following projects: \hfill \textsl{Fall 2011 -- Spring 2013}
-%\vspace{-2mm}
-%Smart Subtitles is a video viewer that uses an interactive transcript to help learners learn vocabulary while viewing foreign-language videos. Users learned more vocabulary with our system than with bilingual subtitles.
-% Smart Subtitles helps you learn vocabulary while you watch foreign-language videos. It features an interactive transcript with mouse-over definitions and dialog-based navigation. User studies show increased vocabulary learning and increased satisfaction compared to bilingual subtitles.
-%\vspace{-6mm}
-%\vspace{-2mm}
-%\vspace{-1mm}
-%\vspace{-2mm}
-%Full Paper at CHI 2014 (see publications section).\\
-%GrammarVis: Visualizing the Grammar of Foreign Languages -- published at UIST 2013 demo\\ %\hfill \textsl{MIT CSAIL, UID group, 2013} \\
-%GrammarVis lets users interactively explore the syntactic structure of sentences.
-%\vspace{-6mm}
-%\vspace{-2mm}
-%I built it as part of a foreign-language manga reader application.\\
-%Developing a service that helps students learn vocabulary while watching foreign-language videos.
-%It does so with ``smart subtitles'', which are transcripts annotated with information personalized to learners' proficiency levels, to help them understand new vocabulary in the dialog. %by providing user-customized annotations on subtitles for foreign
-%\textit{To appear at the CHI 2013 Student Research Competition -- see Publications.}
-%ScreenMatch: Visual Context for Software Translators -- published at CHI EA 2012\\ %\hfill \textsl{MIT CSAIL, UID group, 2012} \\  %\hfill \textsl{Fall 2011}\\
-%Software translators lack visual context which illustrates how the strings they are translating are used.\\
-%ScreenMatch matches translatable strings to screenshots, to illustrate how they are used in the software.
-
-\vspace{-2mm}
-
-%Developed a software internationalization tool which associates the translatable strings in an application with screenshots in which they appear (using OCR). By presenting a screenshot highlighting how the string is being used, this additional context allows translators to make more accurate translations.
-%\textit{Presented at the CHI 2012 Student Research Competition, where it won first place -- see Publications.}
-%\end{itemize}
-
-%\emph{CHI 2012 student research competition, 1st place,}
-%\end{itemize}
-%\vspace{-4.5mm}
-
-%\textbf{MIT Media Lab -- Affective Computing Group} \hfill \textsl{Spring 2009 -- Spring 2011}
-%\begin{itemize}
-%\item Developed a system to conduct mock interviews and highlight areas for improvement. I built the audio-related parts of the backend code and prototyped ways to visualize the speech transcript.
-%\item Worked on a system to conduct mock interviews and highlight areas for improvement. I developed the audio-related parts of the backend code - for example, capturing the audio, detecting pauses, segmenting responses, and transcribing the speech. I also prototyped various ways to visualize the speech transcript.
-%\item Created a library to allow scripts for the Praat acoustic analysis application to be programatically used with real-time, continuous streams of speech.
-%\item Trained a classifier to determine mental states based on displacements of facial features, and used it in a demo application which performed real-time mental state classification.
-%\end{itemize}
-
-%\textbf{MIT CSAIL -- T-Party Project} \hfill \textsl{September -- December 2008}\\
-%Implemented applications and user interfaces which seamlessly accumulate and present various forms of remotely-stored data on mobile Linux devices. The applications auto-configure and transparently utilize nearby networked peripherals such as external displays and audio devices.
-
-%\section{\mysidestyle Industry Experience}
-
-\textbf{Stanford} -- PhD -- led research projects published at top-tier venues, including: \hfill \textsl{2013 -- 2019}\\
-
-%\section{\mysidestyle Research Highlights}
-
-%\textbf{Stanford HCI Group -- PhD student}. Leading the following research projects: \hfill \textsl{Fall 2013 -- now}
-
-%\vspace{-2mm}
-
-\vspace{-7mm}
-
-%\textit{HabitLab: Personalized Interventions for Better Online Habits} -- published at CHI 2019 and CSCW 2018\\
-\textit{Large-scale Experiments for Online Behavior Change} -- published at CHI 2021, CHI 2019, and CSCW 2018\\
-I built HabitLab (\url{http://habitlab.stanford.edu/}), an app for Chrome + Android with \textbf{12,000+ daily active users} which helps users reduce time online. I used HabitLab for a variety of machine learning and data science work:\\
-
-\vspace{-4mm}
+%\textcolor{softcol}{\hrule}
 
 %
-\begin{compactitem}
-\item Predicted changes in users' intervention preferences over time (using \textbf{LSTM Networks}; Python/PyTorch)
-\item Analyzed time redistribution effects caused by interventions (using \textbf{Mixed Models}; R/Python/SciPy)
-%\item Analyzed effects of rotating interventions on effectiveness and attrition (\textbf{Cox Regression} and \textbf{LMM}; R)
-\item Personalized interventions to each user based on effectiveness (using \textbf{Reinforcement Learning}; Python)
-%\item Predicted time spent on webpages, based on browsing visit history data (using \textbf{Random Forests}; Python/H2O)
-\end{compactitem}
+\cvevtone{2013}{B.S. and M.Eng, Computer Science}{Massachusetts Institute of Technology}{Thesis: Multimedia for Language Learning. Advisor: Robert Miller. \hfill GPA: 5.0/5.0}
 
-\vspace{-2mm}
+%\textcolor{softcol}{\hrule}
 
- %This will help us gain insights about the effectiveness of classes
+%
+%\cvevent{2012 - 2015}{Master Studies Digital Media}{University of Bremen}{Inter-cultural classes in English, covering special topics in computer science and design}{Professionalized in research methods, software development and e-assessment}
 
-%\textit{TMI: Gaining Insights about How Users Behave Online}\\
-%TMI is an volunteer-science project where users who install our Chrome extension can learn insights about how they use the web and compare to their peers, in exchange for contributing anonymized data to our dataset.
+%\textcolor{softcol}{\hrule}
 
-%\vspace{-2mm}
-
-%FeedLearn: Microlearning in Facebook Feeds\\ %\hfill \textsl{Stanford HCI group, ongoing} \\
-%\vspace{-3mm}
-%\begin{compactitem}
-% \textit{FeedLearn: Microlearning in Facebook Feeds}\\
-%\textit{Edvertisements: Repurposing Web Advertisements as Microlearning Exercises}\\
-%Edvertisements is a Chrome extension that helps you learn vocabulary as you browse the web, by replacing advertisements with microlearning exercises.
-% FeedLearn helps you learn vocabulary as you browse your Facebook feed, by inserting interactive quizzes which you can answer without leaving your feed. User studies show increased vocabulary retention and engagement with quizzes, compared to the email and link approaches used by Duolingo.
-
-%\vspace{-2mm}
-
-\textit{Effects of In-Video Quizzes on MOOC Lecture Viewing} -- published at Learning at Scale 2016
-\begin{compactitem}
-\item A \textbf{large-scale data mining} analysis of Coursera's in-video interaction logs in Machine Learning courses, analyzing effects of in-video quizzes on users' video viewing and seeking behavior (Python/Hadoop/Pandas)
-\end{compactitem}
-
-\vspace{-2mm}
-
-% -- published at CHI 2014\\ %\hfill \textsl{MIT CSAIL, UID group, 2013} \\ %\hfill \textsl{Spring 2012 -- Spring 2013} \\
-\textit{Smart Subtitles for Foreign Language Learning} -- published at CHI 2014
-\begin{compactitem}
-\item An interactive video viewer which uses \textbf{natural language processing} to improve vocabulary learning. Extracts transcripts via OCR, models users' knowledge, and provides personalized learning support.
-\end{compactitem}
-
-\vspace{-2mm}
-
-Other work published at CSCW 2017 (EduFeed), UIST 2017 (Crowd Research), CHI 2015 (FeedLearn, QuizCram), UIST 2013 (GrammarVis), CHI 2012 (ScreenMatch) -- complete publication list on page 2.\\
-
-\vspace{-6mm}
-
-%\textbf{Microsoft Research -- Research Intern, Redmond} \hspace{13.5mm} Mentor: Merrie Morris \hfill \textsl{Summer 2015}\\
-\textbf{Microsoft Research} -- Research Intern, Redmond \hfill \textsl{Summer 2015}\\
-Designed and built an educational social feed app usable by pre-literate children. Published at CSCW 2017.\\
-%Designed and built an educational social feed experience for teaching literacy and mathematics skills. Published as a full paper at CSCW 2017.
-
-\vspace{-6mm}
-
-%\textbf{Microsoft Research -- Research Intern, Beijing} \hspace{17.5mm} Mentor: Darren Edge \hfill \textsl{Summer 2014}\\
-\textbf{Microsoft Research} -- Research Intern, Beijing \hfill \textsl{Summer 2014}\\
-Built a quiz-driven MOOC lecture viewer that improved learning outcomes. Published at CHI 2015.\\ % (CHI EA 2015).
-% Designed and implemented a quiz-directed lecture viewing system. User studies show it improves engagement and retention of questions compared to Coursera's in-video quizzes.
-
-\vspace{-6mm}
-
-%\textbf{Google -- Software Engineering Intern, Mountain View} \hspace{5mm} Mentor: Shumin Zhai \hfill \textsl{Summer 2013}\\
-\textbf{Google Research} -- Software Engineering Intern, Mountain View \hfill \textsl{Summer 2013}\\
-%Designed and built novel text input methods on Android phones and tablets.
-Developed a machine learning system for detecting taps on the phone bezel, for use in Android input methods.\\
-
-\vspace{-6mm}
+%
+%\cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne, Australia}{Finished machine programming, information visualization, professional essay writing}
 
 
-\textbf{Google} -- Software Engineering Intern, Mountain View \hfill \textsl{Summer 2012}\\
-%Designed and built a system to detect and provide definitions for specialized vocabulary in books. %, by extracting them from the book text.
-Developed an NLP system to detect vocabulary and generate glossaries from book text (used MapReduce).\\ %, by extracting them from the book text.
+%============================================================================%
+%
+%	CV SECTIONS AND EVENTS (MAIN CONTENT)
+%
+%============================================================================%
 
-\vspace{-6mm}
+%---------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Experience}
 
-\textbf{Google} -- Software Engineering Intern, Mountain View \hfill \textsl{Summer 2011}\\
-Developed a machine learning system to predict the quality of user reviews, now deployed on Google Play.\\
-%Developed a system to predict the quality of user reviews on the Android Marketplace (now Google Play). %, based on textual and metadata features. It was deployed and used for ordering reviews on Google Play.
-% In user tests I conducted in several languages, the reviews selected by this algorithm
-% were strongly preferred over chronological ordering.
+\cvevtzero{2019 - present}{Senior Research Scientist}{Lilt, San Francisco. Manager: John DeNero}\\
+Lilt is a human-in-the-loop machine translation startup. I lead the HCI research group, which consists of 3 FTEs.\\
+Improved speed interactive MT system by shifting computation client-side and reusing computation via heuristics.\\
+Ran user studies to evaluate where translators spend their time during translation, and identify features of translator behaviors that predict better performance. Ran A/B tests to evaluate the return-on-investment of translating websites, and developed a data-driven system to recommend which pages to translate into which languages.\\
 
-\vspace{-6mm}
+\cvevtzero{2013 - 2019}{Ph.D Student}{Stanford University. Advisor: Michael Bernstein}\\
+My thesis project was HabitLab (\url{http://habitlab.stanford.edu/}), an app for Chrome + Android with \textbf{12,000+ daily active users} which helps users reduce time online. Published first-author papers about HabitLab at CHI 2021, CHI 2019, and CSCW 2019. I also published first-author papers at Learning at Scale 2016 (Effects of In-Video Quizzes on MOOC Lecture Viewing) and CHI 2014 (Smart Subtitles for Foreign Language Learning).\\ % See page 2 for other publications.
 
-\textbf{Microsoft} -- Software Development Engineer Intern, Redmond -- worked on compilers \hfill \textsl{Summer 2010}\\
-\textbf{Google} -- Summer of Code -- worked on FFmpeg (open-source video transcoding library) \hfill \textsl{Summer 2009}\\
+%
+\cvevtone{Summer 2015}{Research Intern}{Microsoft Research, Redmond. Manager: Merrie Morris}{Designed and built an educational social feed app usable by pre-literate children. Published at CSCW 2017.}
 
-% \textbf{Microsoft Corporation -- Software Development Engineer Intern, Redmond} \hfill \textsl{Summer 2010}\\
-% Implemented the Intellisense API and Visual Studio code completion plugin for a new programming language. %under development by the Technical Computing group.
+\cvevtone{Summer 2014}{Research Intern}{Microsoft Research, Beijing. Manager: Darren Edge}{Built QuizCram, a quiz-driven MOOC lecture viewer that improves learning outcomes. Published at CHI 2015.}
 
-% \textbf{Google Summer of Code -- FFmpeg (Video transcoding library)} \hfill \textsl{Summer 2009}\\
-% Developed a playlist and concatenation API and parsers for several playlist formats for FFmpeg.
-%Developed a playlist and concatenation API parsers for several playlist formats, and a transitional interface for existing applications, for the FFmpeg video transcoding library.
+\cvevtone{Summer 2013}{Research Intern}{Google Research, Mountain View. Manager: Shumin Zhai}{Developed a machine learning system for detecting taps on the phone bezel, for use in Android input methods.}
 
-\vspace{-5mm}
+\cvevtone{Summer 2012}{Software Engineering Intern}{Google, Mountain View}{Developed an NLP system to detect vocabulary and generate glossaries from book text (used MapReduce).}
 
-\section{\mysidestyle Open-source\\Projects}
+\cvevtone{Summer 2011}{Software Engineering Intern}{Google, Mountain View}{Developed a machine learning system to predict the quality of user reviews, now deployed on Google Play.}
 
-\textbf{UNetbootin (LiveUSB Creator)} -- \url{http://unetbootin.github.io/} \hfill \url{https://en.wikipedia.org/wiki/UNetbootin}\\ %\hfill \textsl{January 2007 -- now}\\
+\cvevtone{Summer 2010}{Software Development Engineering Intern}{Microsoft, Redmond}{Built the intellsense code completion system for a scientific computing language, and contributed to its compiler.}
+
+%--------------------------------------------------------------------------------------------------
+%	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
+%--------------------------------------------------------------------------------------------------
+
+\cvsection{Open-source Projects}
+
+% \url{http://unetbootin.github.io/}
+\textbf{UNetbootin (LiveUSB Creator)} \hfill \url{https://en.wikipedia.org/wiki/UNetbootin}\\ %\hfill \textsl{January 2007 -- now}\\
 \emph{40 million downloads}. UNetbootin creates bootable USB flash drives for various (50+) Linux distributions.\\ %This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
 % \hspace{3mm}  
-
-\vspace{-6.5mm}
 
 \textbf{Ubuntu Installer for Windows (Wubi)} \hfill \url{https://en.wikipedia.org/wiki/Wubi_(software)}\\ %\hfill \textsl{November 2006 -- August 2007}\\
 \emph{Now part of Ubuntu}. Built the first versions of Wubi, which allows Ubuntu to be installed from Windows.\\ % This work is now part of Ubuntu. \\
 
-\vspace{-5.5mm}
+\textbf{HabitLab (In-the-wild Behavior Change Research Platform)} \hfill \url{https://habitlab.stanford.edu}\\ %\hfill \textsl{November 2006 -- August 2007}\\
+\emph{12,000+ daily active users}. I built HabitLab over my Ph.D, and it is still used for research at Stanford Medical School.\\ % This work is now part of Ubuntu. \\
 
-\section{\mysidestyle Awards and Honors}
+
+\cvsection{Conference and Journal Papers}
+
+\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently'' ACM annual conference on Human Factors in Computing Systems (CHI) 2021 (to appear).\\ %Acceptance rate: 23.8\%
+
+Samuel Läubli, Patrick Simianer, Joern Wuebker, \textbf{Geza Kovacs}, Rico Sennrich, Spence Green. ``The Impact of Text Presentation on Translator Performance.'' Target: International Journal of Translation Studies, 2021 (to appear).\\
+
+\textbf{Geza Kovacs}, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. ``Conservation of Procrastination: Do Productivity Interventions Save Time Or Just Redistribute It?'' ACM annual conference on Human Factors in Computing Systems (CHI) 2019.\\ %Acceptance rate: 23.8\%
+
+\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition.'' ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2018.\\ %Acceptance rate: 26\%
+
+Rajan Vaish, Neil Gaikwad, \textbf{Geza Kovacs}, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. ``Crowd Research: Open and Scalable University Laboratories.'' ACM Symposium on User Interface Software and Technology (UIST) 2017.\\ %Acceptance rate: 22\%
+
+Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. ``EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities.'' ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2017.\\ %Acceptance rate: 35\%
+
+\textbf{Geza Kovacs}. ``Effects of In-Video Quizzes on MOOC Lecture Viewing.'' ACM annual conference on Learning at Scale (L@S) 2016.\\ %Acceptance rate: 22\%
+
+\textbf{Geza Kovacs} and Robert C. Miller. ``Smart Subtitles for Vocabulary Learning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2014.\\ %Acceptance rate: 23\%
+
+\cvsection{Peer-Reviewed Extended Abstracts}
+
+Stanford Crowd Research, \textbf{Geza Kovacs}, Rajan Vaish, Michael Bernstein. ``Daemo: A Self-Governed Crowdsourcing Marketplace''. ACM Symposium on User Interface Software and Technology (UIST) 2015, Poster.\\
+
+\textbf{Geza Kovacs}. ``FeedLearn: Using Facebook Feeds for Microlearning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts.\\ % Acceptance rate: 45\%
+
+\textbf{Geza Kovacs}. ``QuizCram: A Question-Driven Video Studying Interface.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts.\\
+
+Joseph Jay Williams, \textbf{Geza Kovacs}, Caren Walker, Samuel G Maldonado, Tania Lombrozo. ``Learning Online via Prompts to Explain.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2014, Extended Abstracts.\\
+
+\textbf{Geza Kovacs} and Robert C. Miller. ``Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.'' ACM Symposium on User Interface Software and Technology (UIST) 2013, Demo.\\
+
+\textbf{Geza Kovacs}. ``Smart Subtitles for Language Learning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2013, Extended Abstracts.\\ %\\
+%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf}
+
+\textbf{Geza Kovacs}. ``ScreenMatch: providing context to software translators by displaying screenshots.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2012, Extended Abstracts.\\ %\\
+%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf}
+
+%\vspace{-5mm}
+
+\cvsection{Invited Talks}
+
+\textbf{Geza Kovacs}. ``Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt.'' Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation (iMpacT 2020).\\
+
+\pagebreak
+
+\cvsection{Awards and Honors}
 
 Stanford Human-Centered AI Grant (for my research project HabitLab), 2018\\ %-2016\\
 National Defense Science and Engineering Graduate Fellowship, 2013\\ %-2016\\
@@ -275,254 +551,107 @@ National Science Foundation Graduate Research Fellowship, 2013\\ %(declined in f
 1$^{\textrm{st}}$ place, MIT Autonomous Robotics Competition (Maslab), 2010
 %Member of Tau Beta Pi (Engineering), Phi Beta Kappa (Liberal Arts), Eta Kappa Nu (EECS) honor societies
 
-\pagebreak
+\cvsection{Academic Service}
 
-\section{\mysidestyle Conference Papers}
+Reviewer for \textbf{CHI} (2015, 2018, 2019, 2021), \textbf{UIST} (2017, 2018), \textbf{CSCW} (2021), \textbf{IMWUT} (2019).\\
 
-% \section{\mysidestyle Publications: Full Papers}
-
-\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently'' ACM annual conference on Human Factors in Computing Systems (CHI) 2021 (to appear). %Acceptance rate: 23.8\%
-
-\textbf{Geza Kovacs}, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. ``Conservation of Procrastination: Do Productivity Interventions Save Time Or Just Redistribute It?'' ACM annual conference on Human Factors in Computing Systems (CHI) 2019. %Acceptance rate: 23.8\%
-
-\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition.'' ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2018. %Acceptance rate: 26\%
-
-Rajan Vaish, Neil Gaikwad, \textbf{Geza Kovacs}, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. ``Crowd Research: Open and Scalable University Laboratories.'' ACM Symposium on User Interface Software and Technology (UIST) 2017. %Acceptance rate: 22\%
-
-Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. ``EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities.'' ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2017. %Acceptance rate: 35\%
-
-\textbf{Geza Kovacs}. ``Effects of In-Video Quizzes on MOOC Lecture Viewing.'' ACM annual conference on Learning at Scale (L@S) 2016. %Acceptance rate: 22\%
-
-\textbf{Geza Kovacs} and Robert C. Miller. ``Smart Subtitles for Vocabulary Learning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2014. %Acceptance rate: 23\%
-
-%\textbf{Extended Abstracts}
-
-\section{\mysidestyle Journal\\Papers}
-
-Samuel Läubli, Patrick Simianer, Joern Wuebker, \textbf{Geza Kovacs}, Rico Sennrich, Spence Green. ``The Impact of Text Presentation on Translator Performance.'' Target: International Journal of Translation Studies, 2021 (to appear).
-
-\section{\mysidestyle Peer-Reviewed Extended Abstracts}
-
-Stanford Crowd Research, \textbf{Geza Kovacs}, Rajan Vaish, Michael Bernstein. ``Daemo: A Self-Governed Crowdsourcing Marketplace''. ACM Symposium on User Interface Software and Technology (UIST) 2015, Poster.
-
-\textbf{Geza Kovacs}. ``FeedLearn: Using Facebook Feeds for Microlearning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts. % Acceptance rate: 45\%
-
-\textbf{Geza Kovacs}. ``QuizCram: A Question-Driven Video Studying Interface.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts.
-
-Joseph Jay Williams, \textbf{Geza Kovacs}, Caren Walker, Samuel G Maldonado, Tania Lombrozo. ``Learning Online via Prompts to Explain.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2014, Extended Abstracts.
-
-\textbf{Geza Kovacs} and Robert C. Miller. ``Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.'' ACM Symposium on User Interface Software and Technology (UIST) 2013, Demo.
-
-\textbf{Geza Kovacs}. ``Smart Subtitles for Language Learning.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2013, Extended Abstracts.%\\
-%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf}
-
-\textbf{Geza Kovacs}. ``ScreenMatch: providing context to software translators by displaying screenshots.'' ACM annual conference on Human Factors in Computing Systems (CHI) 2012, Extended Abstracts.%\\
-%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf}
-
-%\vspace{-5mm}
-
-\section{\mysidestyle Invited Talks}
-
-\textbf{Geza Kovacs}. ``Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt.'' Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation (iMpacT 2020).
-
-\section{\mysidestyle Reviewing}
-
-Reviewer for \textbf{CHI} (2015, 2018, 2019, 2021), \textbf{UIST} (2017, 2018), \textbf{CSCW} (2021), \textbf{IMWUT} (2019).
-
-\pagebreak
-
-\section{\mysidestyle Teaching\\Experience}
+\cvsection{Teaching Experience}
 
 \textbf{Understanding Users (CS 377U)} -- Teaching Assistant, at Stanford \hfill \textsl{Spring 2019} \\
-
-\vspace{-8mm}
 
 \textbf{Human Computer Interaction Research (CS 376)} -- Teaching Assistant, at Stanford \hfill \textsl{Fall 2018} \\
 %Helped write and grade assignments, lead discussions, and manage the course infrastructure.
 
-\vspace{-8mm}
-
 \textbf{Natural Language Processing (6.863)} -- Teaching Assistant, at MIT \hfill \textsl{Fall 2012} \\
 %Helped write and grade assignments, and managed the course infrastructure. I developed new tools to make the assignment grading process faster, semi-automatic, and paper-free.
 
-\vspace{-8mm}
-
-\textbf{Introduction to C++ IAP (6.096)} -- Instructor, at MIT \hfill \textsl{January 2011}\\
-
-\vspace{-8mm}
+\textbf{Introduction to C++ IAP (6.096)} -- Instructor, at MIT \hfill \textsl{January 2011}
 
 %Gave lectures, helped write and grade assignments, and helped students in lab for a student-run, for-credit introductory C++ course. The teaching materials I produced have been made available on OpenCourseWare:
-My lectures and teaching materials for this course are available on MIT OpenCourseWare:\\
+My lectures and teaching materials for this course are available on MIT OpenCourseWare:
 
-\vspace{-8mm}
+\begin{small}
+\url{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011}
+\end{small} \\
 
-\url{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011} \\
-
-\vspace{-7mm}
-
-\textbf{MASLAB Mobile Autonomous Systems Lab (6.186)} -- Software Director, at MIT \hfill \textsl{January 2011}\\
-
-\vspace{-8mm}
+\textbf{MASLAB Mobile Autonomous Systems Lab (6.186)} -- Software Director, at MIT \hfill \textsl{January 2011}
 
 Gave lectures on computer vision and managed the software stack for an autonomous robotics competition.
 % As the software director for this student-led autonomous robotics competition, I gave lectures on computer vision and control algorithms, managed the software stack for the competition, and helped students in lab.
 
-\section{\mysidestyle Relevant Coursework}
+\cvsection{Relevant Coursework}
 
-\textbf{Deep Learning} (CS 230), \textbf{Natural Language Processing} (6.864, 6.863), Artificial Intelligence (6.034), Data Mining (CS 224w), Statistical Models (6.804), Statistics (18.440), Linear Algebra (18.700), Security (6.857), Bioinformatics (6.047), HCI (6.803), Algorithms (6.006, 6.046), Linguistics (24.900), Compilers (CS 143)\\
+Deep Learning (CS 230), Natural Language Processing (6.864, 6.863), Artificial Intelligence (6.034), Data Mining (CS 224w), Statistical Models (6.804), Statistics (18.440), Linear Algebra (18.700), Security (6.857), Bioinformatics (6.047), HCI (6.803), Algorithms (6.006, 6.046), Linguistics (24.900), Compilers (CS 143)\\
 
-\vspace{-5mm}
+\cvsection{Selected Press}
 
-\section{\mysidestyle Selected Press}
-
-\textbf{HabitLab}
-
-\vspace{-2mm}
+\textbf{HabitLab}\\
 
 The HabitLab Browser Extension Curbs Your Time Wasted on the Web. WIRED, January 2019.\\
-\url{https://www.wired.com/story/habitlab-browser-extension/}
-
-\vspace{-2mm}
+\url{https://www.wired.com/story/habitlab-browser-extension/}\\
 
 Prevent Procrastination With This Chrome Extension. Lifehacker, February 2019.\\
-\url{https://lifehacker.com/prevent-procrastination-with-this-chrome-extension-1832723418}
-
-\vspace{-2mm}
+\url{https://lifehacker.com/prevent-procrastination-with-this-chrome-extension-1832723418}\\
 
 Finding It Hard to Focus? Maybe It’s Not Your Fault. The New York Times, August 2018.\\
-\url{https://www.nytimes.com/2018/08/14/style/how-can-i-focus-better.html}
-
-\vspace{-2mm}
+\url{https://www.nytimes.com/2018/08/14/style/how-can-i-focus-better.html}\\
 
 Be More Mindful of the Time You Waste Online With HabitLab. Lifehacker, August 2018.\\
-\url{https://lifehacker.com/be-more-mindful-of-the-time-you-waste-online-with-habit-1828118354}
-
-\vspace{-2mm}
+\url{https://lifehacker.com/be-more-mindful-of-the-time-you-waste-online-with-habit-1828118354}\\
 
 The Chrome Extensions We Can't Live Without. WIRED, February 2018.\\
-\url{https://www.wired.com/story/best-chrome-extensions/}
+\url{https://www.wired.com/story/best-chrome-extensions/}\\
 
-\textbf{Daemo}
-
-\vspace{-2mm}
+\textbf{Daemo}\\
 
 Amazon's Turker Crowd Has Had Enough. WIRED, August 2017.\\
-\url{https://www.wired.com/story/amazons-turker-crowd-has-had-enough/}
-
-\vspace{-2mm}
+\url{https://www.wired.com/story/amazons-turker-crowd-has-had-enough/}\\
 
 A Stanford-led platform for crowdsourced research gives experience to global participants. Stanford University News, October 2017.\\
-\url{https://news.stanford.edu/2017/10/23/crowdsourced-research-gives-experience-global-participants/}
+\url{https://news.stanford.edu/2017/10/23/crowdsourced-research-gives-experience-global-participants/}\\
 
-\textbf{UNetbootin}
+\textbf{UNetbootin}\\
 
 How To Try Linux Without Making Any Changes To Your PC. Forbes, September 2018.\\
+\begin{small}
 \url{https://www.forbes.com/sites/jasonevangelho/2018/09/18/how-to-safely-try-linux-on-your-mac-or-windows-pc/}
+\end{small}\\
 
 Installing Ubuntu on an old netbook with hair tearing and profanity. Network World, August 2014.\\
+\begin{small}
 \small{\url{https://www.networkworld.com/article/2465150/installing-ubuntu-on-an-old-netbook-with-hair-tearing-and-profanity.html}}
+\end{small}\\
 
 Linux on the NUC: Using Ubuntu, Mint, Fedora, and the SteamOS beta. Ars Technica, February 2014.\\
+\begin{small}
 \url{https://arstechnica.com/gadgets/2014/02/linux-on-the-nuc-using-ubuntu-mint-fedora-and-the-steamos-beta/}
+\end{small}\\
 
-\textbf{Wubi}
-
-\vspace{-2mm}
+\textbf{Wubi}\\
 
 Wubi arrives: a look at Ubuntu 8.04 alpha 5. Ars Technica, February 2008.\\
-\url{https://arstechnica.com/information-technology/2008/02/wubi-arrives-a-look-at-ubuntu-8-04-alpha-5/}
-
-\vspace{-2mm}
+\url{https://arstechnica.com/information-technology/2008/02/wubi-arrives-a-look-at-ubuntu-8-04-alpha-5/}\\
 
 Install Ubuntu on a Windows Netbook, No Partitioning Needed. Lifehacker, May 2008.\\
-\url{https://lifehacker.com/install-ubuntu-on-a-windows-netbook-no-partitioning-ne-5542387}
-
-\vspace{-2mm}
+\url{https://lifehacker.com/install-ubuntu-on-a-windows-netbook-no-partitioning-ne-5542387}\\
 
 The Ubuntu guide for displaced Windows users. PCWorld, March 2013.\\
-\url{https://www.pcworld.com/article/2030132/the-ubuntu-guide-for-displaced-windows-users.html}
+\url{https://www.pcworld.com/article/2030132/the-ubuntu-guide-for-displaced-windows-users.html}\\
 
-%\vspace{-5mm}
-
-% \section{\mysidestyle Skills and technologies}
-
-% \textbf{Programming}: Python, C/C++, R, JavaScript, Java, Scala, C\#, Ruby, TypeScript, CoffeeScript, Haskell, Bash
-
-% \vspace{-4mm}
-
-% \textbf{Machine Learning}: Deep Learning (RNN/LSTM/CNN/GAN), Reinforcement Learning (multi-armed bandit) % GAN, SVM, HMM
-
-% \vspace{-4mm}
-
-% \textbf{ML+Data Engineering}: PyTorch, scikit-learn, Keras, TensorFlow, NumPy, Pandas, H2O, MapReduce (Hadoop)
-
-% % H2O, Weka, NetworkX, Hadoop, MapReduce %, RL % HMM %Reinforcement Learning %(RNN/LSTM/CNN/GAN) % (RNN/CNN/GAN) %, NLP %, PCFG % Weka % sklearn % scikit-learn
-
-% %\vspace{-4mm}
-
-% %\textbf{ML Frameworks + Tools}:  %, RL % HMM %Reinforcement Learning %(RNN/LSTM/CNN/GAN) % (RNN/CNN/GAN) %, NLP %, PCFG % Weka % sklearn % scikit-learn
+%\null
+%\vspace*{\fill}
+%\hspace{-0.25\linewidth}\colorbox{white}{\makebox[1.5\linewidth][c]{\mystrut  \textnormal{\textcolor{sectcol}{www.jankuester.com} $\cdot$ \textcolor{sectcol}{github.com/jankapunkt}}}}
 
 
-% %\textbf{Machine Learning}: PyTorch, scikit-learn, Keras, TensorFlow, Deep Learning (RNN/LSTM/CNN/GAN), RL % HMM %Reinforcement Learning %(RNN/LSTM/CNN/GAN) % (RNN/CNN/GAN) %, NLP %, PCFG % Weka % sklearn % scikit-learn
-% %\textbf{Machine Learning} and \textbf{Data Science}: PyTorch, TensorFlow, Python, Numpy, SciPy, Pandas, Jupyter, R, rpy2
-
-% \vspace{-4mm}
-
-% \textbf{Natural Language Processing}: NLTK, word embeddings (word2vec), parsing, language models, WordNet %, Attention % WordNet %, HMM, CRF, PCFG %, PCFG % Probabalistic Context-Free Grammars, Parsing % (RNN/CNN/GAN) %, NLP %, PCFG % Weka % sklearn % scikit-learn
-% %\textbf{Machine Learning} and \textbf{Data Science}: PyTorch, TensorFlow, Python, Numpy, SciPy, Pandas, Jupyter, R, rpy2
 
 
-% \vspace{-4mm}
-
-% %\textbf{Data Mining}: Jupyter, NumPy, SciPy, Pandas, NLTK, NetworkX, MapReduce, Mongo, SQL, ggplot2, Plotly
-
-% % \textbf{Data Mining}: , SQL, NoSQL (MongoDB/Redis) % CUDA
-
-% %\vspace{-4mm}
-
-% \textbf{Data Mining}: PyData, SciPy, Visualization (D3.js/ggplot2/Plotly), SQL, NoSQL (Mongo), NetworkX, Jupyter % Jupyter, Bokeh noSQL % (MongoDB/Redis) %Clustering, Sentiment Analysis, Jupyter, RStudio %, RStudio,  % Chartjs, matplotlib
-
-% \vspace{-4mm}
-
-% \textbf{Data Science}: Mixed models, Survival analysis, A/B testing, Experiment design, Crowdsourcing (mTurk) %,  Crowdsourcing %Crowdsourcing
-% % Pandas, ANOVA, Cox regression, Cox regression, Pandas, Survival analysis, Cox regression, Multi-armed bandit, Experiment Design, Multi-armed bandits
-
-% %, CUDA
-
-% % CUDA
-
-% \vspace{-4mm}
-
-% %\textbf{Backend Development}: Node.js (Express, Koa), Flask, MongoDB, PostgreSQL, Redis, Vagrant, EC2, GCloud
-
-% \textbf{Backend+Systems}: Node.js, Flask, MongoDB, PostgreSQL, Redis, Docker, Google Cloud, AWS EC2, CUDA %, GCloud %, EC2
-
-% %\vspace{-4mm}
-
-% %\textbf{Mobile Development}: Cross-platform JS (Cordova, NativeScript), Android (Java), Responsive Web Design
-
-% %\textbf{Web and Mobile:} HTML/CSS/JS, Polymer, D3.js, Android (Java, Cordova, NativeScript), Responsive Design
-
-% %\textbf{Backend Development}: Node.js (Express, Koa), Flask, MongoDB, PostgreSQL, Redis, Vagrant, EC2, GCloud
-
-% %\vspace{-4mm}
-
-% %\textbf{Web and Mobile}: HTML, CSS, JS, Polymer, D3.js, Plotly, CoffeeScript, Webpack, SystemJS, React, Flow
-
-% %\textbf{Web Development}: HTML, CSS, JS, Polymer, D3.js, Plotly, CoffeeScript, Webpack, SystemJS, React, Flow
-% %\textbf{Web Development}: HTML, CSS, JavaScript, TypeScript, Node.js, Express, Flask, Polymer, React, MongoDB, CoffeeScript, Sass
-
-% \vspace{-4mm}
-
-% \textbf{Web + Mobile}: HTML/CSS/JS, Polymer, React, Webpack, Flow, JSX, Android (Java, Cordova, NativeScript) %Responsive Design
-% %Mobile Development: Cross-platform JS (Cordova, NativeScript), Android (Java), Responsive Web Design
-% % Java
-
-% \vspace{-4mm}
-
-% %\vspace{-4mm}
-
-% \textbf{Languages}: Fluent English and Chinese (Mandarin). Intermediate Hungarian, Vietnamese, Japanese, Spanish.
-
-\end{resume}
+%============================================================================%
+%
+%
+%
+%	DOCUMENT END
+%
+%
+%
+%============================================================================%
 \end{document}
