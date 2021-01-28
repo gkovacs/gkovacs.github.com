@@ -31,7 +31,7 @@ HabitLab is an open-source platform that helps users reduce their time online by
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
- <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://www.gkovacs.com/phd_thesis/thesis.pdf">Thesis</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+ <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf">Thesis</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -346,7 +346,15 @@ My other open-source projects are on [Github](https://github.com/gkovacs), [Npm]
 
 <div class="publicationsdiv" style="line-height: 160%">
 
-**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf). *CHI 2019 (full paper)*.
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](http://www.gkovacs.com/publications/not-now-ask-again-chi2021.pdf). *CHI 2021 (full paper, to appear)*.
+
+Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2021 (to appear)*.
+<br>
+
+**Geza Kovacs**. [HabitLab: In-the-wild Behavior Change Experiments at Scale](https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf). *PhD Thesis, Stanford, 2019*.
+<br>
+
+**Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf) *CHI 2019 (full paper)*.
 <br>
 <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3300560">ACM DL</a>
 <br>
