@@ -58,6 +58,12 @@
   colorlinks=true,
   urlcolor=black} 
 
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\bf\ttfamily}}}
+\makeatother
+\urlstyle{leo}
+
 %----------------------------------------------------------------------------------------
 %	FONT
 %----------------------------------------------------------------------------------------
