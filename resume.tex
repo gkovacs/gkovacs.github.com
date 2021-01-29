@@ -48,6 +48,20 @@
 
 \usepackage{xifthen}
 
+\usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{0,150,255}
+
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+
+\definecolor{linkcol}{RGB}{0,150,255}
+
 
 \usepackage{hyperref}
 \hypersetup{backref,
@@ -56,13 +70,25 @@
   pdfkeywords=Geza Kovacs CV,
   pdfsubject=Geza Kovacs CV,
   colorlinks=true,
-  urlcolor=black} 
+  urlcolor=linkcol
+}
 
+% \makeatletter
+% \def\url@leostyle{%
+%   \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\bf\ttfamily}}}
+% \makeatother
+% \urlstyle{leo}
+
+\urlstyle{sf}
 \makeatletter
-\def\url@leostyle{%
-  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\bf\ttfamily}}}
+% Inspired by http://anti.teamidiot.de/nei/2009/09/latex_url_slash_spacingkerning/
+% but slightly less kern and shorter underscore
+\let\UrlSpecialsOld\UrlSpecials
+\def\UrlSpecials{\UrlSpecialsOld\do\/{\Url@slash}\do\_{\Url@underscore}}%
+\def\Url@slash{\@ifnextchar/{\kern-.11em\mathchar47\kern-.2em}%
+    {\kern-.0em\mathchar47\kern-.08em\penalty\UrlBigBreakPenalty}}
+\def\Url@underscore{\nfss@text{\leavevmode \kern.06em\vbox{\hrule\@width.3em}}}
 \makeatother
-\urlstyle{leo}
 
 %----------------------------------------------------------------------------------------
 %	FONT
@@ -155,18 +181,6 @@
 %----------------------------------------------------------------------------------------
 %	Color DEFINITIONS
 %---------------------------------------------------------------------------------------- 
-
-\usepackage{color}
-
-%accent color
-\definecolor{sectcol}{RGB}{0,150,255}
-
-%dark background color
-\definecolor{bgcol}{RGB}{110,110,110}
-
-%light background / accent color
-\definecolor{softcol}{RGB}{225,225,225}
-
 
 %============================================================================%
 %
@@ -396,7 +410,7 @@
 \vspace{-8pt}
 \begin{center}
 	\HUGE \textsc{Geza Kovacs}\\[2pt]
-	\small www.gkovacs.com \hfill \hspace{5mm} Human-Computer Interaction Researcher \hfill geza@cs.stanford.edu
+	\small \hypersetup{urlcolor=black}\href{https://www.gkovacs.com}{www.gkovacs.com}\hypersetup{urlcolor=linkcol} \hfill \hspace{5mm} Human-Computer Interaction Researcher \hfill \hypersetup{urlcolor=black}\href{mailto:geza@cs.stanford.edu}{geza@cs.stanford.edu}\hypersetup{urlcolor=linkcol}
 	%\small www.gkovacs.com
 \end{center}
 
