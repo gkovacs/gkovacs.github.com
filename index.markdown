@@ -20,6 +20,22 @@ I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume<
 <a name="research"></a>
 ## Research
 
+<div>
+<div>
+<a class="biglink" href="http://www.gkovacs.com/publications/not-now-ask-again-chi2021.pdf">Adapting to Changing Difficulty Preferences</a>
+<a href="http://www.gkovacs.com/publications/not-now-ask-again-chi2021.pdf"><img src="difficulty-chi2021-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLab</a>, we found users choose easier interventions over time, but expect to return to harder interventions. Adapting to users' difficulty preferences via low-frequency prompting improves retention.<br>
+</div>
+<div class="padlink2"></div>
+<div class="boxlc">
+<a class="boxlink" href="http://www.gkovacs.com/publications/not-now-ask-again-chi2021.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+</div>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
 
 <div>
 <div>
@@ -31,7 +47,7 @@ HabitLab is an open-source platform that helps users reduce their time online by
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
- <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf">Thesis</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+ <a class="boxlink" href="https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf">Thesis</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
