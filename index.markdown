@@ -22,15 +22,15 @@ I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume<
 
 <div>
 <div>
-<a class="biglink" href="https://arxiv.org/pdf/2101.11743.pdf">Adapting to Changing Difficulty Preferences</a>
-<a href="https://arxiv.org/pdf/2101.11743.pdf"><img src="difficulty-chi2021-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<a class="biglink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Adapting to Changing Difficulty Preferences</a>
+<a href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf"><img src="difficulty-chi2021-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLab</a>, we found users choose easier interventions over time, but expect to return to harder interventions. Adapting to users' difficulty preferences via low-frequency prompting improves retention.<br>
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://arxiv.org/pdf/2101.11743.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -362,7 +362,7 @@ My other open-source projects are on [Github](https://github.com/gkovacs), [Npm]
 
 <div class="publicationsdiv" style="line-height: 160%">
 
-**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://arxiv.org/pdf/2101.11743.pdf). *CHI 2021 (full paper, to appear)*.
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf). *CHI 2021 (full paper, to appear)*.
 
 Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2021 (to appear)*.
 <br>
