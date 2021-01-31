@@ -30,7 +30,7 @@ In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLa
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
