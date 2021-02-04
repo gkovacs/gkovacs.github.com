@@ -173,7 +173,7 @@ FeedLearn helps users learn vocabulary while browsing Facebook by inserting inte
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="https://www.gkovacs.com/edvertisements-microlearning-paper-chi2015ea/edvertisements.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome</a> <a class="boxlink" href="https://github.com/gkovacs/edvertisements-microlearning-paper-chi2015ea/blob/master/README.md">GitHub</a><br>
+<a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01865.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome</a> <a class="boxlink" href="https://github.com/gkovacs/edvertisements-microlearning-paper-chi2015ea/blob/master/README.md">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -192,7 +192,7 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="https://www.gkovacs.com/quizcram-video-paper-chi2015ea/quizcram.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a> <a class="boxlink" href="https://github.com/gkovacs/quizcram-video-paper-chi2015ea/blob/master/readme.md">GitHub</a><br>
+<a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01864.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a> <a class="boxlink" href="https://github.com/gkovacs/quizcram-video-paper-chi2015ea/blob/master/readme.md">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -408,12 +408,12 @@ Stanford Crowd Research, **Geza Kovacs**, Rajan Vaish, Michael Bernstein. [Daemo
 
 **Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*.
 <br>
-<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01865.pdf">Full Version</a>
 <br>
 
 **Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*.
 <br>
-<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a>
+<a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01864.pdf">Full Version</a>
 <br>
 
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014 (full paper)*.
