@@ -30,7 +30,7 @@ In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLa
 </div>
 <div class="padlink2"></div>
 <div class="boxlc">
-<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -364,13 +364,17 @@ My other open-source projects are on [Github](https://github.com/gkovacs), [Npm]
 
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf). *CHI 2021 (full paper, to appear)*.
 <br>
-<a class="boxlink" href="https://arxiv.org/abs/2101.11743">arXiv</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a>
+<a class="boxlink" href="https://arxiv.org/abs/2101.11743">arXiv</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a>
 <br>
 
 Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2021 (to appear)*.
 <br>
 <a class="boxlink" href="https://arxiv.org/abs/2011.05978">arXiv</a>
 <br>
+
+**Geza Kovacs**. [Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt](https://www.aclweb.org/anthology/2020.amta-impact.7/). *Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation 2020.*
+<br>
+<a class="boxlink" href="https://www.aclweb.org/anthology/2020.amta-impact.7/">ACL Anthology</a> <a class="boxlink" href="https://www.aclweb.org/anthology/attachments/2020.amta-impact.7.Presentation.pdf">Slides</a>
 
 **Geza Kovacs**. [HabitLab: In-the-wild Behavior Change Experiments at Scale](https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf). *PhD Thesis, Stanford, 2019*.
 <br>
