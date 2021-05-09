@@ -39,6 +39,23 @@ In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLa
 
 <div>
 <div>
+<a class="biglink" href="https://www.aclweb.org/anthology/2020.amta-impact.7/">Interactive Machine Translation Use on Lilt</a>
+<a href="https://www.aclweb.org/anthology/2020.amta-impact.7/"><img src="lilt-400px.png" alt="Lilt" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+<a href="https://lilt.com/">Lilt</a> is an interactive Machine Translation platform used by thousands of translators. This study investigates how translators use interactive MT, quality and speed of MT suggestions, and how translators spend their time on Lilt.<br>
+</div>
+<div class="padlink2"></div>
+<div class="boxlc">
+<a class="boxlink" href="https://www.aclweb.org/anthology/2020.amta-impact.7/">ACL Anthology</a> <a class="boxlink" href="https://www.aclweb.org/anthology/attachments/2020.amta-impact.7.Presentation.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/lilt-amta2020.key">Keynote</a><br>
+</div>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+<div>
+<div>
 <a class="biglink" href="https://habitlab.github.io/">HabitLab: Online Behavior Change Experiments</a>
 <a href="https://habitlab.github.io/"><img src="habitlab-screenshot-400px.png" alt="HabitLab" class="limg" width="200"></a>
 <div class="padlink"></div>
