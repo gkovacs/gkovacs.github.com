@@ -384,9 +384,9 @@ My other open-source projects are on [Github](https://github.com/gkovacs), [Npm]
 <a class="boxlink" href="https://dl.acm.org/doi/10.1145/3411764.3445695">ACM DL</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a>
 <br>
 
-Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2021 (to appear)*.
+Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2020 (full paper)*.
 <br>
-<a class="boxlink" href="https://arxiv.org/abs/2011.05978">arXiv</a>
+<a class="boxlink" href="https://www.research.ed.ac.uk/en/publications/the-impact-of-text-presentation-on-translator-performance">Paper</a> <a class="boxlink" href="https://arxiv.org/abs/2011.05978">arXiv</a>
 <br>
 
 **Geza Kovacs**. [Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt](https://www.aclweb.org/anthology/2020.amta-impact.7/). *Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation 2020.*
