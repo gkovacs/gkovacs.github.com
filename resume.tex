@@ -208,7 +208,7 @@
 \renewcommand{\footrulewidth}{0pt}	  	
 
 %remove pagenum
-\renewcommand{\thepage}{}	
+%\renewcommand{\thepage}{}	
 
 %remove section num		
 \renewcommand{\thesection}{}			
@@ -240,6 +240,29 @@
 	\filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
  \end{tikzpicture}
 }
+
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+% \fancyfoot{} % clear all footer fields
+% %\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+% %\fancyfoot[RE,LO]{Message of the day} % other info in "inner" position of footer line
+% \fancyfoot[LE,RO]{\thepage}
+% \fancyfoot[LO,CE]{From: K. Grant}
+% \fancyfoot[CO,RE]{To: Dean A. Smith}
+
+\fancyfoot[CO,CE]{Page \thepage{}/3. Latest version at \url{https://www.gkovacs.com/resume.pdf}}
+%\cfoot{Page \thepage of 3. Latest version at \url{https://www.gkovacs.com/resume.pdf}} 
+
+% \fancyhead[LE,RO]{\slshape \rightmark}
+% \fancyhead[LO,RE]{\slshape \leftmark}
+% \fancyfoot[C]{\thepage}
+%\headrulewidth 0.4pt
+%\footrulewidth 0pt
 
 
 
@@ -404,7 +427,7 @@
 
 
 %use our custom fancy header definitions
-\pagestyle{fancy}	
+%\pagestyle{fancy}	
 
 
 
@@ -466,16 +489,24 @@
 
 %\cvsection{Summary}
 
-I am a researcher at Lilt working in \textcolor{sectcol}{Human-Computer Interaction}, \textcolor{sectcol}{Data Science}, and \textcolor{sectcol}{Machine Learning}, using \textcolor{sectcol}{Interactive Machine Translation} to boost translator productivity. During my PhD at Stanford, I built HabitLab, an app for data-driven behavior change with \textcolor{sectcol}{12,000+ daily active users}. I have published first-author papers in venues including CHI, CSCW, and Learning@Scale, and have reviewed, served on committees, and given invited talks at WMT, EACL, AMTA, CHI, UIST, CSCW, and IMWUT. I have been awarded the NSF and NDSEG Fellowships, and a Stanford Human-Centered AI Grant. I wrote UNetbootin, an open-source project with \textcolor{sectcol}{40 million downloads}.
+I am a researcher at Lilt working in \textcolor{sectcol}{Human-Computer Interaction}, \textcolor{sectcol}{Data Science}, and \textcolor{sectcol}{Machine Learning}, using \textcolor{sectcol}{Interactive Machine Translation} to boost translator productivity. During my Ph.D at Stanford, I built HabitLab, an app for data-driven behavior change with \textcolor{sectcol}{12,000+ daily active users}. I have published first-author papers in venues including CHI, CSCW, and Learning@Scale, and have reviewed, served on committees, and given invited talks at WMT, EACL, AMTA, CHI, UIST, CSCW, and IMWUT. I have been awarded the NSF and NDSEG Fellowships, and a Stanford Human-Centered AI Grant. I wrote UNetbootin, an open-source project with \textcolor{sectcol}{40 million downloads}.
 
 \cvsection{Education}
 
-\cvevtone{2019}{Ph.D, Computer Science}{\textcolor{sectcol}{Stanford University}}{Thesis: HabitLab: In-the-wild Behavior Experimentation at Scale. Advisor: Michael Bernstein. \hfill GPA: 4.0/4.0}%{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+\cvevtzeronohrule{2019}{Ph.D, Computer Science}{\textcolor{sectcol}{\hspace{16mm} Stanford University} \hspace{32.5mm} GPA: 4.0/4.0}%{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+
+%\cvevtone{2019}{Ph.D, Computer Science}{\textcolor{sectcol}{Stanford University}}{Thesis: HabitLab: In-the-wild Behavior Experimentation at Scale. Advisor: Michael Bernstein. \hfill GPA: 4.0/4.0}%{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
 
 %\textcolor{softcol}{\hrule}
 
+\cvevtzeronohrule{2013}{B.S. and M.Eng, Computer Science}{\textcolor{sectcol}{Massachusetts Institute of Technology} \hspace{1mm} GPA: 5.0/5.0} %{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
+
+\vspace{1mm}
+
+%\cvevtone{2013}{B.S. and M.Eng, Computer Science}{\textcolor{sectcol}{Massachusetts Institute of Technology}}{Thesis: Multimedia for Language Learning. Advisor: Robert Miller. \hfill GPA: 5.0/5.0}
+
 %
-\cvevtone{2013}{B.S. and M.Eng, Computer Science}{\textcolor{sectcol}{Massachusetts Institute of Technology}}{Thesis: Multimedia for Language Learning. Advisor: Robert Miller. \hfill GPA: 5.0/5.0}
+%\cvevtone{2013}{B.S. and M.Eng, Computer Science}{\textcolor{sectcol}{Massachusetts Institute of Technology}}{Thesis: Multimedia for Language Learning. Advisor: Robert Miller. \hfill GPA: 5.0/5.0}
 
 %\textcolor{softcol}{\hrule}
 
@@ -511,103 +542,34 @@ Ran A/B tests to evaluate website translation ROI, and developed system that rec
 %My thesis project was HabitLab \url{http://habitlab.stanford.edu/} an app for Chrome + Android with \textcolor{sectcol}{12,000+ daily active users} which helps users reduce time online. Published first-author papers about HabitLab at CHI 2021, CHI 2019, and CSCW 2018. I also published first-author papers at Learning at Scale 2016 (Effects of In-Video Quizzes on MOOC Lecture Viewing) and CHI 2014 (Smart Subtitles for Foreign Language Learning).\\ % See page 2 for other publications.
 
 %
-\cvevtone{Summer 2015}{Research Intern}{\textcolor{sectcol}{Microsoft Research} \hspace{1mm} Redmond. Manager: Merrie Morris}{Designed and built an educational social feed app usable by pre-literate children. Published at CSCW 2017.}
+\cvevtone{Summer 2015}{Research Intern}{\textcolor{sectcol}{Microsoft Research} \hspace{1mm} Redmond}{Designed and built an educational social feed app usable by pre-literate children. Published at CSCW 2017.} % Manager: Merrie Morris
 
-\cvevtone{Summer 2014}{Research Intern}{\textcolor{sectcol}{Microsoft Research} \hspace{1mm} Beijing. Manager: Darren Edge}{Built QuizCram, a quiz-driven MOOC lecture viewer that improves learning outcomes. Presented at CHI 2015.}
+\cvevtone{Summer 2014}{Research Intern}{\textcolor{sectcol}{Microsoft Research} \hspace{1mm} Beijing}{Built QuizCram, a quiz-driven MOOC lecture viewer that improves learning outcomes. Presented at CHI 2015.} % Manager: Darren Edge
 
-\cvevtone{Summer 2013}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View. Manager: Shumin Zhai}{Developed a machine learning system for detecting taps on the phone bezel, for use in Android input methods.}
+\cvevtone{Summer 2013}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View}{Developed a machine learning system for detecting taps on the phone bezel, for use in Android input methods.} % Manager: Shumin Zhai
 
-\cvevtone{Summer 2012}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View. Manager: Ulas Kirazci}{Developed an NLP system to automatically generate glossaries from book text. Patent granted \href{https://patents.google.com/patent/US9483460B2}{US9483460B2}.}
+\cvevtone{Summer 2012}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View}{Developed an NLP system to automatically generate glossaries from book text. Patent granted \href{https://patents.google.com/patent/US9483460B2}{US9483460B2}.} % Manager: Ulas Kirazci
 
-\cvevtone{Summer 2011}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View. Manager: Ulas Kirazci}{Developed a machine learning system to predict the quality of user reviews, now deployed on Google Play.}
+\cvevtone{Summer 2011}{Software Engineering Intern}{\textcolor{sectcol}{Google} \hspace{1mm} Mountain View}{Developed a machine learning system to predict the quality of user reviews, now deployed on Google Play.} % Manager: Ulas Kirazci
 
-\cvevtone{Summer 2010}{Software Development Engineer Intern}{\textcolor{sectcol}{Microsoft} \hspace{1mm} Redmond}{Built the IntelliSense code completion system for a scientific computing language, and contributed to its compiler.}
+\cvevtone{Summer 2010}{Software Development Engineer Intern}{\textcolor{sectcol}{Microsoft} \hspace{1mm} Redmond}{Built the IntelliSense code completion system for a scientific computing language, and contributed to its compiler.} % Manager: Davis Walker
 
 %--------------------------------------------------------------------------------------------------
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
 %--------------------------------------------------------------------------------------------------
 
-\cvsection{Publications in Journals and Conference Proceedings}
-
-\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2021}.\\ %Acceptance rate: 23.8\%
-
-Samuel Läubli, Patrick Simianer, Joern Wuebker, \textbf{Geza Kovacs}, Rico Sennrich, Spence Green. ``The Impact of Text Presentation on Translator Performance.'' \emph{Target: International Journal of Translation Studies, 2021 (to appear)}.\\
-
-\textbf{Geza Kovacs}, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. ``Conservation of Procrastination: Do Productivity Interventions Save Time Or Just Redistribute It?'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2019}.\\ %Acceptance rate: 23.8\%
-
-\textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition.'' \emph{ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2018}.\\ %Acceptance rate: 26\%
-
-\pagebreak
-
-Rajan Vaish, Neil Gaikwad, \textbf{Geza Kovacs}, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. ``Crowd Research: Open and Scalable University Laboratories.'' \emph{ACM Symposium on User Interface Software and Technology (UIST) 2017}.\\ %Acceptance rate: 22\%
-
-Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. ``EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities.'' \emph{ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2017}.\\ %Acceptance rate: 35\%
-
-\textbf{Geza Kovacs}. ``Effects of In-Video Quizzes on MOOC Lecture Viewing.'' \emph{ACM annual conference on Learning at Scale (L@S) 2016}.\\ %Acceptance rate: 22\%
-
-\textbf{Geza Kovacs} and Robert C. Miller. ``Smart Subtitles for Vocabulary Learning.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2014}.\\ %Acceptance rate: 23\%
-
-\cvsection{Publications in Adjunct Conference Proceedings}
-
-Stanford Crowd Research, \textbf{Geza Kovacs}, Rajan Vaish, Michael Bernstein. ``Daemo: A Self-Governed Crowdsourcing Marketplace''. \emph{ACM Symposium on User Interface Software and Technology (UIST) 2015, Poster}.\\
-
-\textbf{Geza Kovacs}. ``FeedLearn: Using Facebook Feeds for Microlearning.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts}.\\ % Acceptance rate: 45\%
-
-\textbf{Geza Kovacs}. ``QuizCram: A Question-Driven Video Studying Interface.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2015, Extended Abstracts}.\\
-
-Joseph Jay Williams, \textbf{Geza Kovacs}, Caren Walker, Samuel G Maldonado, Tania Lombrozo. ``Learning Online via Prompts to Explain.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2014, Extended Abstracts}.\\
-
-\textbf{Geza Kovacs} and Robert C. Miller. ``Foreign Manga Reader: Learn Grammar and Pronunciation while Reading Comics.'' \emph{ACM Symposium on User Interface Software and Technology (UIST) 2013, Demo}.\\
-
-\textbf{Geza Kovacs}. ``Smart Subtitles for Language Learning.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2013, Extended Abstracts}.\\ %\\
-%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf}
-
-\textbf{Geza Kovacs}. ``ScreenMatch: providing context to software translators by displaying screenshots.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2012, Extended Abstracts}.\\ %\\
-%\url{http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf}
-
-%\vspace{-5mm}
-
-\cvsection{Patents}
-
-Tania Bedrax-Weiss, \textbf{Geza Kovacs}, Ulas Kirazci. ``Automated formation of specialized dictionaries.'' \href{https://patents.google.com/patent/US9483460B2}{US9483460B2}. Filed 10/2013, Published 11/2016, Expires 01/2034.\\
-
-Meredith Morris, Nathalie Henry Riche, Edward B . Cutrell, Andrew C . Cross, Natasa Milic, Nirupama Chandrasekaran, Galen McQuillen, Kiley Sobel, \textbf{Geza Kovacs}. ``Presenting educational activities via an extended social media feed.'' \href{https://patents.google.com/patent/US20180068578A1}{US20180068578A1}. Filed 09/2016, Published 03/2018.\\
-
-\cvsection{Invited Talks}
-
-\textbf{Geza Kovacs}. ``Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt.'' \emph{Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation 2020}.\\
-
-%\pagebreak
-\cvsection{Awards and Honors}
-
-Stanford Human-Centered AI Grant (for my research project HabitLab) \hfill \textcolor{black}{2018}\\ %-2016\\
-National Defense Science and Engineering Graduate Fellowship \hfill \textcolor{black}{2013}\\ %-2016\\
-National Science Foundation Graduate Research Fellowship \hfill \textcolor{black}{2013}\\ %(declined in favor of NDSEG), 2013\\
-% Finalist and Honorable Mention, MIT Web Programming Competition (6.470), 2013\\ % (Project: PsetParty)
-%1$^{\textrm{st}}$ place, Most Useful, ACM UIST (User Interface Software and Technology) Student Innovation Contest \hfill \textcolor{sectcol}{2012}\\
-1$^{\textrm{st}}$ place, ACM UIST (User Interface Software and Technology) Student Innovation Contest \hfill \textcolor{black}{2012}\\
-1$^{\textrm{st}}$ place, ACM CHI (Human Factors in Computing Systems) Student Research Competition \hfill \textcolor{black}{2012}\\
-%1$^{\textrm{st}}$ place award for my project, InstantKaraoke, at Boston Music Hack Day \hfill \textcolor{sectcol}{2012}\\ % (Project: InstantKaraoke)
-Phi Beta Kappa (top 10\% of students at MIT) \hfill \textcolor{black}{2012}\\
-Tau Beta Pi (top 12.5\% of Engineering students at MIT), Eta Kappa Nu (top 25\% of EECS students at MIT) \hfill \textcolor{black}{2011}\\
-1$^{\textrm{st}}$ place, MIT Autonomous Robotics Competition (MASLAB) \hfill \textcolor{black}{2010}\\
-
-\cvsection{Open-source Projects}
-
-% \url{http://unetbootin.github.io/}
-\textbf{UNetbootin (LiveUSB Creator)} \hfill \url{https://en.wikipedia.org/wiki/UNetbootin}\\ %\hfill \textsl{January 2007 -- now}\\
-\textcolor{sectcol}{40 million downloads.} UNetbootin creates bootable USB flash drives for various (50+) Linux distributions.\\ %This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
-% \hspace{3mm}  
-
-\textbf{Ubuntu Installer for Windows (Wubi)} \hfill \url{https://en.wikipedia.org/wiki/Wubi_(software)}\\ %\hfill \textsl{November 2006 -- August 2007}\\
-\textcolor{sectcol}{Now part of Ubuntu.} Built the first versions of Wubi, which allows Ubuntu to be installed from Windows.\\ % This work is now part of Ubuntu. \\
-
-\textbf{HabitLab (In-the-wild Behavior Change Research Platform)} \hfill \url{https://habitlab.stanford.edu}\\ %\hfill \textsl{November 2006 -- August 2007}\\
-\textcolor{sectcol}{12,000+ daily active users.} I built HabitLab over my Ph.D, and it is still used for research at Stanford Medical School.\\ % This work is now part of Ubuntu. \\
-
-% Reviewer for \textbf{CHI} (2015, 2018, 2019, 2021), \textbf{UIST} (2017, 2018), \textbf{CSCW} (2021), \textbf{IMWUT} (2019).\\
+\vspace{-4mm}
 
 \input{skills.tex}
+
+\vspace{2mm}
+
+\input{publications.tex}
+%\vspace{-5mm}
+
+\input{patents.tex}
+
+\input{opensource.tex}
 
 \cvsection{Academic Conference Reviewing and Committees}
 
@@ -623,13 +585,15 @@ Reviewer, ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) 
 
 Reviewer, ACM Symposium on User Interface Software and Technology (UIST) \hfill \textcolor{black}{2017, 2018}\\
 
-\input{teaching.tex}
+%\input{teaching.tex}
 
-\input{management.tex}
+%\input{management.tex}
 
-\input{courses.tex}
+%\input{courses.tex}
 
-\pagebreak
+%\pagebreak
+
+\input{talks.tex}
 
 \input{press.tex}
 
