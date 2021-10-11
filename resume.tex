@@ -315,7 +315,7 @@
 	\textbf{#2} \hspace{1mm} \textcolor{bgcol}{#3} \hfill \vspace{2.5pt}\textcolor{black}{#1}
 
 \vspace{-8pt}
-\textcolor{softcol}{\hrule}
+%\textcolor{softcol}{\hrule}
 \vspace{6pt}
 
 }
@@ -363,7 +363,7 @@
 	\textbf{#2} \hspace{1mm} \textcolor{bgcol}{#3} \hfill \vspace{2.5pt}\textcolor{black}{#1}
 
 \vspace{-8pt}
-\textcolor{softcol}{\hrule}
+%\textcolor{softcol}{\hrule}
 \vspace{6pt}
 
   #4\\[3pt]
@@ -426,9 +426,10 @@
 %----------------------------------------------------------------------------------------
 \vspace{-8pt}
 \begin{center}
-	\HUGE \textsc{Geza Kovacs}\\[2pt]
-	\small \hypersetup{urlcolor=black}\href{https://www.gkovacs.com}{www.gkovacs.com}\hypersetup{urlcolor=linkcol} \hfill \hspace{5mm} Human-Computer Interaction and Machine Translation Researcher \hfill \hypersetup{urlcolor=black}\href{mailto:geza@cs.stanford.edu}{geza@cs.stanford.edu}\hypersetup{urlcolor=linkcol}
+	%\HUGE \textsc{Geza Kovacs}\\[2pt]
+	%\small \hypersetup{urlcolor=black}\href{https://www.gkovacs.com}{www.gkovacs.com}\hypersetup{urlcolor=linkcol} \hfill \hspace{5mm} Human-Computer Interaction and Machine Translation Researcher \hfill \hypersetup{urlcolor=black}\href{mailto:geza@cs.stanford.edu}{geza@cs.stanford.edu}\hypersetup{urlcolor=linkcol}
 	%\small www.gkovacs.com
+  \small \hypersetup{urlcolor=black}\href{https://www.gkovacs.com}{www.gkovacs.com}\hypersetup{urlcolor=linkcol} \hfill \hspace{5mm} \LARGE \textsc{Geza Kovacs} \small \hfill \hypersetup{urlcolor=black}\href{mailto:geza@cs.stanford.edu}{geza@cs.stanford.edu}\hypersetup{urlcolor=linkcol}
 \end{center}
 
 
@@ -462,6 +463,11 @@
 %---------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %--------------------------------------------------------------------------------------
+
+%\cvsection{Summary}
+
+I am a researcher at Lilt working in \textcolor{sectcol}{Human-Computer Interaction}, \textcolor{sectcol}{Data Science}, and \textcolor{sectcol}{Machine Learning}, using \textcolor{sectcol}{Interactive Machine Translation} to boost translator productivity. During my PhD at Stanford, I built HabitLab, an app for data-driven behavior change with \textcolor{sectcol}{12,000+ daily active users}. I have published first-author papers in venues including CHI, CSCW, and Learning@Scale, and have reviewed, served on committees, and given invited talks at WMT, EACL, AMTA, CHI, UIST, CSCW, and IMWUT. I have been awarded the NSF and NDSEG Fellowships, and a Stanford Human-Centered AI Grant. I wrote UNetbootin, an open-source project with \textcolor{sectcol}{40 million downloads}.
+
 \cvsection{Education}
 
 \cvevtone{2019}{Ph.D, Computer Science}{\textcolor{sectcol}{Stanford University}}{Thesis: HabitLab: In-the-wild Behavior Experimentation at Scale. Advisor: Michael Bernstein. \hfill GPA: 4.0/4.0}%{Developed and evaluated an algorithm for semi automated scoring of spreadsheet data}
@@ -491,17 +497,18 @@
 %---------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
-\cvsection{Experience}
+\cvsection{Work Experience}
 
 \cvevtzeronohrule{Feb 2021 - present}{Principal Research Scientist}{\textcolor{sectcol}{Lilt} \hspace{1mm} San Francisco}\\
 \cvevtzero{Aug 2019 - Feb 2021}{Senior Research Scientist}{\hspace{3.2mm} \textcolor{sectcol}{Lilt} \hspace{1mm} San Francisco}\\
-I am the head of HCI research and manage 2 fulltime researchers at Lilt, an interactive machine translation startup.\\
-Improved interactive MT system speed by shifting computation client-side via Tensorflow JS and heuristics.\\
+I am the head of HCI research and manage a team of researchers at Lilt, an interactive machine translation startup.\\
+Improved interactive MT system speed by shifting computation client-side via TensorflowJS and heuristics.\\
+Built named entity transliteration system based on Transformer architecture using tensor2tensor and Tensorflow.\\
 Developed metrics and logging to determine how translators spend their time and predict translator performance.\\
 Ran A/B tests to evaluate website translation ROI, and developed system that recommends pages to translate. \\
 
-\cvevtzero{Sep 2013 - July 2019}{Ph.D Student}{\textcolor{sectcol}{Stanford University} \hspace{1mm} Advisor: Michael Bernstein}\\
-My thesis project was HabitLab \url{http://habitlab.stanford.edu/} an app for Chrome + Android with \textbf{12,000+ daily active users} which helps users reduce time online. Published first-author papers about HabitLab at CHI 2021, CHI 2019, and CSCW 2018. I also published first-author papers at Learning at Scale 2016 (Effects of In-Video Quizzes on MOOC Lecture Viewing) and CHI 2014 (Smart Subtitles for Foreign Language Learning).\\ % See page 2 for other publications.
+%\cvevtzero{Sep 2013 - July 2019}{Research Assistant (Ph.D)}{\textcolor{sectcol}{Stanford University} \hspace{1mm} Advisor: Michael Bernstein}\\
+%My thesis project was HabitLab \url{http://habitlab.stanford.edu/} an app for Chrome + Android with \textcolor{sectcol}{12,000+ daily active users} which helps users reduce time online. Published first-author papers about HabitLab at CHI 2021, CHI 2019, and CSCW 2018. I also published first-author papers at Learning at Scale 2016 (Effects of In-Video Quizzes on MOOC Lecture Viewing) and CHI 2014 (Smart Subtitles for Foreign Language Learning).\\ % See page 2 for other publications.
 
 %
 \cvevtone{Summer 2015}{Research Intern}{\textcolor{sectcol}{Microsoft Research} \hspace{1mm} Redmond. Manager: Merrie Morris}{Designed and built an educational social feed app usable by pre-literate children. Published at CSCW 2017.}
@@ -520,21 +527,7 @@ My thesis project was HabitLab \url{http://habitlab.stanford.edu/} an app for Ch
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
 %--------------------------------------------------------------------------------------------------
 
-\cvsection{Open-source Projects}
-
-% \url{http://unetbootin.github.io/}
-\textbf{UNetbootin (LiveUSB Creator)} \hfill \url{https://en.wikipedia.org/wiki/UNetbootin}\\ %\hfill \textsl{January 2007 -- now}\\
-\textcolor{sectcol}{40 million downloads.} UNetbootin creates bootable USB flash drives for various (50+) Linux distributions.\\ %This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
-% \hspace{3mm}  
-
-\textbf{Ubuntu Installer for Windows (Wubi)} \hfill \url{https://en.wikipedia.org/wiki/Wubi_(software)}\\ %\hfill \textsl{November 2006 -- August 2007}\\
-\textcolor{sectcol}{Now part of Ubuntu.} Built the first versions of Wubi, which allows Ubuntu to be installed from Windows.\\ % This work is now part of Ubuntu. \\
-
-\textbf{HabitLab (In-the-wild Behavior Change Research Platform)} \hfill \url{https://habitlab.stanford.edu}\\ %\hfill \textsl{November 2006 -- August 2007}\\
-\textcolor{sectcol}{12,000+ daily active users.} I built HabitLab over my Ph.D, and it is still used for research at Stanford Medical School.\\ % This work is now part of Ubuntu. \\
-
-
-\cvsection{Conference and Journal Papers}
+\cvsection{Publications in Journals and Conference Proceedings}
 
 \textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2021}.\\ %Acceptance rate: 23.8\%
 
@@ -544,6 +537,8 @@ Samuel Läubli, Patrick Simianer, Joern Wuebker, \textbf{Geza Kovacs}, Rico Senn
 
 \textbf{Geza Kovacs}, Zhengxuan Wu, Michael Bernstein. ``Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition.'' \emph{ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2018}.\\ %Acceptance rate: 26\%
 
+\pagebreak
+
 Rajan Vaish, Neil Gaikwad, \textbf{Geza Kovacs}, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. ``Crowd Research: Open and Scalable University Laboratories.'' \emph{ACM Symposium on User Interface Software and Technology (UIST) 2017}.\\ %Acceptance rate: 22\%
 
 Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. ``EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities.'' \emph{ACM annual conference on Computer-Supported Cooperative Work and Social Computing (CSCW) 2017}.\\ %Acceptance rate: 35\%
@@ -552,7 +547,7 @@ Kiley Sobel, \textbf{Geza Kovacs}, Galen McQuillen, Andrew Cross, Nirupama Chand
 
 \textbf{Geza Kovacs} and Robert C. Miller. ``Smart Subtitles for Vocabulary Learning.'' \emph{ACM annual conference on Human Factors in Computing Systems (CHI) 2014}.\\ %Acceptance rate: 23\%
 
-\cvsection{Peer-Reviewed Extended Abstracts}
+\cvsection{Publications in Adjunct Conference Proceedings}
 
 Stanford Crowd Research, \textbf{Geza Kovacs}, Rajan Vaish, Michael Bernstein. ``Daemo: A Self-Governed Crowdsourcing Marketplace''. \emph{ACM Symposium on User Interface Software and Technology (UIST) 2015, Poster}.\\
 
@@ -572,18 +567,17 @@ Joseph Jay Williams, \textbf{Geza Kovacs}, Caren Walker, Samuel G Maldonado, Tan
 
 %\vspace{-5mm}
 
-\cvsection{Invited Talks}
-
-\textbf{Geza Kovacs}. ``Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt.'' \emph{Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation 2020}.\\
-
-\pagebreak
-
 \cvsection{Patents}
 
 Tania Bedrax-Weiss, \textbf{Geza Kovacs}, Ulas Kirazci. ``Automated formation of specialized dictionaries.'' \href{https://patents.google.com/patent/US9483460B2}{US9483460B2}. Filed 10/2013, Published 11/2016, Expires 01/2034.\\
 
 Meredith Morris, Nathalie Henry Riche, Edward B . Cutrell, Andrew C . Cross, Natasa Milic, Nirupama Chandrasekaran, Galen McQuillen, Kiley Sobel, \textbf{Geza Kovacs}. ``Presenting educational activities via an extended social media feed.'' \href{https://patents.google.com/patent/US20180068578A1}{US20180068578A1}. Filed 09/2016, Published 03/2018.\\
 
+\cvsection{Invited Talks}
+
+\textbf{Geza Kovacs}. ``Predictive Translation Memory in the Wild: A Study of Interactive Machine Translation Use on Lilt.'' \emph{Association for Machine Translation in the Americas (AMTA) Workshop on the Impact of Machine Translation 2020}.\\
+
+%\pagebreak
 \cvsection{Awards and Honors}
 
 Stanford Human-Centered AI Grant (for my research project HabitLab) \hfill \textcolor{black}{2018}\\ %-2016\\
@@ -598,7 +592,24 @@ Phi Beta Kappa (top 10\% of students at MIT) \hfill \textcolor{black}{2012}\\
 Tau Beta Pi (top 12.5\% of Engineering students at MIT), Eta Kappa Nu (top 25\% of EECS students at MIT) \hfill \textcolor{black}{2011}\\
 1$^{\textrm{st}}$ place, MIT Autonomous Robotics Competition (MASLAB) \hfill \textcolor{black}{2010}\\
 
-\cvsection{Academic Service}
+\cvsection{Open-source Projects}
+
+% \url{http://unetbootin.github.io/}
+\textbf{UNetbootin (LiveUSB Creator)} \hfill \url{https://en.wikipedia.org/wiki/UNetbootin}\\ %\hfill \textsl{January 2007 -- now}\\
+\textcolor{sectcol}{40 million downloads.} UNetbootin creates bootable USB flash drives for various (50+) Linux distributions.\\ %This work has been accepted into the official package repositories for Debian, Ubuntu, Fedora, openSUSE, Gentoo, and other major distributions. \\
+% \hspace{3mm}  
+
+\textbf{Ubuntu Installer for Windows (Wubi)} \hfill \url{https://en.wikipedia.org/wiki/Wubi_(software)}\\ %\hfill \textsl{November 2006 -- August 2007}\\
+\textcolor{sectcol}{Now part of Ubuntu.} Built the first versions of Wubi, which allows Ubuntu to be installed from Windows.\\ % This work is now part of Ubuntu. \\
+
+\textbf{HabitLab (In-the-wild Behavior Change Research Platform)} \hfill \url{https://habitlab.stanford.edu}\\ %\hfill \textsl{November 2006 -- August 2007}\\
+\textcolor{sectcol}{12,000+ daily active users.} I built HabitLab over my Ph.D, and it is still used for research at Stanford Medical School.\\ % This work is now part of Ubuntu. \\
+
+% Reviewer for \textbf{CHI} (2015, 2018, 2019, 2021), \textbf{UIST} (2017, 2018), \textbf{CSCW} (2021), \textbf{IMWUT} (2019).\\
+
+\input{skills.tex}
+
+\cvsection{Academic Conference Reviewing and Committees}
 
 Organizing Committee, WMT 2022 Shared Task on Word-Level Auto-Completion \hfill 2021
 
@@ -612,146 +623,16 @@ Reviewer, ACM Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT) 
 
 Reviewer, ACM Symposium on User Interface Software and Technology (UIST) \hfill \textcolor{black}{2017, 2018}\\
 
+\input{teaching.tex}
 
-% Reviewer for \textbf{CHI} (2015, 2018, 2019, 2021), \textbf{UIST} (2017, 2018), \textbf{CSCW} (2021), \textbf{IMWUT} (2019).\\
+\input{management.tex}
 
-\cvsection{Teaching Experience}
-
-\textbf{Understanding Users (CS 377U)} -- Teaching Assistant, at Stanford \hfill \textcolor{black}{Spring 2019} \\
-
-\textbf{Human Computer Interaction Research (CS 376)} -- Teaching Assistant, at Stanford \hfill \textcolor{black}{Fall 2018} \\
-%Helped write and grade assignments, lead discussions, and manage the course infrastructure.
-
-\textbf{Natural Language Processing (6.863)} -- Teaching Assistant, at MIT \hfill \textcolor{black}{Fall 2012} \\
-%Helped write and grade assignments, and managed the course infrastructure. I developed new tools to make the assignment grading process faster, semi-automatic, and paper-free.
-
-\textbf{Introduction to C++ IAP (6.096)} -- Instructor, at MIT \hfill \textcolor{black}{January 2011}
-
-%Gave lectures, helped write and grade assignments, and helped students in lab for a student-run, for-credit introductory C++ course. The teaching materials I produced have been made available on OpenCourseWare:
-My lectures and teaching materials for this course are available on MIT OpenCourseWare:
-
-\begin{footnotesize}
-\url{http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011}
-\end{footnotesize}\\
-
-\textbf{MASLAB Mobile Autonomous Systems Lab (6.186)} -- Software Director, at MIT \hfill \textcolor{black}{January 2011}
-
-Gave lectures on computer vision and managed the software stack for MIT's autonomous robotics competition.\\
-% As the software director for this student-led autonomous robotics competition, I gave lectures on computer vision and control algorithms, managed the software stack for the competition, and helped students in lab.
-
-\cvsection{Relevant Coursework}
-
-Deep Learning (CS 230), Natural Language Processing (6.864, 6.863), Artificial Intelligence (6.034), Data Mining (CS 224w), Statistical Models (6.804), Statistics (18.440), Linear Algebra (18.700), Security (6.857), Bioinformatics (6.047), Human-Computer Interaction (6.803), Algorithms (6.006, 6.046), Linguistics (24.900), Compilers (CS 143)\\
-
-\cvsection{Selected Press}
-
-\textcolor{sectcol}{\textbf{HabitLab}}\\
-
-\textbf{WIRED} - The HabitLab Browser Extension Curbs Your Time Wasted on the Web. \hfill January 2019\\
-\url{https://www.wired.com/story/habitlab-browser-extension/}\\
-
-\textbf{Lifehacker} - Prevent Procrastination With This Chrome Extension. \hfill February 2019\\
-\url{https://lifehacker.com/prevent-procrastination-with-this-chrome-extension-1832723418}\\
-
-\textbf{The New York Times} - Finding It Hard to Focus? Maybe It’s Not Your Fault. \hfill August 2018\\
-\url{https://www.nytimes.com/2018/08/14/style/how-can-i-focus-better.html}\\
+\input{courses.tex}
 
 \pagebreak
 
-\textbf{Lifehacker} - Be More Mindful of the Time You Waste Online With HabitLab. \hfill August 2018\\
-\url{https://lifehacker.com/be-more-mindful-of-the-time-you-waste-online-with-habit-1828118354}\\
+\input{press.tex}
 
-\textbf{WIRED} - The Chrome Extensions We Can't Live Without. \hfill February 2018\\
-\url{https://www.wired.com/story/best-chrome-extensions/}\\
-
-\textbf{How-To Geek} - HabitLab Subtly Helps You Change Bad Online Habits. \hfill August 2018\\
-\url{https://www.howtogeek.com/fyi/free-download-habitlab-subtly-helps-you-change-bad-online-habits/}\\
-
-\textbf{The Stanford Daily} - HabitLab browser extension aims to help users \hfill March 2019\\
-regain control of their online browsing behavior.\\
-\begin{footnotesize}
-\url{https://www.stanforddaily.com/2019/03/13/habitlab-browser-extension-aims-to-help-users-regain-control-of-their-online-browsing-behavior/}
-\end{footnotesize}\\
-
-\vspace{-4mm}
-
-\textbf{Entrepreneur} - Use These Strategies to Maximize Productivity Without Inventing an Extra Weekday. \hfill May 2018\\
-\url{https://www.entrepreneur.com/article/312764}\\
-
-%\textbf{PCMag} The Best Free Google Chrome Extensions, July 2020.\\
-%\url{https://www.pcmag.com/news/the-100-best-free-google-chrome-extensions}\\
-
-%\vspace{-4mm}
-
-\textbf{Tencent News} - (Chinese) \begin{CJK*}{UTF8}{gbsn}这款斯坦福大学的工具，让你远离加班，提升200％效率\end{CJK*} \hfill March 2019\\
-\url{https://new.qq.com/omn/20190311/20190311A0BBRU.html}\\
-
-%\pagebreak
-
-\textcolor{sectcol}{\textbf{Crowd Research / Daemo}}\\
-
-\textbf{Stanford University News} - A Stanford-led platform for crowdsourced research \hfill October 2017\\
-gives experience to global participants\\
-\url{https://news.stanford.edu/2017/10/23/crowdsourced-research-gives-experience-global-participants/}\\
-
-\textbf{WIRED} - Amazon's Turker Crowd Has Had Enough. \hfill August 2017\\
-\url{https://www.wired.com/story/amazons-turker-crowd-has-had-enough/}\\
-
-\textcolor{sectcol}{\textbf{UNetbootin}}\\
-
-\textbf{Forbes} - How To Try Linux Without Making Any Changes To Your PC. \hfill September 2018\\
-\begin{small}
-\url{https://www.forbes.com/sites/jasonevangelho/2018/09/18/how-to-safely-try-linux-on-your-mac-or-windows-pc/}
-\end{small}\\
-
-\textbf{PCWorld} - Create a Bootable Linux Flash Drive in Three Easy Steps. \hfill February 2012\\
-\url{https://www.pcworld.com/article/249870/create_a_bootable_linux_flash_drive_in_three_easy_steps.html}\\
-
-\textbf{Lifehacker} - The Complete Guide to Saving Your Windows System with a Thumb Drive. \hfill March 2010\\
-\url{https://lifehacker.com/the-complete-guide-to-saving-your-windows-system-with-a-5504531}\\
-
-%Installing Ubuntu on an old netbook with hair tearing and profanity. Network World, August 2014.\\
-%\begin{footnotesize}
-%\url{https://www.networkworld.com/article/2465150/installing-ubuntu-on-an-old-netbook-with-hair-tearing-and-profanity.html}
-%\end{footnotesize}\\
-
-%Linux on the NUC: Using Ubuntu, Mint, Fedora, and the SteamOS beta. Ars Technica, February 2014.\\
-%\begin{small}
-%\url{https://arstechnica.com/gadgets/2014/02/linux-on-the-nuc-using-ubuntu-mint-fedora-and-the-steamos-beta/}
-%\end{small}\\
-
-\textcolor{sectcol}{\textbf{Wubi}}\\
-
-\textbf{Ars Technica} - Wubi arrives: a look at Ubuntu 8.04 alpha 5. \hfill February 2008\\
-\url{https://arstechnica.com/information-technology/2008/02/wubi-arrives-a-look-at-ubuntu-8-04-alpha-5/}\\
-
-\textbf{Lifehacker} - Install Ubuntu on a Windows Netbook, No Partitioning Needed. \hfill May 2008\\
-\url{https://lifehacker.com/install-ubuntu-on-a-windows-netbook-no-partitioning-ne-5542387}\\
-
-\textbf{PCWorld} - The Ubuntu guide for displaced Windows users. \hfill March 2013\\
-\url{https://www.pcworld.com/article/2030132/the-ubuntu-guide-for-displaced-windows-users.html}\\
-
-\cvsection{Management and Mentorship}
-
-Sai Gouravajhala, Senior Research Scientist at Lilt. \hfill August 2020 -- present
-
-Hannah Yan, Senior Data Scientist at Lilt. \hfill September 2020 -- present
-
-Jordan Huffaker, Research Intern at Lilt. \hfill Summer 2021
-
-Jessy Lin, Research Engineer at Lilt. Now a Ph.D student at UC Berkeley. \hfill August 2019 -- August 2020
-
-Ming-Chang Chiu, Data Science Intern at Lilt. Now a Ph.D student at USC. \hfill Summer 2020
-
-Zhengxuan Wu, MS student researcher at Stanford. \hfill Fall 2018 -- Spring 2019
-
-Zilin Ma, undergraduate researcher at Stanford. Now a Ph.D student at Harvard. \hfill Summer 2018
-
-Drew Mylander Gregory, undergraduate researcher at Stanford. \hfill Summer 2018
-
-Golrokh Emami, undergraduate researcher at Stanford. \hfill Summer 2018
-
-Jacob Ray, undergraduate researcher at Stanford. \hfill Summer 2018\\
 
 %\null
 %\vspace*{\fill}
