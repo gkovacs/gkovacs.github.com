@@ -255,6 +255,18 @@
 % \fancyfoot[LO,CE]{From: K. Grant}
 % \fancyfoot[CO,RE]{To: Dean A. Smith}
 
+\fancypagestyle{firststyle}
+{
+   \fancyhf{}
+   \fancyfoot[CO,CE]{Page \thepage{}/3. Publications and patents on page 2. Latest version at \url{https://www.gkovacs.com/resume.pdf}}
+}
+
+\fancypagestyle{secondstyle}
+{
+   \fancyhf{}
+   \fancyfoot[CO,CE]{Page \thepage{}/3. Awards and press coverage on page 3. Latest version at \url{https://www.gkovacs.com/resume.pdf}}
+}
+
 \fancyfoot[CO,CE]{Page \thepage{}/3. Latest version at \url{https://www.gkovacs.com/resume.pdf}}
 %\cfoot{Page \thepage of 3. Latest version at \url{https://www.gkovacs.com/resume.pdf}} 
 
@@ -466,6 +478,8 @@
 \end{center}
 
 
+\thispagestyle{firststyle}
+
 
 %\vspace{6pt}
 
@@ -606,6 +620,8 @@ Created \hypersetup{urlcolor=black}\href{https://habitlab.github.io}{HabitLab}\h
 
 \input{publications.tex}
 %\vspace{-5mm}
+
+\thispagestyle{secondstyle}
 
 \vspace{-2mm}
 
