@@ -8,7 +8,7 @@
 
 <div>
 <div style="line-height: 2.0">
-I'm Geza Kovacs, a Principal Research Scientist at <a href="https://lilt.com/research">Lilt</a>, working on improving translators' productivity using interactive machine translation.
+I'm Geza Kovacs, a Senior Research Scientist at Google, working on behavior change technology. I was previous at <a href="https://lilt.com/research">Lilt</a>, working on improving translators' productivity using interactive machine translation.
 <br class="desktoponly">
 I did my PhD in Computer Science at Stanford, where I was advised by <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group.
 <br class="desktoponly">
