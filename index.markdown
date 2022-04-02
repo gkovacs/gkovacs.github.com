@@ -8,11 +8,9 @@
 
 <div>
 <div style="line-height: 2.0">
-I'm Geza Kovacs, a Senior Research Scientist at Google, working on behavior change technology. I was previous at <a href="https://lilt.com/research">Lilt</a>, working on improving translators' productivity using interactive machine translation.
+I'm Geza Kovacs, a Senior Research Scientist at Google, working on health and behavior change technology. I was previously at <a href="https://lilt.com/research">Lilt</a>, working on improving translators' productivity using interactive machine translation.
 <br class="desktoponly">
-I did my PhD in Computer Science at Stanford, where I was advised by <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group.
-<br class="desktoponly">
-I did my undergrad and masters in CS at MIT. See my <a href="resume.pdf">resume</a> for details.
+I did my PhD in Computer Science at Stanford, where I was advised by <a href="http://hci.stanford.edu/msb/">Michael Bernstein</a> in the <a href="http://hci.stanford.edu/">Human-Computer Interaction</a> group, and undergrad and masters at MIT. See my <a href="resume.pdf">resume</a> for details.
 <br class="desktoponly">
 </div>
 </div>
