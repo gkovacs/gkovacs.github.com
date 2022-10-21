@@ -1,3 +1,3 @@
 <?php
-header( 'Location: http://gkovacs.github.com/resume-hci.pdf' ) ;
+header( 'Location: http://gkovacs.github.io/resume-hci.pdf' ) ;
 ?>
