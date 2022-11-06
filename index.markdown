@@ -265,9 +265,6 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 <div>
 <a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
 <a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
-
-**Geza Kovacs**. [Smart Subtitles for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2013-smartsubs.pdf). *CHI 2013 Student Research Competition*.
-
 <div class="padlink"></div>
 <div class="paratext">
 Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
