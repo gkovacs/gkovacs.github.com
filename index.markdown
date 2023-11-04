@@ -20,25 +20,6 @@ I did my PhD in Computer Science at Stanford, where I was advised by <a href="ht
 
 <div>
 <div>
-<a class="biglink" href="https://aclanthology.org/2022.amta-research.23.pdf">Effects of Translation on Website Engagement</a>
-<a href="https://aclanthology.org/2022.amta-research.23.pdf"><img src="lilt-400px.png" alt="Lilt" class="limg" width="200"></a>
-<div class="padlink"></div>
-<div class="paratext">
-In this 3 million user study we ran on <a href="https://habitlab.github.io/">UNetbootin</a> and <a href="https://habitlab.github.io/">HabitLab</a>, we found that human and machine translations improve website engagement, and in-browser machine translation is often used when English is shown.<br>
-</div>
-<div class="padlink2"></div>
-
-**Geza Kovacs**, John DeNero. [Measuring the Effects of Human and Machine Translation on Website Engagement](https://aclanthology.org/2022.amta-research.23.pdf). *AMTA 2022 (best presentation award)*.
-<div class="boxlc">
-<a class="boxlink" href="https://aclanthology.org/2022.amta-research.23.pdf">Paper: AMTA 2022</a> <a class="boxlink" href="https://aclanthology.org/2022.amta-research.23/">ACL Anthology</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.key">Keynote</a><br>
-</div>
-</div>
-<br style="clear: both">
-<div style="margin-bottom: 30px"></div>
-</div>
-
-<div>
-<div>
 <a class="biglink" href="https://aclanthology.org/2022.naacl-main.36.pdf">Automatic Correction of Human Translations</a>
 <a href="https://aclanthology.org/2022.naacl-main.36.pdf"><img src="lilt-400px.png" alt="Lilt" class="limg" width="200"></a>
 <div class="padlink"></div>
@@ -59,17 +40,17 @@ Jessy Lin, **Geza Kovacs**, Aditya Shastry, Joern Wuebker, John DeNero. [Automat
 
 <div>
 <div>
-<a class="biglink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Adapting to Changing Difficulty Preferences</a>
-<a href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf"><img src="difficulty-chi2021-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<a class="biglink" href="https://aclanthology.org/2022.amta-research.23.pdf">Effects of Translation on Website Engagement</a>
+<a href="https://aclanthology.org/2022.amta-research.23.pdf"><img src="lilt-400px.png" alt="Lilt" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
-In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLab</a>, we found users choose easier interventions over time, but expect to return to harder interventions. Adapting to users' difficulty preferences via low-frequency prompting improves retention.<br>
+In this 3 million user study we ran on <a href="https://habitlab.github.io/">UNetbootin</a> and <a href="https://habitlab.github.io/">HabitLab</a>, we found that human and machine translations improve website engagement, and in-browser machine translation is often used when English is shown.<br>
 </div>
 <div class="padlink2"></div>
 
-**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf). *CHI 2021*.
+**Geza Kovacs**, John DeNero. [Measuring the Effects of Human and Machine Translation on Website Engagement](https://aclanthology.org/2022.amta-research.23.pdf). *AMTA 2022 (best presentation award)*.
 <div class="boxlc">
-<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://dl.acm.org/doi/10.1145/3411764.3445695">ACM DL</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
+<a class="boxlink" href="https://aclanthology.org/2022.amta-research.23.pdf">Paper: AMTA 2022</a> <a class="boxlink" href="https://aclanthology.org/2022.amta-research.23/">ACL Anthology</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.key">Keynote</a><br>
 </div>
 </div>
 <br style="clear: both">
@@ -92,6 +73,25 @@ Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich,
 
 <div class="boxlc">
 <a class="boxlink" href="https://www.aclweb.org/anthology/2020.amta-impact.7/">ACL Anthology</a> <a class="boxlink" href="https://www.aclweb.org/anthology/attachments/2020.amta-impact.7.Presentation.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/lilt-amta2020.key">Keynote</a><br>
+</div>
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+<div>
+<div>
+<a class="biglink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Adapting to Changing Difficulty Preferences</a>
+<a href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf"><img src="difficulty-chi2021-400px.png" alt="HabitLab" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLab</a>, we found users choose easier interventions over time, but expect to return to harder interventions. Adapting to users' difficulty preferences via low-frequency prompting improves retention.<br>
+</div>
+<div class="padlink2"></div>
+
+**Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf). *CHI 2021*.
+<div class="boxlc">
+<a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://dl.acm.org/doi/10.1145/3411764.3445695">ACM DL</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
 </div>
 </div>
 <br style="clear: both">
