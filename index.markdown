@@ -20,6 +20,69 @@ I did my PhD in Computer Science at Stanford, where I was advised by <a href="ht
 
 <div>
 <div>
+<a class="biglink" href="https://aclanthology.org/2024.wmt-1.109.pdf">Improving Translation Quality of LLMs</a>
+<a href="https://aclanthology.org/2024.wmt-1.109.pdf"><img src="gemini-400px.png" alt="Gemini" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+Developed an inference-time technique that improves Gemini's translation quality as judged by human raters. This technique is also useful for synthetic data generation for use in LLM post-training.
+<br>
+</div>
+<div class="padlink2"></div>
+
+**Geza Kovacs**, Daniel Deutsch, Markus Freitag. [Mitigating Metric Bias in Minimum Bayes Risk Decoding](https://aclanthology.org/2024.wmt-1.109.pdf). *WMT 2024*.
+<!-- <div class="boxlc">
+<a class="boxlink" href="https://aclanthology.org/2024.wmt-1.109.pdf">Paper: WMT 2024</a> <a class="boxlink" href="https://aclanthology.org/2024.wmt-1.109/">ACL Anthology</a><br>
+</div> -->
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+<div>
+<div>
+<a class="biglink" href="https://arxiv.org/pdf/2502.12404">Automatic LLM Translation Quality Evaluation</a>
+<a href="https://arxiv.org/pdf/2502.12404"><img src="gemini-400px.png" alt="Gemini" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+Developed evaluation datasets (WMT24++ and SMOL) and LLM-based autorater systems for automatically evaluating the translation quality of LLMs. Also developed evaluations for interactive machine translation systems.
+<br>
+</div>
+<div class="padlink2"></div>
+
+[WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects](https://arxiv.org/pdf/2502.12404).<br>
+[SMOL: Professionally translated parallel data for 115 under-represented languages](https://arxiv.org/pdf/2502.12301).<br>
+[From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set](https://arxiv.org/pdf/2411.15387).<br>
+[Findings of the Word-Level AutoCompletion Shared Task in WMT 2023](https://aclanthology.org/2023.wmt-1.53.pdf).<br>
+[Findings of the Word-Level AutoCompletion Shared Task in WMT 2022](https://aclanthology.org/2022.wmt-1.75.pdf).
+
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+<div>
+<div>
+<a class="biglink" href="https://arxiv.org/pdf/2406.06464">LLM Agents for Health Insights</a>
+<a href="https://arxiv.org/pdf/2406.06464"><img src="gemini-400px.png" alt="Gemini" class="limg" width="200"></a>
+<div class="padlink"></div>
+<div class="paratext">
+Developed LLM agents, datasets, and evaluations for providing insights about personal health data collected from wearables.
+<br>
+</div>
+<div class="padlink2"></div>
+
+[Large Language Models are Few-Shot Health Learners](https://arxiv.org/pdf/2305.15525).<br>
+[Transforming Wearable Data into Health Insights using Large Language Model Agents](https://arxiv.org/pdf/2406.06464).
+
+</div>
+<br style="clear: both">
+<div style="margin-bottom: 30px"></div>
+</div>
+
+
+<div>
+<div>
 <a class="biglink" href="https://aclanthology.org/2022.naacl-main.36.pdf">Automatic Correction of Human Translations</a>
 <a href="https://aclanthology.org/2022.naacl-main.36.pdf"><img src="lilt-400px.png" alt="Lilt" class="limg" width="200"></a>
 <div class="padlink"></div>
@@ -30,9 +93,9 @@ We develop Transformer-based models for performing automatic correction of trans
 <div class="padlink2"></div>
 
 Jessy Lin, **Geza Kovacs**, Aditya Shastry, Joern Wuebker, John DeNero. [Automatic Correction of Human Translations](https://aclanthology.org/2022.naacl-main.36.pdf). *NAACL 2022 (best paper award)*.
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://aclanthology.org/2022.naacl-main.36.pdf">Paper: NAACL 2022</a> <a class="boxlink" href="https://aclanthology.org/2022.naacl-main.36/">ACL Anthology</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -49,9 +112,9 @@ In this 3 million user study we ran on <a href="https://habitlab.github.io/">UNe
 <div class="padlink2"></div>
 
 **Geza Kovacs**, John DeNero. [Measuring the Effects of Human and Machine Translation on Website Engagement](https://aclanthology.org/2022.amta-research.23.pdf). *AMTA 2022 (best presentation award)*.
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://aclanthology.org/2022.amta-research.23.pdf">Paper: AMTA 2022</a> <a class="boxlink" href="https://aclanthology.org/2022.amta-research.23/">ACL Anthology</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/translation-amta2022.key">Keynote</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -71,9 +134,9 @@ In this 3 million user study we ran on <a href="https://habitlab.github.io/">UNe
 
 Samuel Läubli, Patrick Simianer, Joern Wuebker, **Geza Kovacs**, Rico Sennrich, Spence Green. [The Impact of Text Presentation on Translator Performance](https://arxiv.org/pdf/2011.05978.pdf). *Target: International Journal of Translation Studies, 2021*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://www.aclweb.org/anthology/2020.amta-impact.7/">ACL Anthology</a> <a class="boxlink" href="https://www.aclweb.org/anthology/attachments/2020.amta-impact.7.Presentation.pdf">Slides</a> <a class="boxlink" href="https://github.com/gkovacs/talk_slides/raw/master/lilt-amta2020.key">Keynote</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -90,9 +153,9 @@ In this 8,372 user study we ran on <a href="https://habitlab.github.io/">HabitLa
 <div class="padlink2"></div>
 
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Not Now, Ask Later: Users Weaken Their Behavior Change Regimen Over Time, But Expect To Re-Strengthen It Imminently](https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf). *CHI 2021*.
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2021/notnow/notnowasklater.pdf">Paper: CHI 2021</a> <a class="boxlink" href="https://dl.acm.org/doi/10.1145/3411764.3445695">ACM DL</a> <a class="boxlink" href="https://www.gkovacs.com/publications/not-now-ask-again-chi2021-supplement.pdf">Supplement</a> <a class="boxlink" href="https://www.youtube.com/watch?v=EV9ZqTWiHYI">Video</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -109,9 +172,9 @@ HabitLab is an open-source platform that helps users reduce their time online by
 <div class="padlink2"></div>
 
 **Geza Kovacs**. [HabitLab: In-the-Wild Behavior Change Experiments at Scale](https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf). *Stanford University Department of Computer Science, PhD Thesis, 2019*.
-<div class="boxlc">
+<!-- <div class="boxlc">
  <a class="boxlink" href="https://stacks.stanford.edu/file/druid:qq438qv1791/Thesis-augmented.pdf">Thesis</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://www.wired.com/story/habitlab-browser-extension/">Press: Wired</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/thesis-defense.pdf">Slides</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/habitlab">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -129,9 +192,9 @@ Do productivity interventions save time, or just redistribute it elsewhere? In t
 
 **Geza Kovacs**, Drew Mylander Gregory, Zilin Ma, Zhengxuan Wu, Golrokh Emami, Jacob Ray, Michael Bernstein. [Conservation of Procrastination: Do Productivity Interventions Save Time or Just Redistribute It?](https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf) *CHI 2019*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2019/conservation/conservation-chi2019.pdf">Paper: CHI 2019</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/conservation-chi2019.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3290605.3300560">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://play.google.com/store/apps/details?id=com.stanfordhci.habitlab">Android</a> <a class="boxlink" href="https://github.com/gkovacs/habitlab-conservation-analysis-chi2019/blob/master/readme.md">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -149,9 +212,9 @@ In this 1,654 user study we ran on our <a href="https://habitlab.github.io/">Hab
 
 **Geza Kovacs**, Zhengxuan Wu, Michael Bernstein. [Rotating Online Behavior Change Interventions Increases Effectiveness But Also Increases Attrition](https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf). *CSCW 2018*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2018/habitlab/habitlab-cscw18.pdf">Paper: CSCW 2018</a> <a class="boxlink" href="https://www.gkovacs.com/talk_slides/rotation-cscw2018.pdf">Slides</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3274364">ACM DL</a> <a class="boxlink" href="https://habitlab.stanford.edu/">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/habitlab/obghclocpdgcekcognpkblghkedcpdgd">Chrome</a> <a class="boxlink" href="https://github.com/gkovacs/habitlab-rotation-analysis-cscw2018/blob/master/README.md">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -170,9 +233,9 @@ We used EduFeed to teach reading and arithmetic skills to children in India.<br>
 
 Kiley Sobel, **Geza Kovacs**, Galen McQuillen, Andrew Cross, Nirupama Chandrasekaran, Nathalie Riche, Ed Cutrell, Meredith Morris. [EduFeed: A Social Feed to Engage Preliterate Children in Educational Activities](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf). *CSCW 2017*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/edufeed.pdf">Paper: CSCW 2017</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?doid=2998181.2998231">ACM DL</a> <a class="boxlink" href="https://www.youtube.com/watch?v=59Cxcdigjiw">Video</a> <a class="boxlink" href="https://github.com/edufeed/edufeed">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -191,9 +254,9 @@ Crowd Research is a project through which we coordinated hundreds of volunteers 
 
 Rajan Vaish, Neil Gaikwad, **Geza Kovacs**, Andreas Veit, Ranjay Krishna, Imanol Arrieta Ibarra, Camelia Simoiu, Michael Wilber, Serge Belongie, Sharad Goel, James Davis, Michael Bernstein. [Crowd Research: Open and Scalable University Laboratories](http://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf). *UIST 2017*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="https://hci.stanford.edu/publications/2017/crowdresearch/crowd-research-uist2017.pdf">Paper: UIST 2017</a> <a class="boxlink" href="https://dl.acm.org/citation.cfm?id=3126594.3126648">ACM DL</a> <a class="boxlink" href="https://www.daemo.org/">Website</a> <a class="boxlink" href="https://github.com/crowdresearch">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -213,9 +276,9 @@ We discover that the presence of in-video quizzes results in quiz-driven navigat
 
 **Geza Kovacs**. [Effects of In-Video Quizzes on MOOC Lecture Viewing](http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf). *Learning at Scale 2016*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2016/invideo/invideo-las2016.pdf">Paper: Learning at Scale 2016</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2876041">ACM DL</a> <a class="boxlink" href="https://github.com/gkovacs/invideo-quizzes-analysis-las2016/blob/master/readme.md">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -233,9 +296,9 @@ FeedLearn helps users learn vocabulary while browsing Facebook by inserting inte
 
 **Geza Kovacs**. [FeedLearn: Using Facebook Feeds for Microlearning](http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf). *CHI 2015 Works in Progress*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/feedlearn/feedlearn-chi2015.pdf">Paper: CHI 2015 WIP</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01865.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2732775">ACM DL</a> <a class="boxlink" href="https://feedlearn.herokuapp.com/study1">Website</a> <a class="boxlink" href="https://chrome.google.com/webstore/detail/feed-learn/ebmjdfhplinmlajmdcmhkikideknlgkf">Chrome</a> <a class="boxlink" href="https://github.com/gkovacs/edvertisements-microlearning-paper-chi2015ea/blob/master/README.md">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -253,9 +316,9 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 
 **Geza Kovacs**. [QuizCram: A Question-Driven Video Studying Interface](http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf). *CHI 2015 Student Research Competition*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://hci.stanford.edu/publications/2015/quizcram/quizcram-chi2015.pdf">Paper: CHI 2015 SRC</a> <a class="boxlink" href="https://arxiv.org/pdf/2102.01864.pdf">Full Version</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2726966">ACM DL</a> <a class="boxlink" href="http://quizcram.herokuapp.com">Website</a> <a class="boxlink" href="https://github.com/gkovacs/quizcram-video-paper-chi2015ea/blob/master/readme.md">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -273,9 +336,9 @@ Smart Subtitles helps learners learn vocabulary while watching foreign-language 
 
 **Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a class="boxlink" href="https://github.com/gkovacs/smart-subtitles-system-chi2014/blob/master/readme.md">GitHub</a> <br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -297,9 +360,9 @@ I built it as part of a foreign-language manga reader application.<br>
 
 **Geza Kovacs**. [Multimedia for Language Learning](http://groups.csail.mit.edu/uid/other-pubs/gkovacs-meng-thesis.pdf). *MEng Thesis, MIT, 2013*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/uist2013-mangareader.pdf">Paper: UIST 2013 Demo</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2514931">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=uz76ryyKc0A">Video</a> <a class="boxlink" href="https://github.com/gkovacs/grammarvis">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -320,9 +383,9 @@ It collects screenshots while users run the app, and matches them via OCR.<br>
 
 **Geza Kovacs**. [ScreenMatch: Providing Context to Software Translators by Displaying Screenshots](http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf). *CHI 2012 Student Research Competition (1<sup>st</sup> place)*.
 
-<div class="boxlc">
+<!-- <div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context.pdf">Paper: CHI 2012 SRC</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2212458">ACM DL</a> <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2012-screenshots-for-translation-context-poster.pdf">Poster</a> <a class="boxlink" href="https://github.com/gkovacs/liveocr">GitHub</a><br>
-</div>
+</div> -->
 </div>
 <br style="clear: both">
 <div style="margin-bottom: 30px"></div>
@@ -524,7 +587,7 @@ For <strong>data science</strong> I prefer using Python in a Jupyter notebook, u
 
 <p style="font-style: italic">What natural languages do you know?</p>
 
-I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian by virtue of having spent my childhood in Hungary, and Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but haven't spoken them in a while.
+I'm fluent in English and Standard Chinese (Mandarin). I also know Hungarian by virtue of having spent my childhood in Hungary, and Vietnamese from speaking it with my family. I have also studied Spanish and Japanese, and can still read and understand them but do not speak them regularly.
 
 <a name="pronunciation"></a>
 <p style="font-style: italic">How do I pronounce your name?</p>
