@@ -49,11 +49,11 @@ Developed evaluation datasets (WMT24++ and SMOL) and LLM-based autorater systems
 </div>
 <div class="padlink2"></div>
 
-[WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects](https://arxiv.org/pdf/2502.12404).<br>
+[From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set](https://arxiv.org/pdf/2411.15387). *ICML 2025*.<br>
+[WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects](https://arxiv.org/pdf/2502.12404). *ACL 2025*.<br>
 [SMOL: Professionally translated parallel data for 115 under-represented languages](https://arxiv.org/pdf/2502.12301).<br>
-[From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set](https://arxiv.org/pdf/2411.15387).<br>
-[Findings of the Word-Level AutoCompletion Shared Task in WMT 2023](https://aclanthology.org/2023.wmt-1.53.pdf).<br>
-[Findings of the Word-Level AutoCompletion Shared Task in WMT 2022](https://aclanthology.org/2022.wmt-1.75.pdf).
+[Findings of the Word-Level AutoCompletion Shared Task in WMT 2023](https://aclanthology.org/2023.wmt-1.53.pdf). *WMT 2023*.<br>
+[Findings of the Word-Level AutoCompletion Shared Task in WMT 2022](https://aclanthology.org/2022.wmt-1.75.pdf). *WMT 2022*.
 
 </div>
 <br style="clear: both">
