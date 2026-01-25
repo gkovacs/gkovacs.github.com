@@ -8,7 +8,7 @@
 
 <div>
 <div style="line-height: 2.0">
-I'm Geza Kovacs, Member of Technical Staff at Anthropic, working on LLM post-training research. I was previously a Senior Research Scientist at Google, working on improving Gemini's machine translation and multilingual capabilities, and prior to that I was Principal Research Scientist at <a href="https://lilt.com/research">LILT AI</a>, working on interactive machine translation.
+I'm Geza Kovacs, Member of Technical Staff at Anthropic, working on LLM post-training research. I was previously a Senior Research Scientist at Google, working on Gemini post-training, evals, multilinguality, and machine translation, and prior to that I was Principal Research Scientist at <a href="https://lilt.com/research">LILT AI</a>, working on machine translation.
 <br class="desktoponly">
 I did my PhD in Computer Science at Stanford, and undergrad and masters at MIT. See my <a href="resume.pdf">resume</a> for details.
 <br class="desktoponly">
@@ -29,7 +29,11 @@ Developed an inference-time technique that improves Gemini's translation quality
 </div>
 <div class="padlink2"></div>
 
-**Geza Kovacs**, Daniel Deutsch, Markus Freitag. [Mitigating Metric Bias in Minimum Bayes Risk Decoding](https://aclanthology.org/2024.wmt-1.109.pdf). *WMT 2024*.
+**Geza Kovacs**, Daniel Deutsch, Markus Freitag. [Mitigating Metric Bias in Minimum Bayes Risk Decoding](https://aclanthology.org/2024.wmt-1.109.pdf). *WMT 2024*.<br>
+[Google Translate’s Research Submission to WMT2025](https://aclanthology.org/2025.wmt-1.48.pdf). *WMT 2025*.<br>
+[MetricX-25 and GemSpanEval: Google Translate Submissions to the WMT25 Evaluation Shared Task](https://aclanthology.org/2025.wmt-1.70.pdf) *WMT 2025*.<br>
+[TranslateGemma Technical Report](https://arxiv.org/pdf/2601.09012). *Google Deepmind Technical Report, 2026*.
+
 <!-- <div class="boxlc">
 <a class="boxlink" href="https://aclanthology.org/2024.wmt-1.109.pdf">Paper: WMT 2024</a> <a class="boxlink" href="https://aclanthology.org/2024.wmt-1.109/">ACL Anthology</a><br>
 </div> -->
@@ -49,9 +53,9 @@ Developed evaluation datasets (WMT24++ and SMOL) and LLM-based autorater systems
 </div>
 <div class="padlink2"></div>
 
-[From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set](https://arxiv.org/pdf/2411.15387). *ICML 2025*.<br>
-[WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects](https://arxiv.org/pdf/2502.12404). *ACL 2025*.<br>
-[SMOL: Professionally translated parallel data for 115 under-represented languages](https://arxiv.org/pdf/2502.12301).<br>
+[From Jack of All Trades to Master of One: Specializing LLM-based Autoraters to a Test Set](https://openreview.net/pdf?id=Y0Kxvmjkmh). *ICML 2025*.<br>
+[WMT24++: Expanding the Language Coverage of WMT24 to 55 Languages & Dialects](https://aclanthology.org/2025.findings-acl.634.pdf). *ACL 2025*.<br>
+[SMOL: Professionally translated parallel data for 115 under-represented languages](https://aclanthology.org/2025.wmt-1.85.pdf).<br>
 [Findings of the Word-Level AutoCompletion Shared Task in WMT 2023](https://aclanthology.org/2023.wmt-1.53.pdf). *WMT 2023*.<br>
 [Findings of the Word-Level AutoCompletion Shared Task in WMT 2022](https://aclanthology.org/2022.wmt-1.75.pdf). *WMT 2022*.
 
@@ -72,8 +76,8 @@ Developed LLM agents, datasets, and evaluations for providing insights about per
 </div>
 <div class="padlink2"></div>
 
+[Transforming Wearable Data into Health Insights using Large Language Model Agents](https://www.nature.com/articles/s41467-025-67922-y_reference.pdf). Nature, 2026.
 [Large Language Models are Few-Shot Health Learners](https://arxiv.org/pdf/2305.15525).<br>
-[Transforming Wearable Data into Health Insights using Large Language Model Agents](https://arxiv.org/pdf/2406.06464).
 
 </div>
 <br style="clear: both">
