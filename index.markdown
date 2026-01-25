@@ -76,8 +76,8 @@ Developed LLM agents, datasets, and evaluations for providing insights about per
 </div>
 <div class="padlink2"></div>
 
-[Transforming Wearable Data into Health Insights using Large Language Model Agents](https://www.nature.com/articles/s41467-025-67922-y_reference.pdf). Nature, 2026.
-[Large Language Models are Few-Shot Health Learners](https://arxiv.org/pdf/2305.15525).<br>
+[Transforming Wearable Data into Health Insights using Large Language Model Agents](https://www.nature.com/articles/s41467-025-67922-y_reference.pdf). Nature, 2026.<br>
+[Large Language Models are Few-Shot Health Learners](https://arxiv.org/pdf/2305.15525).
 
 </div>
 <br style="clear: both">
