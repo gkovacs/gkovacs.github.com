@@ -330,15 +330,15 @@ QuizCram is a MOOC lecture viewer that uses quizzes to direct navigation and rev
 
 <div>
 <div>
-<a class="biglink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
-<a href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
+<a class="biglink" href="https://up.csail.mit.edu/other-pubs/chi2014-smartsubs.pdf">Smart Subtitles for Foreign Language Learning</a>
+<a href="https://up.csail.mit.edu/other-pubs/chi2014-smartsubs.pdf"><img src="smart-subtitles-screenshot-200px.png" alt="Smart Subtitles" class="limg" width="200"></a>
 <div class="padlink"></div>
 <div class="paratext">
 Smart Subtitles helps learners learn vocabulary while watching foreign-language videos. It features interactive transcripts with hover-over definitions and dialog-based navigation. Users learn 3x more vocabulary with Smart Subtitles than with dual-language subtitles.<br>
 </div>
 <div class="padlink2"></div>
 
-**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf). *CHI 2014*.
+**Geza Kovacs**, Robert C Miller. [Smart Subtitles for Vocabulary Learning](https://up.csail.mit.edu/other-pubs/chi2014-smartsubs.pdf). *CHI 2014*.
 
 <!-- <div class="boxlc">
 <a class="boxlink" href="http://groups.csail.mit.edu/uid/other-pubs/chi2014-smartsubs.pdf">Paper: CHI 2014</a> <a class="boxlink" href="http://dl.acm.org/citation.cfm?id=2556288.2557256">ACM DL</a> <a class="boxlink" href="http://www.youtube.com/watch?v=AkJeiAZP52g">Video</a> <a class="boxlink" href="https://github.com/gkovacs/smart-subtitles-system-chi2014/blob/master/readme.md">GitHub</a> <br>
